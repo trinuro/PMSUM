@@ -111,4 +111,8 @@ body{
   .bold-16 {
     @apply text-[16px] font-[700];
   }
+
+  .shade{
+    background-color: #00000080;
+  }
 }
