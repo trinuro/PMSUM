@@ -11,6 +11,9 @@ export default function Activities() {
           <div className='text-center text-sm sm:text-base mt-4'>No activities to show</div>
         </div>
       </div>
+      <div>
+        
+      </div>
     </main>
   );
 }
