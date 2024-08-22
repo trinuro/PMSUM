@@ -38,7 +38,13 @@ export default function RootLayout({
             Activity
         </Link>
         {children}
-        <Footer></Footer>
+        
+        <Footer>
+          
+        </Footer>
+        <Link href="/acknowledgements">
+            acknowledgements
+        </Link>
       </body>
     </html>
   );

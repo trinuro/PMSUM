@@ -4,7 +4,7 @@ import React from 'react';
 import { Zoom } from 'react-slideshow-image';
 import 'react-slideshow-image/dist/styles.css'
 
-function slideshow_activities() {
+const slideshow_activities = () =>{
   const items = [
     ["/image/slide/slide1.png", "FEDERALISME DI MALAYSIA", "Kesatuan Dalam Kepelbagaian"],
     ["/image/slide/slide2.png", "PESTA KENYALANG", "2024"],
