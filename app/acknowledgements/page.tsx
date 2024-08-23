@@ -34,7 +34,7 @@ export default function Acknowledgements() {
         </div>
       </div>
       <div>
-        <div className='title_bar font-semibold text-xl justify-center flex'>
+        <div className='bg-yellow-dark h-[60px] font-semibold text-xl justify-center flex'>
           <div className='content-center max-w-7xl w-full pl-8'>
             <div>ACKNOWLEDGEMENTS</div>
           </div>
