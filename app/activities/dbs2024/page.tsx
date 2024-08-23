@@ -3,7 +3,9 @@ import Banner from '../../../components/activities/activities_banner';
 import Title from '../../../components/activities/activities_title';
 import Objective from '../../../components/activities/activities_obj';
 import Youtube from '../../../components/activities/activities_youtube';
+import SocialMedia from '../../../components/activities/activities_socialMedia';
 import { act1 } from '../../../components/activities/activities_info';
+import { Sofadi_One } from 'next/font/google';
 
 export default function Activities() {
   return (
@@ -19,6 +21,9 @@ export default function Activities() {
       </div>
       <div>
         <Youtube id={act1.youtube_id} ack={act1.youtube_acknowledgement}/>
+      </div>
+      <div>
+        <SocialMedia />
       </div>
     </main>
   );

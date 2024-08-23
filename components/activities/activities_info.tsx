@@ -3,6 +3,11 @@ export const slideshow = {
 
   }
 
+export const latest_insta_post = {
+  instagram_id: "C-nAGQZPAuF",
+  instagram_bg_image: "/image/slide/slide1.png",
+}
+
 export const act1 = {
     // Banner component
     banner_image_source:"/image/activities/banner/dbs2024.png",
@@ -12,11 +17,13 @@ export const act1 = {
     date: "18 Mei 2024",
     description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
     // Objective component
-    objective: [],
+    objective: [
+        []
+    ],
     // Youtube component
     youtube_id:"Y1qQuw4ocZI",
     youtube_acknowledgement: "Special thanks to Astro Awani",
     // Highlights component
-    
+
 
   }
