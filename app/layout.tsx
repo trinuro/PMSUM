@@ -32,16 +32,12 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={`${inter.className} ${hightidefont.variable} ${hortaFont.variable}`}>
-        <Navbar>
-        </Navbar>
+        <Navbar></Navbar>
         <Link href="/activities">
             Activity
         </Link>
         {children}
-        
-        <Footer>
-          
-        </Footer>
+        <Footer></Footer>
         <Link href="/acknowledgements">
             acknowledgements
         </Link>
