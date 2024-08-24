@@ -115,4 +115,13 @@ body{
   .shade{
     background-color: #00000080;
   }
+
+  .title_bar{
+    background-color: #FED03F;
+    height: 60px;
+  }
+
+  .ack_logo{
+    height: 100px;
+  }
 }
