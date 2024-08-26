@@ -43,7 +43,7 @@ const activities_gallery = (props: any) => {
         <div className=' px-20'>
           {props.caption}
         </div>
-        <div className='py-10 px-20'>
+        <div className='pt-10 pb-12 px-20'>
           <a href={props.link} className='bg-yellow-dark p-4 rounded-full hover:bg-opacity-60 active:bg-opacity-80'>More image</a>
         </div>
       </div>
