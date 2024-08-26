@@ -4,10 +4,10 @@ const Hero = () =>{
         <section className="flex max-container padding-container justify-between pt-36">
             <div></div>
             <div className="font-extrabold z-20">
-                <p className="text-white italic text-[10px] lg:text-[25px]">AN ASSOCIATION OF SARAWAKIANS</p>
-                <h1 className="text-yellow-dark text-[30px] leading-[120%] lg:text-[75px]">BY SARAWAKIANS</h1>
-                <h1 className="text-red-dark text-[28px] leading-[120%] lg:text-[71px]">FOR SARAWAKIANS</h1>
-                <p className="text-white italic text-[10px] lg:text-[25px] text-right">IN UNIVERSITI MALAYA</p>
+                <p className="text-white italic text-[10px] md:text-[18px] lg:text-[25px]">AN ASSOCIATION OF SARAWAKIANS</p>
+                <h1 className="text-yellow-dark text-[30px] leading-[120%] md:text-[53px] lg:text-[75px]">BY SARAWAKIANS</h1>
+                <h1 className="text-red-dark text-[28px] leading-[120%] md:text-[50px] lg:text-[71px]">FOR SARAWAKIANS</h1>
+                <p className="text-white italic text-[10px] md:text-[18px] lg:text-[25px] text-right">IN UNIVERSITI MALAYA</p>
             </div>
             <div></div>
         </section>
