@@ -1,7 +1,9 @@
+import Hero from "@/components/main_page/hero";
+
 export default function Home() {
   return (
     <main>
-        <h1 className="font-hightide max-container">Main Page</h1>
+      <Hero></Hero>
     </main>
   );
 }
