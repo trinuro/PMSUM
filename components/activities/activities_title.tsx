@@ -3,7 +3,7 @@ import React from 'react';
 const activities_title = (props: any) => {
   return (
     <div>
-      <div className='w-full max-container p-6'>
+      <div className='w-full max-container py-6 px-20'>
         <div className='font-semibold text-4xl'>{props.title}</div>
         <div className='text-xl text-gray-500'>Organised on: {props.date}</div>
       </div>

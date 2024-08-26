@@ -17,7 +17,7 @@ export default function Activities() {
         <Title title={act1.title} date={act1.date} description={act1.description} />
       </div>
       <div>
-        <Objective title={act1.title} date={act1.date} description={act1.description} />
+        <Objective obj={act1.objective}/>
       </div>
       <div>
         <Youtube id={act1.youtube_id} ack={act1.youtube_acknowledgement}/>
