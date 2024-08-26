@@ -12,6 +12,7 @@ const Hero = () =>{
             <div></div>
         </section>
         <section className="bg-pls-delete bg-no-repeat absolute w-full h-full bg-center bottom-0"></section>
+        <div className="absolute w-full h-48 lg:h-64 bg-gradient-to-t from-black from-20% to-transparent bottom-0"></div>
         {dayak_strip('h-20 lg:h-32 bottom-0')}
     </section>)
 }
