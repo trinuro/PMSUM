@@ -7,7 +7,7 @@ const activities_obj = (props: any) => {
     <div className='md:flexCenter'>
       {items.map((each: string[], index: number) => (
         <div key={index} className="bg-cover bg-center w-full  max-h-96" style={{ backgroundImage: "url(" + each[0] + ")" }}>
-          <div className='h-[420px]'>
+          <div className='h-[500px]'>
             <div className='font-extrabold text-white text-center text-xl sm:max-w-xs sm:mx-14 sm:text-3xl lg:text-5xl sm:text-left'>
               {each[1]}
             </div>

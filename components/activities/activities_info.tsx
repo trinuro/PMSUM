@@ -30,5 +30,17 @@ export const act1 = {
   youtube_acknowledgement: "Special thanks to Astro Awani",
   // Highlights component
 
-
+  // Gallery component
+  gallery: [
+    ["/image/slide/slide1.png"],
+    ["/image/slide/slide2.png"],
+    ["/image/slide/slide3.png"],
+  ],
+  gallery_caption: `
+    Hampir 3 minggu sudah berlalu semenjak Diskusi Belanjawan Sarawak melabuhkan tirainya.
+    Sudah tentu ramai dari kita masih merindui detik-detik pada hari berlangsungnya program?
+    Mari kita belek semula gambar-gambar yang sempat dirakam lensa kamera sepanjang program Diskusi Belanjawan Sarawak!
+    Mana tahu, akan jumpa muka anda juga!
+  `,
+  gallery_link: "",
 }

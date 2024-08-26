@@ -1,5 +1,6 @@
 import React from 'react';
 import Banner from '../../../components/activities/activities_banner';
+import Gallery from '../../../components/activities/activities_galley';
 import Title from '../../../components/activities/activities_title';
 import Objective from '../../../components/activities/activities_obj';
 import Youtube from '../../../components/activities/activities_youtube';
@@ -21,6 +22,9 @@ export default function Activities() {
       </div>
       <div>
         <Youtube id={act1.youtube_id} ack={act1.youtube_acknowledgement}/>
+      </div>
+      <div>
+        <Gallery gallery={act1.gallery} caption={act1.gallery_caption} link={act1.gallery_link}/>
       </div>
       <div>
         <SocialMedia />
