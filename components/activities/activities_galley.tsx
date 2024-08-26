@@ -18,7 +18,22 @@ const activities_gallery = (props: any) => {
         <Slide {...slideProperties}>
           {props.gallery.map((each: string[], index: number) => (
             <div key={index} >
-              <img className='w-screen max-h-screen object-cover' src={each[0]} />
+              <div className=''>
+                <img className='w-full max-h-[800px] object-cover' src={each[0]} />
+              </div>
+              <div className='bg-black bg-opacity-80 w-screen py-2 px-10 absolute bottom-0 opacity-0 transition-opacity hover:opacity-100'>
+                <div className='w-full max-container flex justify-between'>
+                  <div className='text-white content-center'>
+                    Credit: {each[1]}
+                  </div>
+                  <div className=''>
+                    <a href={each[0]} download={props.download_name} className="bg-gray-300 hover:bg-gray-400 text-gray-800 font-bold py-2 px-4 rounded inline-flex items-center">
+                      <svg className="fill-current w-4 h-4 mr-2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path d="M13 8V2H7v6H2l8 8 8-8h-5zM0 18h20v2H0v-2z" /></svg>
+                      <span>Download</span>
+                    </a>
+                  </div>
+                </div>
+              </div>
             </div>
           )
           )}

@@ -24,7 +24,7 @@ export default function Activities() {
         <Youtube id={act1.youtube_id} ack={act1.youtube_acknowledgement}/>
       </div>
       <div>
-        <Gallery gallery={act1.gallery} caption={act1.gallery_caption} link={act1.gallery_link}/>
+        <Gallery gallery={act1.gallery} caption={act1.gallery_caption} link={act1.gallery_link} download_name={act1.gallery_download_name}/>
       </div>
       <div>
         <SocialMedia />

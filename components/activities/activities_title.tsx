@@ -11,7 +11,6 @@ const activities_title = (props: any) => {
         <div className='py-10 px-20 w-full max-container '>{props.description}</div>
       </div>
     </div>
-
   )
 }
 

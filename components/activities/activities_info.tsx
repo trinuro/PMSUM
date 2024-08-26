@@ -32,10 +32,10 @@ export const act1 = {
 
   // Gallery component
   gallery: [
-    ["/image/slide/slide1.png"],
-    ["/image/slide/slide2.png"],
-    ["/image/slide/slide3.png"],
+    ["/image/activities/act1/img_act1_01.jpg", "Multimedia PMSUM"],
+    ["/image/activities/act1/img_act1_02.jpg", "Multimedia PMSUM"],
   ],
+  gallery_download_name: 'dbs2024',
   gallery_caption: `
     Hampir 3 minggu sudah berlalu semenjak Diskusi Belanjawan Sarawak melabuhkan tirainya.
     Sudah tentu ramai dari kita masih merindui detik-detik pada hari berlangsungnya program?
