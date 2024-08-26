@@ -19,11 +19,6 @@ const activities_gallery = (props: any) => {
           {props.gallery.map((each: string[], index: number) => (
             <div key={index} >
               <img className='w-screen max-h-screen object-cover' src={each[0]} />
-              <div className='bg-black flex justify-center absolute bottom-0 top-0 left-0 right-0 transition-opacity bg-opacity-50 opacity-0 hover:opacity-100'>
-                <div className='content-center w-full max-w-7xl'>
-
-                </div>
-              </div>
             </div>
           )
           )}
