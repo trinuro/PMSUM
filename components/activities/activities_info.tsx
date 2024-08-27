@@ -12,6 +12,16 @@ export const latest_instagram_post = {
   instagram_bg_image: "/image/slide/slide1.png",
 }
 
+export const activity_list = {
+  date: "28 August 2024",
+  list: [
+    [{
+      title: "Diskusi Belanjawan Sarawak",
+      page_url: "activities/dbs2024"
+    }],
+  ],
+}
+
 export const act1 = {
   // Banner component
   banner_image_source: "/image/activities/banner/dbs2024.png",
@@ -22,8 +32,22 @@ export const act1 = {
   description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
   // Objective component [image source, objective]
   objective: [
-    ["/image/activities/act1/img_act1_01.jpg", "123"],
-    ["/image/activities/act1/img_act1_02.jpg", "456"],
+    [{
+      image_url: "/image/activities/act1/img_act1_01.jpg",
+      content: "Expose undergraduates to the policies, direction and priorities of the Sarawakian government"
+    }],
+    [{
+      image_url: "/image/activities/act1/img_act1_02.jpg",
+      content: "Encourage critical and intellectual inquiry into the Sarawakian Budget"
+    }],
+    [{
+      image_url: "/image/activities/act1/img_act1_01.jpg",
+      content: "Provide a platform for undergraduates as future leaders to provide their inputs and suggestions on Sarawak Budget 2025"
+    }],
+    [{
+      image_url: "/image/activities/act1/img_act1_02.jpg",
+      content: "Provide a platform for discussion and debate which may become the reference for the future budgets"
+    }],
   ],
   // Youtube component
   youtube_id: "Y1qQuw4ocZI",
