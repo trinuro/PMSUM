@@ -7,9 +7,9 @@ import { latest_instagram_post } from './activities_info'
 const activities_socialMedia = (props: any) => {
   return (
     <div className="bg-cover bg-center" style={{ backgroundImage: "url(" + latest_instagram_post.instagram_bg_image + ")" }}>
-      <div className='w-full  p-10 bg-black bg-opacity-80 md:bg md:content-center'>
+      <div className='w-full p-10 bg-black bg-opacity-80 md:bg md:content-center'>
         <div className='max-container md:flex md:justify-center'>
-        <div className='w-full flexCenter'>
+          <div className='w-full flexCenter'>
             <div className='text-center md:text-left text-5xl font-extrabold  text-white'>
               <div>Wanna know more?</div>
               <div>Follow us now</div>

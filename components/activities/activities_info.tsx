@@ -29,18 +29,21 @@ export const act1 = {
   youtube_id: "Y1qQuw4ocZI",
   youtube_acknowledgement: "Special thanks to Astro Awani",
   // Highlights component
-  highlight:[
-    [{image_url:"/image/activities/act1/img_act1_01.jpg",
+  highlight: [
+    [{
+      image_url: "/image/activities/act1/img_act1_01.jpg",
       title: "Sarawak Maju Makmur: Rahsia Kerajaan Surplus",
       subtitle: "Speaker: Yang Amat Berhormat Datuk Patinggi Tan Sri (DR) Abang Haji Abdul Rahman Zohari Bin Tun Datuk Abang Haji Openg",
       content: "Yang Amat Berhormat Datuk Patinggi Tan Sri (DR) Abang Haji Abdul Rahman Zohari Bin Tun Datuk Abang Haji Openg shared the secrets of becoming a state with economic surplus in his keynote speech. In this session, undergraduate students had the opportunity to learn more about the Sarawakian economy and other matters that concerned them.",
     }],
-    [{image_url:"/image/activities/act1/img_act1_02.jpg",
-      title: "Diskusi Belanjawan Sarawak: Ke Arah Kemakmuran Wilayah",
+    [{
+      image_url: "/image/activities/act1/img_act1_02.jpg",
+      title: "DBS: Ke Arah Kemakmuran Wilayah",
       subtitle: "Speaker: YB Dr. Kelvin Yii Lee Wuen Puan Kho Teck Wan YB Datuk. Dr. Hj. Hazland bin Abang Hj. Hipni",
       content: "In this discussion session, the Sarawakian budget was discussed and analyzed comprehensively from multiple perspectives. Among the topics discussed are the green economy, hydrogen fuel and public transportation.",
     }],
-    [{image_url:"/image/activities/act1/img_act1_03.jpg",
+    [{
+      image_url: "/image/activities/act1/img_act1_03.jpg",
       title: "Ekonomi Hidrogen: Solusi atau Sensasi",
       subtitle: "Speaker: Saudari Nurul Qurratu'aini Saudara Mohd Nur Azuwan",
       content: "A debate session was held between two undergraduate students to have a debate on the economic policy of Sarawak. It encourages students to think critically about the hydrogen economy from multiple viewpoints.",
