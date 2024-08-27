@@ -18,8 +18,10 @@ const activities_gallery = (props: any) => {
         <Slide {...slideProperties}>
           {props.gallery.map((each: string[], index: number) => (
             <div key={index} >
-              <div className=''>
-                <img className='w-full max-h-[800px] object-cover' src={each[0]} />
+              <div className='bg-cover bg-center ' style={{ backgroundImage: "url(" + each[0] + ")"}}>
+                <div className='bg-black bg-opacity-50 backdrop-blur-lg'>
+                   <img className='w-full max-container max-h-[650px] object-cover' src={each[0]} />
+                </div>
               </div>
               <div className='bg-black bg-opacity-80 w-screen py-2 px-10 absolute bottom-0 opacity-0 transition-opacity hover:opacity-100'>
                 <div className='w-full max-container flex justify-between'>
