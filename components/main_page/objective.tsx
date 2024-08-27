@@ -6,7 +6,7 @@ const Objective = () =>{
         <div className='max-container padding-container relative py-10'>
             <h2 className="font-extrabold text-[36px] flexCenter">OBJECTIVES</h2>
             <div className='flexCenter'>
-                <p className='text-center pb-5 max-w-[800px] text-[24px] lg:text-[32px]'>{OBJECTIVES_TEXT}</p>
+                <p className='text-center pb-5 max-w-[800px] text-[24px] lg:text-[32px] bg-white/30'>{OBJECTIVES_TEXT}</p>
             </div>
             <div className='flex flex-col md:flex-row justify-between gap-5 items-center lg:px-40'>
                 {OBJECTIVES.map((objective, index)=>objective_card(index+1,objective))}

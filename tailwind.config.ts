@@ -13,6 +13,8 @@ const config: Config = {
         'dayak-motif-2' : "url('/image/Dayak_Motif_2.png')",
         'pls-delete' : "url('/image/pls_delete.png')",
         'river-in-sarawak': "url('/image/river_in_sarawak.jpg')",
+        'dun-drawn-medium' : "url('/image/DUN_DRAWN_MD.png')",
+        'dun-drawn-large' : "url('/image/DUN_DRAWN_LARGE.png')"
       },
       colors: {
         yellow: {

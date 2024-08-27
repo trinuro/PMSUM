@@ -8,10 +8,10 @@ const background_colour = '[#FCEDDE]';
 const Highlights = () =>{
     return (
         <section className="relative">
-            <div className={`absolute w-full h-full top-0 bg-${background_colour} -z-10`}></div>
+            <div className={`absolute w-full h-full top-0 bg-[#FCEDDE] -z-10`}></div>
             <div className="padding-container max-container relative">
                 <h2 className="font-extrabold text-[36px] text-center py-8">ACTIVITY HIGHLIGHTS</h2>
-                <section className="lg:px-[40px] flex flex-col pb-8 lg:flex-row items-center gap-10">
+                <section className="lg:px-[40px] 3xl:px-[120px] flex flex-col pb-8 lg:flex-row items-center justify-between gap-8">
                     {
                         ACTIVITY_HIGHLIGHTS.map((highlight, index)=>activity_card(index, highlight, background_colour))
                     }
