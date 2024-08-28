@@ -15,10 +15,10 @@ export const latest_instagram_post = {
 export const activity_list = {
   date: "28 August 2024",
   list: [
-    [{
-      title: "Fedaralisme 2024",
-      page_url: "activities/2024/federalisme2024"
-    }],
+    // [{
+    //   title: "Fedaralisme 2024",
+    //   page_url: "activities/2024/federalisme2024"
+    // }],
     [{
       title: "Pesta Kenyalang 2024",
       page_url: "activities/2024/pestakenyalang2024"
