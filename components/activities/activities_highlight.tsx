@@ -26,24 +26,24 @@ const activities_highlight = (props: any) => {
               </div>
             </div>
             <div className='w-full flexCenter md:w-auto'>
-            <div className='w-[380px] xl:w-[680px] '>
-              <Slider {...settings}>
-                {props.content.map((each: { image_url: string; title: string; subtitle: string; content: string; }[][], index: number) => (
-                  <div key={index} >
-                    <div className='h-[500px] content-center flexCenter'>
-                      <div>
-                        <Highlight_container content={each[0]} />
+              <div className='w-[380px] xl:w-[680px] '>
+                <Slider {...settings}>
+                  {props.content.map((each: { image_url: string; title: string; subtitle: string; content: string; }[][], index: number) => (
+                    <div key={index} >
+                      <div className='h-[500px] content-center flexCenter'>
+                        <div>
+                          <Highlight_container content={each[0]} />
+                        </div>
+
                       </div>
-
                     </div>
-                  </div>
-                )
-                )}
+                  )
+                  )}
 
-              </Slider>
+                </Slider>
+              </div>
             </div>
-            </div>
-            
+
           </div>
         </div>
       </div>

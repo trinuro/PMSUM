@@ -1,6 +1,6 @@
 import React from 'react';
 import Slideshow from "@/components/activities/slideshow_activities";
-import { activity_list } from '@/components/activities/activities_info';
+import { activity_list } from '@/components/activities/info/activities_info';
 
 export default function Activities() {
   return (
