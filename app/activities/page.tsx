@@ -11,7 +11,7 @@ export default function Activities() {
           <div className='font-semibold text-xl sm:text-3xl'>All activities</div>
           <div className='p-10 flex'>
             {activity_list.list.map((each, index) => (
-              <div key={index} className='w-fit  '>
+              <div key={index} className='w-fit mx-5 '>
                 <a href={each[0].page_url} >
                   <button className='p-5 border-solid border-yellow-dark border-2 rounded-xl'>
                     {each[0].title}
