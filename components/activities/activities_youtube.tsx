@@ -4,7 +4,7 @@ const activities_youtube = (props: any) => {
 
   return (
     <div className="bg-cover bg-center" style={{ backgroundImage: "url(https://img.youtube.com/vi/" + props.id + "/maxresdefault.jpg)" }}>
-      <div className='w-full md:h-[420px] p-10 bg-black bg-opacity-80 md:bg md:content-center'>
+      <div className='w-full md:h-[500px] p-10 bg-black bg-opacity-80 md:bg md:content-center'>
         <div className='max-container flex flex-col-reverse md:flex-row md:justify-center'>
           <div className='w-full flexCenter my-10 md:my-0'>
             <iframe
@@ -23,7 +23,7 @@ const activities_youtube = (props: any) => {
           </div>
         </div>
       </div>
-      <div className='w-full absolute inset-x-0 -m-12 mx-auto'>
+      <div className='w-full absolute inset-x-0 -m-14 mx-auto'>
         <div className='text-center font-bold text-xl text-white'>
           {props.ack}
         </div>

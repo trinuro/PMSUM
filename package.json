@@ -14,17 +14,28 @@
     "@fortawesome/free-solid-svg-icons": "^6.6.0",
     "@fortawesome/react-fontawesome": "^0.2.2",
     "@next/font": "^14.2.6",
+    "directory-import": "^3.3.1",
+    "express": "^4.19.2",
+    "get-all-files": "^5.0.0",
+    "glob": "^11.0.0",
     "next": "14.2.6",
     "react": "^18",
+    "react-card-flip": "^1.2.3",
+    "react-countdown": "^2.3.6",
     "react-dom": "^18",
+    "react-slick": "^0.30.2",
     "react-slideshow-image": "^4.3.1",
-    "react-social-media-embed": "^2.5.13"
+    "react-social-media-embed": "^2.5.13",
+    "slick-carousel": "^1.8.1"
   },
   "devDependencies": {
     "@types/node": "^20",
     "@types/react": "^18",
     "@types/react-dom": "^18",
+    "@types/react-slick": "^0.23.13",
+    "@types/webpack-env": "^1.18.5",
     "postcss": "^8",
+    "react-router-dom": "^6.26.1",
     "tailwindcss": "^3.4.1",
     "typescript": "^5"
   }

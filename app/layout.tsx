@@ -34,12 +34,9 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
+    <html lang="en" className="scroll-smooth">
       <body className={`${inter.className} ${hightidefont.variable} ${hortaFont.variable}`}>
         <Navbar></Navbar>
-        <Link href="/activities">
-            Activity
-        </Link>
         {children}
         <Footer></Footer>
         <Link href="/acknowledgements">
