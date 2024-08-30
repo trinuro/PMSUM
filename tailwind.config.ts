@@ -9,7 +9,8 @@ const config: Config = {
   theme: {
     extend: {
       backgroundImage: {
-        
+        'hover-pattern': 'url(/image/team/hover_pattern_dayak_motif.png)',
+        'bunga-terung': 'url(/image/team/bg_bunga_terung.png)'
       },
       colors: {
         yellow: {
