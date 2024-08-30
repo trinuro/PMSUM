@@ -4,6 +4,11 @@ import "./globals.css";
 import localfont from '@next/font/local'
 import Navbar from "@/components/navbar/Navbar";
 import Footer from "@/components/footer";
+import Link from 'next/link';
+// import fontawesome css
+import "@fortawesome/fontawesome-svg-core/styles.css";
+import { config } from "@fortawesome/fontawesome-svg-core";
+config.autoAddCss = false;
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -29,11 +34,14 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
+    <html lang="en" className="scroll-smooth">
       <body className={`${inter.className} ${hightidefont.variable} ${hortaFont.variable}`}>
         <Navbar></Navbar>
         {children}
         <Footer></Footer>
+        <Link href="/acknowledgements">
+            acknowledgements
+        </Link>
       </body>
     </html>
   );
