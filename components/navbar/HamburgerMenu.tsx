@@ -334,12 +334,11 @@
 import { useState } from "react";
 import { IoMenu, IoClose, IoChevronDown, IoChevronUp } from "react-icons/io5";
 import { IconContext } from "react-icons";
-import { MenuList } from "@/data.tsx";
+import { MenuList } from "@/data";
 import Link from "next/link";
 import DropdownMenu from "./DropdownMenu";
 
 const HamburgerMenu = () => {
-  const [isHovered, setIsHovered] = useState(false);
   const [open, setOpen] = useState(false);
   const [activeMenu, setActiveMenu] = useState<string | null>(null);
 
@@ -360,22 +359,18 @@ const HamburgerMenu = () => {
       {!open ? (
         <div
           className="flex items-center justify-center cursor-pointer"
-          onMouseEnter={() => setIsHovered(true)}
-          onMouseLeave={() => setIsHovered(false)}
           onClick={handleHamburgerClick}
         >
-          <IconContext.Provider value={{ color: isHovered ? "#ce1126" : "#ffffff", className: "menuIcon" }}>
+          <IconContext.Provider value={{ color:"#ffffff", className: "menuIcon" }}>
             <IoMenu className="w-8 h-8" />
           </IconContext.Provider>
         </div>
       ) : (
         <div
           className="flex items-center justify-center cursor-pointer"
-          onMouseEnter={() => setIsHovered(true)}
-          onMouseLeave={() => setIsHovered(false)}
           onClick={handleHamburgerClick}
         >
-          <IconContext.Provider value={{ color: isHovered ? "#ce1126" : "#ffffff", className: "menuIcon" }}>
+          <IconContext.Provider value={{ color: "#ffffff", className: "menuIcon" }}>
             <IoClose className="w-8 h-8" />
           </IconContext.Provider>
         </div>
@@ -403,7 +398,8 @@ const HamburgerMenu = () => {
                 </Link>
                 {item.dropdownMenu && (
                   <span className="ml-2 text-right">
-                    {activeMenu === item.title ? <IoChevronUp /> : <IoChevronDown />}
+                    {activeMenu === item.title ?  <IoChevronUp />: <IoChevronDown />
+                    }
                   </span>
                 )}
               </div>
