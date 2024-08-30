@@ -39,9 +39,6 @@ export default function RootLayout({
         <Navbar></Navbar>
         {children}
         <Footer></Footer>
-        <Link href="/acknowledgements">
-            acknowledgements
-        </Link>
       </body>
     </html>
   );
