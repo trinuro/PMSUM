@@ -1,7 +1,15 @@
+import Departments from "@/components/team/Departments";
+import SpeechYDP from "@/components/team/SpeechYDP";
+import MT from "@/components/team/MT";
+import BioAutography from "@/components/team/BioAutography";
+
 export default function Team() {
     return (
       <main>
-          <h1 className="font-hightide">Current Team Page</h1>
+          <SpeechYDP/>
+          <MT/>
+          <Departments/>
+          <BioAutography/>
       </main>
     );
   }

@@ -124,4 +124,36 @@ body{
   .ack_logo{
     height: 100px;
   }
+
+  /* global.css or a similar file */
+  .scrollbar-hide::-webkit-scrollbar {
+    display: none;
+  }
+
+  .scrollbar-hide {
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+  }
+
+
+  .contactIcon {
+    cursor: pointer;
+    width: 24px;
+    height: 24px;
+  }
+  
+
+  .contactIcon:hover {
+    fill: #FCD106;
+  }
+
+  .closeIcon {
+    width: 24px;
+    height: 24px;
+    opacity: 0.5;
+  }
+  .closeIcon:hover {
+    opacity: 1;
+  }
+
 }

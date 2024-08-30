@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
 import localfont from '@next/font/local'
-import Navbar from "@/components/navbar";
+import Navbar from "@/components/navbar/Navbar";
 import Footer from "@/components/footer";
 import Link from 'next/link';
 // import fontawesome css
