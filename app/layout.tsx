@@ -5,6 +5,10 @@ import localfont from '@next/font/local'
 import Navbar from "@/components/navbar";
 import Footer from "@/components/footer";
 import Link from 'next/link';
+// import fontawesome css
+import "@fortawesome/fontawesome-svg-core/styles.css";
+import { config } from "@fortawesome/fontawesome-svg-core";
+config.autoAddCss = false;
 
 const inter = Inter({ subsets: ["latin"] });
 
