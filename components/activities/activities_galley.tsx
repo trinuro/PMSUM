@@ -42,10 +42,10 @@ const activities_gallery = (props: any) => {
         </Slide>
       </div>
       <div className='pt-8 max-container w-full'>
-        <div className=' px-20'>
+        <div className=' px-10'>
           {props.caption}
         </div>
-        <div className='pt-10 pb-12 px-20'>
+        <div className='pt-10 pb-12 px-10'>
           <a href={props.link} target='_blank' className='bg-yellow-dark p-4 rounded-full hover:bg-opacity-60 active:bg-opacity-80'>More image</a>
         </div>
       </div>

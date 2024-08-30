@@ -30,7 +30,7 @@ export const activity_list = {
   ],
 }
 
-export const act3= {
+export const act3 = {
   // Cover component
   video_src: "/image/activities/act2/vid_act2_01.mp4",
   video_url: "https://www.instagram.com/reel/C7OGJN6SWwe/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==",
@@ -40,7 +40,7 @@ export const act3= {
   title: "Fedaralisme",
   subtitle: "2024",
   date: "9 November 2024",
-  location:'TBA',
+  location: 'TBA',
   description: "Federalisme di Malaysia: Kesatuan dalam Kepelbagaian merupakan sebuah projek Persatuan Mahasiswa Sarawak Universiti Malaya (PMSUM) yang akan diadakan pada 9 November 2024 (Sabtu) selama satu hari. Program ini bertujuan untuk membantu mahasiswa memahami konsep federalisme dalam konteks Malaysia yang berbilang entiti politik dan budaya. Untuk menjayakan usaha ini, program akan menampilkan segmen forum bersama panelis jemputan, diikuti oleh segmen Keynote. Program ini juga bertujuan untuk memberi pemahaman mendalam kepada mahasiswa/i tentang federalisme di Malaysia dan bagaimana ia mempengaruhi kehidupan sebagai seorang rakyat Malaysia.",
   // Objective component [image source, objective]
   objective: [
@@ -110,7 +110,7 @@ export const act2 = {
   title: "Pesta Kenyalang",
   subtitle: "2024",
   date: "25 May 2024",
-  location:'Universiti Sains Malaysia',
+  location: 'Universiti Sains Malaysia',
   description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
   // Objective component [image source, objective]
   objective: [
@@ -247,9 +247,63 @@ export const act1 = {
   `,
   gallery_link: "https://drive.google.com/drive/folders/1j1jhewuUsHYePCprJKnzn9xYjZK0A2Or?usp=sharing",
   // Committee component
-  committee_image: [
-    "/image/activities/act1/committee/Logistik dan Pengangkutan/img_com_log_01.jpg",
-    "/image/activities/act1/committee/Logistik dan Pengangkutan/img_com_log_02.jpg",
-    "/image/activities/act1/committee/Logistik dan Pengangkutan/img_com_log_03.jpg"
+  committee_list:[
+    'Majlis Tertinggi',
+        'Jemputan dan Protokol',
+        'Promosi dan Publisiti',
+        'Jamuan dan Cenderamata',
+        'Penyertaan dan Pendaftaran',
+        'Teknikal',
+        'Logistik dan Pengangkutan',
+        'Tanjaan'
   ],
+  committee_image: {
+    'Majlis Tertinggi': [
+      "/image/activities/act1/committee/Majlis Tertinggi/img_com_mtt_1.jpg",
+      "/image/activities/act1/committee/Majlis Tertinggi/img_com_mtt_2.jpg",
+      "/image/activities/act1/committee/Majlis Tertinggi/img_com_mtt_3.jpg",
+      "/image/activities/act1/committee/Majlis Tertinggi/img_com_mtt_4.jpg",
+      "/image/activities/act1/committee/Majlis Tertinggi/img_com_mtt_5.jpg",
+      "/image/activities/act1/committee/Majlis Tertinggi/img_com_mtt_6.jpg",
+    ],
+    'Jemputan dan Protokol': [
+      "/image/activities/act1/committee/Jemputan dan Protokol/img_com_jnp_1.jpg",
+      "/image/activities/act1/committee/Jemputan dan Protokol/img_com_jnp_2.jpg",
+      "/image/activities/act1/committee/Jemputan dan Protokol/img_com_jnp_3.jpg",
+      "/image/activities/act1/committee/Jemputan dan Protokol/img_com_jnp_4.jpg",
+      "/image/activities/act1/committee/Jemputan dan Protokol/img_com_jnp_5.jpg",
+      "/image/activities/act1/committee/Jemputan dan Protokol/img_com_jnp_6.jpg",
+    ],
+    'Promosi dan Publisiti': [
+      "/image/activities/act1/committee/Promosi dan Publisiti/img_com_pnp_1.jpg",
+      "/image/activities/act1/committee/Promosi dan Publisiti/img_com_pnp_2.jpg",
+      "/image/activities/act1/committee/Promosi dan Publisiti/img_com_pnp_3.jpg",
+      "/image/activities/act1/committee/Promosi dan Publisiti/img_com_pnp_4.jpg",
+      "/image/activities/act1/committee/Promosi dan Publisiti/img_com_pnp_5.jpg",
+    ],
+    'Jamuan dan Cenderamata': [
+      "/image/activities/act1/committee/Jamuan dan Cenderamata/img_com_jnc_1.jpg",
+      "/image/activities/act1/committee/Jamuan dan Cenderamata/img_com_jnc_2.jpg",
+    ],
+    'Penyertaan dan Pendaftaran': [
+      "/image/activities/act1/committee/Penyertaan dan Pendaftaran/img_com_pep_1.jpg",
+      "/image/activities/act1/committee/Penyertaan dan Pendaftaran/img_com_pep_2.jpg",
+      "/image/activities/act1/committee/Penyertaan dan Pendaftaran/img_com_pep_3.jpg",
+    ],
+    'Teknikal': [
+      "/image/activities/act1/committee/Teknikal/img_com_tek_1.jpg",
+      "/image/activities/act1/committee/Teknikal/img_com_tek_2.jpg",
+      "/image/activities/act1/committee/Teknikal/img_com_tek_3.jpg",
+    ],
+    'Tanjaan': [
+      "/image/activities/act1/committee/Tanjaan/img_com_tan_1.jpg",
+      "/image/activities/act1/committee/Tanjaan/img_com_tan_2.jpg",
+      "/image/activities/act1/committee/Tanjaan/img_com_tan_3.jpg",
+    ],
+    'Logistik dan Pengangkutan': [
+      "/image/activities/act1/committee/Logistik dan Pengangkutan/img_com_log_1.jpg",
+      "/image/activities/act1/committee/Logistik dan Pengangkutan/img_com_log_2.jpg",
+      "/image/activities/act1/committee/Logistik dan Pengangkutan/img_com_log_3.jpg",
+    ],
+  }
 }

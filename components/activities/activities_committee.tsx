@@ -5,36 +5,56 @@ import { useState } from 'react';
 import Slider from "react-slick"; //npm install react-slick --save && npm install @types/react-slick --save
 import "slick-carousel/slick/slick.css"; // npm install slick-carousel
 import "slick-carousel/slick/slick-theme.css";
-// npm install webpack-node-externals --save-dev
 
 const activities_committee = (props: any) => {
+
+
+  const [selected, setSelected] = useState("Majlis Tertinggi");
+
+
+  const changePositionHandler = (event: any) => {
+    setSelected(event.target.value);
+  }
+
+  var image = props.image[selected]
+
   var settings = {
     dots: true,
     infinite: false,
     speed: 500,
-    slidesToShow: 3,
-    slidesToScroll: 1,
-    responsive:[
+    slidesToShow: (image.length < 3) ? image.length : 3,
+    slidesToScroll: 3,
+    responsive: [
       {
-        breakpoint: 1440, // width to change options
+        breakpoint: 1536, // width to change options
+        settings: {
+          slidesToShow: (image.length < 2) ? image.length : 2,
+          slidesToScroll: 2,
+          infinite: true,
+          dots: true,
+        }
+      },
+      {
+        breakpoint: 1024, // width to change options
         settings: {
           slidesToShow: 1,
           slidesToScroll: 1,
           infinite: true,
-          dots: false,
+          dots: true,
+        }
+      },
+      {
+        breakpoint: 640, // width to change options
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1,
+          infinite: true,
+          dots: true,
+          arrows: false,
         }
       },
     ]
   };
-
-  const [selected, setSelected] = useState("Logistik dan Pengangkutan");
-  
-
-  const changePositionHandler = (event: any) =>{
-    setSelected(event.target.value);
-  }
-
-  var url = "/image/activities/act1/committee/"+ selected
 
   return (
     <div className='max-container h-[650px] flex content-center p-10'>
@@ -50,13 +70,13 @@ const activities_committee = (props: any) => {
             )}
           </select>
         </div>
-        <div className='mt-8 flexCenter bg-yellow-dark bg-opacity-50'>
-          <div className='w-[320px] h-[400px] xl:w-[1250px] content-center'>
+        <div className='mt-8 flexCenter bg-yellow-dark bg-opacity-50 rounded-md'>
+          <div className='h-[400px] w-[400px] lg:w-[850px] 2xl:w-[1250px] content-center'>
             <Slider {...settings}>
-              {props.image.map((each: string, index: number) => (
+              {image.map((each: string, index: number) => (
                 <div key={index}>
                   <div className='w-full flex justify-center p-10' >
-                    <img className='size-[320px] transition hover:scale-110' src={each}></img>
+                    <img className='size-[240px] md:size-[320px] transition hover:scale-110' src={each}></img>
                   </div>
                 </div>
               )

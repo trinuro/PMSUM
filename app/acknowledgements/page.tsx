@@ -1,4 +1,6 @@
 import React from 'react';
+import { committee } from "@/components/acknowledgements/constant"
+import Bio from '@/components/acknowledgements/bio'
 
 export default function Acknowledgements() {
   return (
@@ -26,9 +28,18 @@ export default function Acknowledgements() {
           </div>
         </div>
         <div className='justify-center flex'>
-          <div className='max-w-7xl w-full p-14'>
-            <div className='text-center'>
-              Nothing to show
+          <div className='max-w-7xl w-full p-6'>
+            <div className='flexCenter flex-wrap'>
+              {committee.committee_list.map((each, index) => (
+                <div key={index} >
+                  <div className='m-4 h-[350px] content-center flexCenter'>
+                    <div>
+                      <Bio content={each} />
+                    </div>
+                  </div>
+                </div>
+              )
+              )}
             </div>
           </div>
         </div>
@@ -46,7 +57,7 @@ export default function Acknowledgements() {
             </div>
           </div>
         </div>
-        <div className='p-2 md:flex md:justify-center'>
+        <div className='mb-14 md:flex md:justify-center'>
           <div className='flex justify-center'>
             <img className='ack_logo m-5 md:m-2.5' src="/image/logo/ack1.png" />
           </div>
@@ -55,7 +66,6 @@ export default function Acknowledgements() {
           </div>
         </div>
       </div>
-
     </main>
   );
 }

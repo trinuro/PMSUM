@@ -1,5 +1,3 @@
-import React from "react";
-
 export const committee_position = {
     postion: [
         'Majlis Tertinggi',
