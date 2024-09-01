@@ -30,7 +30,7 @@ const activities_committee = (props: any) => {
         settings: {
           slidesToShow: (image.length < 2) ? image.length : 2,
           slidesToScroll: 2,
-          infinite: true,
+          infinite: false,
           dots: true,
         }
       },
@@ -39,7 +39,7 @@ const activities_committee = (props: any) => {
         settings: {
           slidesToShow: 1,
           slidesToScroll: 1,
-          infinite: true,
+          infinite: false,
           dots: true,
         }
       },
@@ -48,7 +48,7 @@ const activities_committee = (props: any) => {
         settings: {
           slidesToShow: 1,
           slidesToScroll: 1,
-          infinite: true,
+          infinite: false,
           dots: true,
           arrows: false,
         }
