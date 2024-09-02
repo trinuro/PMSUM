@@ -41,27 +41,33 @@ const BioAutography = () => {
                 
               <p className="text-center my-4">{item.position}</p>
               <ul className="flex justify-center items-center space-x-4 min-h-6">
-                <li>
-                  <a href={item.instagram}>
-                    <IconContext.Provider value={{ color: "#ce1126", className: "contactIcon" }}>
-                      <IoLogoInstagram />
-                    </IconContext.Provider>
-                  </a>
-                </li>
-                <li>
-                  <a href={item.twitter}>
-                    <IconContext.Provider value={{ color: "#ce1126", className: "contactIcon" }}>
-                      <FaXTwitter />
-                    </IconContext.Provider>
-                  </a>
-                </li>
-                <li>
-                  <a href={item.linkedin}>
-                    <IconContext.Provider value={{ color: "#ce1126", className: "contactIcon" }}>
-                      <IoLogoLinkedin />
-                    </IconContext.Provider>
-                  </a>
-                </li>
+                {item.instagram && (
+                  <li>
+                      <a href={item.instagram}>
+                          <IconContext.Provider value={{ color: "#ce1126", className: "contactIcon" }}>
+                              <IoLogoInstagram />
+                          </IconContext.Provider>
+                      </a>
+                  </li>
+                )}
+                {item.twitter && (
+                    <li>
+                        <a href={item.twitter}>
+                            <IconContext.Provider value={{ color: "#ce1126", className: "contactIcon" }}>
+                                <FaXTwitter />
+                            </IconContext.Provider>
+                        </a>
+                    </li>
+                )}
+                {item.linkedin && (
+                    <li>
+                        <a href={item.linkedin}>
+                            <IconContext.Provider value={{ color: "#ce1126", className: "contactIcon" }}>
+                                <IoLogoLinkedin />
+                            </IconContext.Provider>
+                        </a>
+                    </li>
+                )}
               </ul>
             </div>
           ))}

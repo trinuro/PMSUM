@@ -39,27 +39,33 @@ const PopUpBioAutography = ({ selectedItem, onClose }) => {
                     </p>
                     
                     <ul className="flex justify-center items-center space-x-4 mb-4">
-                        <li>
-                        <a href={selectedItem.instagram}>
-                            <IconContext.Provider value={{ color: "#ce1126", className: "contactIcon" }}>
-                            <IoLogoInstagram />
-                            </IconContext.Provider>
-                        </a>
-                        </li>
-                        <li>
-                        <a href={selectedItem.twitter}>
-                            <IconContext.Provider value={{ color: "#ce1126", className: "contactIcon" }}>
-                            <FaXTwitter />
-                            </IconContext.Provider>
-                        </a>
-                        </li>
-                        <li>
-                        <a href={selectedItem.linkedin}>
-                            <IconContext.Provider value={{ color: "#ce1126", className: "contactIcon" }}>
-                            <IoLogoLinkedin />
-                            </IconContext.Provider>
-                        </a>
-                        </li>
+                        {selectedItem.instagram && (
+                            <li>
+                                <a href={selectedItem.instagram}>
+                                    <IconContext.Provider value={{ color: "#ce1126", className: "contactIcon" }}>
+                                        <IoLogoInstagram />
+                                    </IconContext.Provider>
+                                </a>
+                            </li>
+                        )}
+                        {selectedItem.twitter && (
+                            <li>
+                                <a href={selectedItem.twitter}>
+                                    <IconContext.Provider value={{ color: "#ce1126", className: "contactIcon" }}>
+                                        <FaXTwitter />
+                                    </IconContext.Provider>
+                                </a>
+                            </li>
+                        )}
+                        {selectedItem.linkedin && (
+                            <li>
+                                <a href={selectedItem.linkedin}>
+                                    <IconContext.Provider value={{ color: "#ce1126", className: "contactIcon" }}>
+                                        <IoLogoLinkedin />
+                                    </IconContext.Provider>
+                                </a>
+                            </li>
+                        )}
                     </ul>
                 </div>
                 <div className="flex-initial md:w-2/3 h-3/4 bg-slate-300 md:m-8 p-4 border-2 border-indigo-600 border-solid">
