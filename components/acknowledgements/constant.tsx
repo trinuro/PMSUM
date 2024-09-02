@@ -1,4 +1,11 @@
-export const committee={
+export const director = {
+    text: [
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+        "",
+    ]
+}
+
+export const committee = {
     committee_list: [
         {
             imgSrc: "img_ack_1.jpg",
@@ -45,5 +52,16 @@ export const committee={
             twitter: "",
             linkedin: "",
         },
+    ]
+}
+
+export const acknowledgement = {
+    text: [
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+        "",
+    ],
+    logo: [
+        "ack1.png",
+        "ack2.png",
     ]
 }
