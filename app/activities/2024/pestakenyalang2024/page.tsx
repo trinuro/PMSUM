@@ -7,7 +7,7 @@ import Objective from '@/components/activities/activities_objective';
 import SocialMedia from '@/components/activities/activities_socialMedia';
 import Title from '@/components/activities/activities_title';
 import Youtube from '@/components/activities/activities_youtube';
-import { act2 } from '@/components/activities/info/activities_info';
+import { act2 } from '@/components/activities/info/info_activity';
 import { Sofadi_One } from 'next/font/google';
 
 export default function Activities() {

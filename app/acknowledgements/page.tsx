@@ -1,8 +1,8 @@
 import React from 'react';
 import Bio from '@/components/acknowledgements/bio'
-import { director } from "@/components/acknowledgements/constant"
-import { committee } from "@/components/acknowledgements/constant"
-import { acknowledgement } from "@/components/acknowledgements/constant"
+import { director } from "@/components/acknowledgements/info/info"
+import { committee } from "@/components/acknowledgements/info/info"
+import { acknowledgement } from "@/components/acknowledgements/info/info"
 
 export default function Acknowledgements() {
   return (

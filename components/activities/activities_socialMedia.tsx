@@ -2,7 +2,7 @@
 
 import React from 'react';
 import { InstagramEmbed } from 'react-social-media-embed'; //npm install react-social-media-embed
-import { latest_instagram_post } from './info/activities_info'
+import { latest_instagram_post } from './info/info_activity'
 
 const activities_socialMedia = (props: any) => {
   return (
