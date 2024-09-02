@@ -18,7 +18,7 @@ const activities_cover = (props: any) => {
             <div className='text-xl md:text-4xl font-bold text-white mt-2'>{props.date} | {props.location}</div>
             <div className='flex'>
               <div className='mt-6'><a className='' href='#banner'><button className='p-4 bg-yellow-dark rounded-md transition hover:scale-110 active:scale-105'>Learn more</button></a></div>
-              <div className='mt-6 ml-5'><a className='' href={props.video_url} target='_blank'><button className='p-4 bg-yellow-dark rounded-md transition hover:scale-110 active:scale-105'>Watch video</button></a></div>
+              <div className='mt-6 ml-5'><a className='' href={props.video_url} target='_blank'><button className='p-4 bg-yellow-dark rounded-md transition hover:scale-110 active:scale-105'>Watch trailer</button></a></div>
             </div>
           </div>
         </div>

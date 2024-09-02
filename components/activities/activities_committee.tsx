@@ -9,7 +9,7 @@ import "slick-carousel/slick/slick-theme.css";
 const activities_committee = (props: any) => {
 
 
-  const [selected, setSelected] = useState("Majlis Tertinggi");
+  const [selected, setSelected] = useState(props.list[0]);
 
 
   const changePositionHandler = (event: any) => {
@@ -76,7 +76,7 @@ const activities_committee = (props: any) => {
               {image.map((each: string, index: number) => (
                 <div key={index}>
                   <div className='w-full flex justify-center p-10' >
-                    <img className='size-[240px] md:size-[320px] transition hover:scale-110' src={each}></img>
+                    <img className='size-[240px] sm:size-[320px] transition hover:scale-110' src={each}></img>
                   </div>
                 </div>
               )

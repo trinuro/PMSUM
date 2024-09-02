@@ -101,17 +101,30 @@ export const act3 = {
 }
 
 export const act2 = {
+  // Special message
+  message: [
+    "Dukacita dimaklumkan bahawa Festival Kenyalang 2024 akan ditangguhkan ke 12 Oktober 2024 atas sebab-sebab yang tidak dapat dielakkan. Pihak penganjur Festival Kenyalang 2024 dengan ini memohon maaf diatas segala kesulitan yang berlaku. Kami juga berharap agar anda akan masih bersama untuk menjayakan dan memeriahkan Festival Kenyalang yang akan datang.",
+    "Dengan penangguhan ini, kami berhasrat untuk menjadikan Festival Kenyalang sebagai sebuah projek awal Semester 1 Sesi 2024/2025. Nantikan Festival Kenyalang yang lebih meriah, dan menjadi platform untuk kita berinteraksi diantara satu sama lain.",
+    "Sekian, terima kasih. Sekali lagi, kami ingin memohon kemaafan diatas segala kesulitan daripada pihak kami. Sebarang pertanyaan boleh diajukan terus kepada pihak Majlis Tertinggi Festival Kenyalang 2024.",
+    "Ayuh, jangan lepaskan peluang keemasan ini!💫"
+  ],
   // Cover component
-  video_src: "/image/activities/act2/vid_act2_01.mp4",
-  video_url: "https://www.instagram.com/reel/C7OGJN6SWwe/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==",
+  video_src: "/image/activities/act2/vid_act2_0.mp4",
+  video_url: "https://www.instagram.com/reel/CsJDe9BArCm/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==",
   // Banner component
-  banner_image_source: "/image/activities/act2/pestakenyalang2024.png",
+  banner_image_source: "/image/activities/act2/img_act2_0.png",
   // Title component
   title: "Pesta Kenyalang",
   subtitle: "2024",
-  date: "25 May 2024",
-  location: 'Universiti Sains Malaysia',
-  description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+  date: "12 October 2024",
+  location: 'Gazebo Kompleks Perdana Siswa UM',
+  description: [
+    "“Esensi Cakraya Kenyalang, Swadaya Perpaduan Sarawak” 🌟",
+    "Salam Sejahtera dan Salam Bumi Kenyalang. Festival Kenyalang kembali lagi bagi sesi tahun 2024 dengan pelbagai aktiviti seperti 「Mr. & Miss Kenyalang」🤴👸 dengan tampilan Miss World dan Irama Kenyalang yang menampilkan bakat-bakat terpendam anak-anak Sarawak di Universiti Malaya. ✨",
+    "Selain itu, pelbagai aktiviti sukaneka bertemakan budaya kaum-kaum Sarawak akan dijalankan serta jualan makanan-makanan tradisional Sarawak seperti Laksa Sarawak, Mee Kolok dan lain lain hidangan yang sukar didapati di sini. 🥰🎉",
+    "Ayuh, jangan lepaskan peluang keemasan ini!💫"
+  ],
+
   // Objective component [image source, objective]
   objective: [
     [{
@@ -168,6 +181,82 @@ export const act2 = {
     Mana tahu, akan jumpa muka anda juga!
   `,
   gallery_link: "https://365umedumy-my.sharepoint.com/:f:/r/personal/23004984_siswa365_um_edu_my/Documents/DBS?csf=1&",
+  // Committee component
+  committee_list: [
+    'Majlis Tertinggi',
+    'Biro Protokol',
+    'Biro Dana Jamuan',
+    'Biro Logistik',
+    'Biro Pendaftaran',
+    'Biro Media',
+    'Biro Persembahan',
+  ],
+  committee_image: {
+    'Majlis Tertinggi': [
+      "/image/activities/act2/committee/Majlis Tertinggi/img_com_mtt_1.jpg",
+      "/image/activities/act2/committee/Majlis Tertinggi/img_com_mtt_2.jpg",
+      "/image/activities/act2/committee/Majlis Tertinggi/img_com_mtt_3.jpg",
+      "/image/activities/act2/committee/Majlis Tertinggi/img_com_mtt_4.jpg",
+      "/image/activities/act2/committee/Majlis Tertinggi/img_com_mtt_5.jpg",
+    ],
+    'Biro Protokol': [
+      "/image/activities/act2/committee/Biro Protokol/img_com_jnp_1.jpg",
+      "/image/activities/act2/committee/Biro Protokol/img_com_jnp_2.jpg",
+      "/image/activities/act2/committee/Biro Protokol/img_com_jnp_3.jpg",
+      "/image/activities/act2/committee/Biro Protokol/img_com_jnp_4.jpg",
+      "/image/activities/act2/committee/Biro Protokol/img_com_jnp_5.jpg",
+      "/image/activities/act2/committee/Biro Protokol/img_com_jnp_6.jpg",
+      "/image/activities/act2/committee/Biro Protokol/img_com_jnp_7.jpg",
+      "/image/activities/act2/committee/Biro Protokol/img_com_jnp_8.jpg",
+    ],
+    'Biro Media': [
+      "/image/activities/act2/committee/Biro Media/img_com_mmd_1.jpg",
+      "/image/activities/act2/committee/Biro Media/img_com_mmd_2.jpg",
+      "/image/activities/act2/committee/Biro Media/img_com_mmd_3.jpg",
+      "/image/activities/act2/committee/Biro Media/img_com_mmd_4.jpg",
+      "/image/activities/act2/committee/Biro Media/img_com_mmd_5.jpg",
+      "/image/activities/act2/committee/Biro Media/img_com_mmd_6.jpg",
+      "/image/activities/act2/committee/Biro Media/img_com_mmd_7.jpg",
+    ],
+    'Biro Persembahan': [
+      "/image/activities/act2/committee/Biro Persembahan/img_com_psb_1.jpg",
+      "/image/activities/act2/committee/Biro Persembahan/img_com_psb_2.jpg",
+      "/image/activities/act2/committee/Biro Persembahan/img_com_psb_3.jpg",
+      "/image/activities/act2/committee/Biro Persembahan/img_com_psb_4.jpg",
+      "/image/activities/act2/committee/Biro Persembahan/img_com_psb_5.jpg",
+      "/image/activities/act2/committee/Biro Persembahan/img_com_psb_6.jpg",
+      "/image/activities/act2/committee/Biro Persembahan/img_com_psb_7.jpg",
+      "/image/activities/act2/committee/Biro Persembahan/img_com_psb_8.jpg",
+    ],
+    'Biro Dana Jamuan': [
+      "/image/activities/act2/committee/Biro Dana Jamuan/img_com_jnc_1.jpg",
+      "/image/activities/act2/committee/Biro Dana Jamuan/img_com_jnc_2.jpg",
+      "/image/activities/act2/committee/Biro Dana Jamuan/img_com_jnc_3.jpg",
+      "/image/activities/act2/committee/Biro Dana Jamuan/img_com_jnc_4.jpg",
+      "/image/activities/act2/committee/Biro Dana Jamuan/img_com_jnc_5.jpg",
+      "/image/activities/act2/committee/Biro Dana Jamuan/img_com_jnc_6.jpg",
+    ],
+    'Biro Pendaftaran': [
+      "/image/activities/act2/committee/Biro Pendaftaran/img_com_pep_1.jpg",
+      "/image/activities/act2/committee/Biro Pendaftaran/img_com_pep_2.jpg",
+      "/image/activities/act2/committee/Biro Pendaftaran/img_com_pep_3.jpg",
+      "/image/activities/act2/committee/Biro Pendaftaran/img_com_pep_4.jpg",
+      "/image/activities/act2/committee/Biro Pendaftaran/img_com_pep_5.jpg",
+    ],
+    'Biro Logistik': [
+      "/image/activities/act2/committee/Biro Logistik/img_com_log_1.jpg",
+      "/image/activities/act2/committee/Biro Logistik/img_com_log_2.jpg",
+      "/image/activities/act2/committee/Biro Logistik/img_com_log_3.jpg",
+      "/image/activities/act2/committee/Biro Logistik/img_com_log_4.jpg",
+      "/image/activities/act2/committee/Biro Logistik/img_com_log_5.jpg",
+      "/image/activities/act2/committee/Biro Logistik/img_com_log_6.jpg",
+      "/image/activities/act2/committee/Biro Logistik/img_com_log_7.jpg",
+      "/image/activities/act2/committee/Biro Logistik/img_com_log_8.jpg",
+      "/image/activities/act2/committee/Biro Logistik/img_com_log_9.jpg",
+      "/image/activities/act2/committee/Biro Logistik/img_com_log_10.jpg",
+      "/image/activities/act2/committee/Biro Logistik/img_com_log_11.jpg",
+    ],
+  }
 }
 
 
@@ -247,15 +336,15 @@ export const act1 = {
   `,
   gallery_link: "https://drive.google.com/drive/folders/1j1jhewuUsHYePCprJKnzn9xYjZK0A2Or?usp=sharing",
   // Committee component
-  committee_list:[
+  committee_list: [
     'Majlis Tertinggi',
-        'Jemputan dan Protokol',
-        'Promosi dan Publisiti',
-        'Jamuan dan Cenderamata',
-        'Penyertaan dan Pendaftaran',
-        'Teknikal',
-        'Logistik dan Pengangkutan',
-        'Tanjaan'
+    'Jemputan dan Protokol',
+    'Promosi dan Publisiti',
+    'Jamuan dan Cenderamata',
+    'Penyertaan dan Pendaftaran',
+    'Teknikal',
+    'Logistik dan Pengangkutan',
+    'Tanjaan'
   ],
   committee_image: {
     'Majlis Tertinggi': [

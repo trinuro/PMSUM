@@ -8,7 +8,6 @@ import Objective from '@/components/activities/activities_objective';
 import SocialMedia from '@/components/activities/activities_socialMedia';
 import Title from '@/components/activities/activities_title';
 import Youtube from '@/components/activities/activities_youtube';
-import { committee_position } from '@/components/activities/info/constant';
 import { act1 } from '@/components/activities/info/info_activity';
 import { Sofadi_One } from 'next/font/google';
 
