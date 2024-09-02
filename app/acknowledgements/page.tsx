@@ -32,9 +32,9 @@ export default function Acknowledgements() {
             <div className='flexCenter flex-wrap'>
               {committee.committee_list.map((each, index) => (
                 <div key={index} >
-                  <div className='m-4 h-[350px] content-center flexCenter'>
+                  <div className='m-4 h-[350px] w-[350px] content-center flexCenter'>
                     <div>
-                      <Bio content={each} />
+                      <Bio content={each} imgSrc={"/image/acknowledgements/" + each.imgSrc}/>
                     </div>
                   </div>
                 </div>
