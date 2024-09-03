@@ -47,16 +47,20 @@ const Footer = () =>{
                     </a>
                 </div>
                 <div>
-                    <div className="flex flex-row justify-start gap-5 items-center">
-                        <FontAwesomeIcon
-                            icon={faEnvelope}
-                            style={{ color: "white", fontSize: 55}}
-                        />
-                        <p className="regular-16">Get in touch with us</p>
-                    </div>
+                    <a href='mailto:23054588@siswa.um.edu.my'>
+                        <div className="flex flex-row justify-start gap-5 items-center">
+                            
+                                <FontAwesomeIcon
+                                    icon={faEnvelope}
+                                    style={{ color: "white", fontSize: 55}}
+                                />
+                                <p className="regular-16">Get in touch with us</p>
+                            
+                        </div>
+                    </a>
                 </div>
             </div>
-                
+            {/* Small screen */}
             <section className="md:hidden">
                 <div>
                     <h2 className="font-extrabold text-[24px] pb-5">Learn more</h2>
@@ -83,6 +87,7 @@ const Footer = () =>{
                             
                         />
                     </a>
+                    {/*  */}
                     <a href='https://www.instagram.com/pmsum_/?hl=en'>
                         <FontAwesomeIcon
                             icon={faInstagramSquare}
@@ -92,13 +97,17 @@ const Footer = () =>{
                 </div>
                 </div>
                 <div>
-                    <div className="flex flex-row justify-start gap-5 items-center">
-                        <FontAwesomeIcon
-                            icon={faEnvelope}
-                            style={{ color: "white", fontSize: 40}}
-                        />
-                        <p className="regular-16">Get in touch with us</p>
-                    </div>
+                    <a href='mailto:23054588@siswa.um.edu.my'>
+                        <div className="flex flex-row justify-start gap-5 items-center">
+                                <FontAwesomeIcon
+                                    icon={faEnvelope}
+                                    style={{ color: "white", fontSize: 40}}
+                                />
+                            
+                                <p className="regular-16">Get in touch with us</p>
+                            
+                        </div>
+                    </a>
                 </div>
             </section>
         </div>
