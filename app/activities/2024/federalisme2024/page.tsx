@@ -8,7 +8,7 @@ import Objective from '@/components/activities/activities_objective';
 import SocialMedia from '@/components/activities/activities_socialMedia';
 import Title from '@/components/activities/activities_title';
 import Youtube from '@/components/activities/activities_youtube';
-import { act3 } from '@/components/activities/info/info_activity';
+import { act3 } from '@/components/info/activities/info_activity';
 import { Sofadi_One } from 'next/font/google';
 
 export default function Activities() {
@@ -21,7 +21,7 @@ export default function Activities() {
         <Banner src={act3.banner_image_source} title={act3.title} subtitle={act3.subtitle} />
       </div>
       <div>
-        <Title title={act3.title} date={act3.date} description={act3.description} />
+        <Title title={act3.title} date={act3.date} description={act3.description} icon={act3.icon}/>
       </div>
       <div>
         <Infographic title={act3.infographic.title} content={act3.infographic.content}/>

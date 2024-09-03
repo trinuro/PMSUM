@@ -46,6 +46,7 @@ export const act3 = {
     "Untuk menjayakan usaha ini, program akan menampilkan segmen forum bersama panelis jemputan, diikuti oleh segmen Keynote. Program ini bertujuan untuk membantu mahasiswa memahami konsep federalisme dalam konteks Malaysia yang berbilang entiti politik dan budaya. Program ini turut dapat memberi pemahaman mendalam kepada mahasiswa/i tentang federalisme di Malaysia dan bagaimana ia mempengaruhi kehidupan sebagai seorang rakyat Malaysia.",
     "",
   ],
+  icon: "act3/img_act3_ico.png",
   // Infographic component
   infographic: {
     title: "Infographic",
@@ -145,7 +146,7 @@ export const act2 = {
     "Selain itu, pelbagai aktiviti sukaneka bertemakan budaya kaum-kaum Sarawak akan dijalankan serta jualan makanan-makanan tradisional Sarawak seperti Laksa Sarawak, Mee Kolok dan lain lain hidangan yang sukar didapati di sini. 🥰🎉",
     "Ayuh, jangan lepaskan peluang keemasan ini!💫"
   ],
-
+  icon: "act2/img_act2_ico.png",
   // Objective component [image source, objective]
   objective: [
     [{
@@ -307,6 +308,7 @@ export const act1 = {
   description: [
     "",
   ],
+  icon: "act1/img_act1_ico.png",
   // Objective component [image source, objective]
   objective: [
     [{

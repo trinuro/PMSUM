@@ -1,8 +1,8 @@
 import React from 'react';
 import Bio from '@/components/acknowledgements/bio'
-import { director } from "@/components/acknowledgements/info/info"
-import { committee } from "@/components/acknowledgements/info/info"
-import { acknowledgement } from "@/components/acknowledgements/info/info"
+import { director } from "@/components/info/acknowledgements/info"
+import { project_committee } from "@/components/info/acknowledgements/info"
+import { acknowledgement } from "@/components/info/acknowledgements/info"
 
 export default function Acknowledgements() {
   return (
@@ -15,7 +15,7 @@ export default function Acknowledgements() {
         </div>
         <div className='justify-center flex'>
           <div className='max-w-7xl w-full px-14 pt-14 pb-10'>
-            {director.text.map((each, index) => (
+            {director.content.map((each, index) => (
               <div key={index} className='mb-4'>
                 {each}
               </div>
@@ -32,7 +32,7 @@ export default function Acknowledgements() {
         <div className='justify-center flex'>
           <div className='max-w-7xl w-full p-6'>
             <div className='flexCenter flex-wrap'>
-              {committee.committee_list.map((each, index) => (
+              {project_committee.committee_list.map((each, index) => (
                 <div key={index} >
                   <div className='m-4 h-[350px] w-[350px] content-center flexCenter'>
                     <div>
@@ -53,7 +53,7 @@ export default function Acknowledgements() {
         </div>
         <div className='justify-center flex'>
           <div className='max-w-7xl w-full px-14 pt-14 pb-10'>
-            {acknowledgement.text.map((each, index) => (
+            {acknowledgement.content.map((each, index) => (
               <div key={index} className='mb-4'>
                 {each}
               </div>
