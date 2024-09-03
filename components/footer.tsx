@@ -6,7 +6,8 @@ import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
 
 
 const Footer = () =>{
-    return (<section className="bg-[#363636] text-white relative pt-5">
+    return (<section className="bg-[#363636] text-white relative">
+        {/* Medium and above */}
         <div className="flex flex-row justify-between items-center gap-5 pt-8 pb-4  md:padding-container md:max-container">
             <Link href='#'>
                 <svg className="max-h-[450px]" width="auto" height="full" viewBox="0 0 100 315" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -63,14 +64,14 @@ const Footer = () =>{
             {/* Small screen */}
             <section className="md:hidden">
                 <div>
-                    <h2 className="font-extrabold text-[24px] pb-5">Learn more</h2>
-                    <ul className="">
+                    <h2 className="font-extrabold text-[20px] pb-3">Learn more</h2>
+                    <ul>
                         {
                             LEARN_MORE_SECTION.map((element,index)=>link_to_other_page(element, index))
                         }
                     </ul>
                 </div>
-                <div className="font-extrabold text-[24px] pb-5 relative">
+                <div className="font-extrabold text-[20px] pb-5 relative">
                     <h2>Connect with PMSUM</h2>
                     <div className="flex flex-row items-center gap-4">
                     <a href='https://www.facebook.com/pmsum.sarawak/?locale=ms_MY'>
@@ -103,9 +104,7 @@ const Footer = () =>{
                                     icon={faEnvelope}
                                     style={{ color: "white", fontSize: 40}}
                                 />
-                            
                                 <p className="regular-16">Get in touch with us</p>
-                            
                         </div>
                     </a>
                 </div>
@@ -124,7 +123,7 @@ interface LEARN_MORE_LI{
 
 const link_to_other_page = ({name, link}:LEARN_MORE_LI, index:Number) =>{
     return(
-        <li key={'LEARN_MORE_'+index} className="text-[20px] pb-3"><Link href={link}>{name}</Link></li>
+        <li key={'LEARN_MORE_'+index} className="text-[16px] pb-3 md:text-[24px]"><Link href={link}>{name}</Link></li>
     )
 }
 

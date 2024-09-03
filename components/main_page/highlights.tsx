@@ -1,6 +1,6 @@
 import Image from "next/image";
 import { dayak_strip } from "./objective";
-import { ACTIVITY_HIGHLIGHTS } from "@/constants";
+import { ACTIVITY_HIGHLIGHTS } from "@/data";
 import Link from "next/link"
 import Script from "next/script";
 import {Highlight_button} from "./highlight_card";
@@ -30,8 +30,7 @@ const Highlights = () =>{
 }
 
 interface HighlightProp{
-    icon : string,
-    icon_alt_name : string,
+    icon : React.ReactNode,
     name : string,
     highlighted_picture : string,
     date : string,
@@ -40,12 +39,10 @@ interface HighlightProp{
     colour : string,
 }
 
-const colour = 'red-dark';
-
-export const activity_card = (index:Number, {icon, icon_alt_name, name, highlighted_picture, date, main_page_link, description, colour}:HighlightProp, bg_color:string='transparent') =>{
+export const activity_card = (index:Number, {icon, name, highlighted_picture, date, main_page_link, description, colour}:HighlightProp, bg_color:string='transparent') =>{
 
     return (        
-        <Highlight_button index={index} icon={icon} icon_alt_name={icon_alt_name} name={name} highlighted_picture={highlighted_picture} date={date} main_page_link={main_page_link} description={description} bg_color={bg_color} colour={colour}></Highlight_button>    
+        <Highlight_button index={index} icon={icon} name={name} highlighted_picture={highlighted_picture} date={date} main_page_link={main_page_link} description={description} bg_color={bg_color} colour={colour}></Highlight_button>    
     )
 }
 
