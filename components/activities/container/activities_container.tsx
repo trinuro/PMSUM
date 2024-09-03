@@ -1,9 +1,9 @@
 import React from "react";
 
-const colour = [
-  'red-dark',
-  'yellow-dark',
-  'black'
+const bg_colour = [
+  'border-red-dark',
+  'border-yellow-dark',
+  'border-black'
 ];
 
 interface HighlightProp {
@@ -32,7 +32,7 @@ export const activity_card = (index: number, { icon, icon_alt_name, name, highli
   return (
     <div key={index} className='p-10'>
       <a href={main_page_link}>
-        <div className={`w-[250px] h-[350px] p-4 border-2 border-solid rounded-lg hover:scale-110 active:scale-105 transition bg-white border-${colour[index]}`}>
+        <div className={`w-[250px] h-[350px] p-4 border-2 border-solid rounded-lg hover:scale-110 active:scale-105 transition bg-white ${bg_colour[index%3]}`}>
           <div className="w-full h-[80px] flex justify-between items-center">
             <div className="w-[60px] h-[60px] overflow-hidden">
               <img className="object-cover h-full w-full" src={"/image/activities/" + icon} />

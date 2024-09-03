@@ -4,6 +4,7 @@ import Committee from '@/components/activities/activities_committee';
 import Cover from '@/components/activities/activities_cover'
 import Gallery from '@/components/activities/activities_galley';
 import Highlight from '@/components/activities/activities_highlight';
+import Infographic from '@/components/activities/activities_infographic_canva';
 import Message from '@/components/activities/activities_message';
 import Objective from '@/components/activities/activities_objective';
 import SocialMedia from '@/components/activities/activities_socialMedia';
@@ -27,6 +28,9 @@ export default function Activities() {
       
       <div>
         <Title title={act2.title} date={act2.date} description={act2.description} />
+      </div>
+      <div>
+        <Infographic title={act2.infographic.title} content={act2.infographic.content}/>
       </div>
       <div>
         <Committee list={act2.committee_list} image={act2.committee_image} />

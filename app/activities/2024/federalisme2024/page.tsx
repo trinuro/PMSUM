@@ -3,6 +3,7 @@ import Banner from '@/components/activities/activities_banner';
 import Cover from '@/components/activities/activities_cover'
 import Gallery from '@/components/activities/activities_galley';
 import Highlight from '@/components/activities/activities_highlight';
+import Infographic from '@/components/activities/activities_infographic_canva';
 import Objective from '@/components/activities/activities_objective';
 import SocialMedia from '@/components/activities/activities_socialMedia';
 import Title from '@/components/activities/activities_title';
@@ -22,18 +23,12 @@ export default function Activities() {
       <div>
         <Title title={act3.title} date={act3.date} description={act3.description} />
       </div>
-      {/* <div>
-        <Objective content={act3.objective} />
-      </div>
       <div>
-        <Highlight content={act3.highlight} />
-      </div>
-      <div>
-        <Gallery gallery={act3.gallery} caption={act3.gallery_caption} link={act3.gallery_link} download_name={act3.gallery_download_name} />
+        <Infographic title={act3.infographic.title} content={act3.infographic.content}/>
       </div>
       <div>
         <SocialMedia />
-      </div> */}
+      </div>
     </main>
   );
 }

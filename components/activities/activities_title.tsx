@@ -18,7 +18,7 @@ const activities_title = (props: any) => {
         <div className='font-semibold text-4xl'>{props.title}</div>
         <div className='text-xl text-gray-500'><IsOrganised date={props.date} /> {props.date}</div>
       </div>
-      <div className=' bg-yellow-dark bg-opacity-40'>
+      <div className='bg-yellow-dark bg-opacity-40'>
         <div className='pt-10 pb-6 px-20 w-full max-container '>
           {props.description.map((each: any, index: number) => (
             <div key={index} className='mb-4'>

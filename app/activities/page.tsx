@@ -55,7 +55,7 @@ export default function Activities() {
       <div className='flex justify-center'>
         <div className='w-full max-w-7xl p-8'>
           <div className='font-semibold text-xl sm:text-3xl'>All activities</div>
-          <div className='content-center flex flex-wrap'>
+          <div className='flex justify-center flex-wrap'>
             {/* <Slider {...settings}>
               {
                 activity_list.list.map((highlight, index) => activity_card(index, highlight))
@@ -63,8 +63,8 @@ export default function Activities() {
 
             </Slider> */}
             {
-                activity_list.list.map((highlight, index) => activity_card(index, highlight))
-              }
+              activity_list.list.map((highlight, index) => activity_card(index, highlight))
+            }
 
           </div>
           <div className='text-center text-sm sm:text-base m-4'>

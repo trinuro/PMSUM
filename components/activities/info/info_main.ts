@@ -13,17 +13,17 @@ export const slideshow = {
 }
 
 export const activity_list = {
-  date: "28 August 2024",
+  date: "2 Septmeber 2024",
   list: [
-    // {
-    //     icon : 'act3/img_act3_ico.png',
-    //     icon_alt_name : 'An icon of Federalisme',
-    //     name : 'Federalisme 2024',
-    //     highlighted_picture : 'act3/img_act3_0.png',
-    //     date : '9 November 2024',
-    //     main_page_link : '/activities/2024/federalisme2024',
-    //     description : 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sit amet dignissim turpis. Interdum et malesuada fames ac ante ipsum primis in faucibus. Proin enim magna, maximus vel magna vitae, facilisis volutpat felis. Vivamus ornare libero auctor augue facilisis vulputate. Nulla ut aliquet velit, aliquam porta erat. Mauris egestas orci id neque imperdiet elementum. Donec porta nunc magna. Nunc quis felis in nibh auctor vestibulum id vitae mauris.',
-    // },
+    {
+        icon : 'act3/img_act3_ico.png',
+        icon_alt_name : 'An icon of Federalisme',
+        name : 'Federalisme 2024',
+        highlighted_picture : 'act3/img_act3_0.png',
+        date : '9 November 2024',
+        main_page_link : '/activities/2024/federalisme2024',
+        description : 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sit amet dignissim turpis. Interdum et malesuada fames ac ante ipsum primis in faucibus. Proin enim magna, maximus vel magna vitae, facilisis volutpat felis. Vivamus ornare libero auctor augue facilisis vulputate. Nulla ut aliquet velit, aliquam porta erat. Mauris egestas orci id neque imperdiet elementum. Donec porta nunc magna. Nunc quis felis in nibh auctor vestibulum id vitae mauris.',
+    },
     {
         icon : 'act2/img_act2_ico.png',
         icon_alt_name : 'An icon of PK',
