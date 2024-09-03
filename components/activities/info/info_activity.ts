@@ -293,7 +293,6 @@ export const act2 = {
   }
 }
 
-
 export const act1 = {
   // Cover component
   video_src: "/image/activities/act1/vid_act1_01.mp4",
@@ -306,8 +305,7 @@ export const act1 = {
   date: "18 May 2024",
   location: "PAUM Clubhouse",
   description: [
-    "No description",
-    ""
+    "",
   ],
   // Objective component [image source, objective]
   objective: [
