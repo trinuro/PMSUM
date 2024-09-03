@@ -134,7 +134,6 @@ export const OBJECTIVES = [
 
 export const OBJECTIVES_TEXT = 'Persatuan Mahasiswa Sarawak is an association of students from Sarawak in Universiti Malaya.'
 
-
 export const LEARN_MORE_SECTION = [
     {
         name : 'Main Page',
