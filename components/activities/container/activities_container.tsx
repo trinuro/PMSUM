@@ -6,17 +6,6 @@ const bg_colour = [
   'border-black'
 ];
 
-interface HighlightProp {
-  icon: string,
-  icon_alt_name: string,
-  name: string,
-  code:string,
-  highlighted_picture: string,
-  date: string,
-  main_page_link: string,
-  description: string
-}
-
 const IsOrganised = ({ date }: any) => {
   if (Date.parse(date) < new Date().getTime())
     return (
@@ -28,33 +17,34 @@ const IsOrganised = ({ date }: any) => {
     )
 }
 
-export const activity_card = (index: number, { icon, icon_alt_name, name, highlighted_picture, date, main_page_link, description, code }: HighlightProp, bg_color: string = 'transparent') => {
 
+const act = require('@/components/info/activities/info_activity')
+
+
+export const activity_card = (act_code:string, index: number) => {
   return (
     <div key={index} className='p-10'>
-      <a href={"/activities/details?code=" + code}>
-        <div className={`w-[250px] h-[350px] p-4 border-2 border-solid rounded-lg hover:scale-110 active:scale-105 transition bg-white ${bg_colour[index%3]}`}>
+      <a href={`/activities/details?code=${act_code}`}>
+        <div className={`w-[250px] h-[350px] p-4 border-2 border-solid rounded-lg hover:scale-110 active:scale-105 transition bg-white ${bg_colour[index % 3]}`}>
           <div className="w-full h-[80px] flex justify-between items-center">
             <div className="w-[60px] h-[60px] overflow-hidden">
-              <img className="object-cover h-full w-full" src={"/image/activities/" + icon} />
+              <img className="object-cover h-full w-full" src={`/image/activities/${act_code}/img_${act_code}_ico.jpg`} />
             </div>
             <div className=" w-[140px] font-extrabold text-lg uppercase leading-5">
-              <div>{name}</div>
+              <div>{act[act_code].title}</div>
             </div>
           </div>
           <div className="my-4 ">
             <div className="overflow-hidden h-[140px] rounded-lg">
-              <img className="object-cover h-full w-full " src={"/image/activities/" + highlighted_picture} />
+              <img className="object-cover h-full w-full " src={`/image/activities/${act_code}/img_${act_code}_0.jpg`} />
             </div>
           </div>
           <div className="text-center">
-            <IsOrganised date={date} />
-            <div>{date}</div>
+            <IsOrganised date={act[act_code].date} />
+            <div>{act[act_code].date}</div>
           </div>
         </div>
       </a>
     </div>
-
-
   )
 }

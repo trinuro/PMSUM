@@ -4,12 +4,7 @@ import React from 'react';
 import { Zoom } from 'react-slideshow-image';
 import 'react-slideshow-image/dist/styles.css'
 
-const slideshow_activities = () => {
-  const items = [
-    ["/image/slide/slide1.png", "FEDERALISME DI MALAYSIA", "Kesatuan Dalam Kepelbagaian", "/activities/2024/federalisme2024"],
-    ["/image/slide/slide2.png", "PESTA KENYALANG", "2024", "/activities/2024/pestakenyalang2024"],
-    ["/image/slide/slide3.png", "DISKUSI BELANJAWAN SAWAWAK", "/activities/2024/dbs2024"],
-  ]
+const slideshow_activities = (props: any) => {
 
   const slideProperties = {
     scale: 1,
@@ -19,29 +14,28 @@ const slideshow_activities = () => {
     arrows: false,
   }
 
+  const act = require('@/components/info/activities/info_activity')
+
   return (
     <div className='w-full'>
       <Zoom {...slideProperties}>
-        {items.map((each, index) => (
+        {props.slide.map((each: any, index: number) => (
           <div key={index} >
-            <img className='w-screen max-h-[420px] object-cover' src={each[0]} />
-            <a href={each[3]}>
-            <div className='bg-black flex justify-center absolute bottom-0 top-0 left-0 right-0 transition-opacity bg-opacity-50 opacity-0 hover:opacity-100'>
-              
+            <img className='w-screen max-h-[420px] object-cover' src={`/image/activities/${each}/img_${each}_0.jpg`} />
+            <a href={`/activities/details?code=${each}`}>
+              <div className='bg-black flex justify-center absolute bottom-0 top-0 left-0 right-0 transition-opacity bg-opacity-50 opacity-0 hover:opacity-100'>
                 <div className='content-center w-full max-w-7xl'>
                   <div className='font-extrabold text-white text-center text-xl sm:max-w-xs sm:mx-14 sm:text-3xl lg:text-5xl sm:text-left'>
-                    {each[1]}
+                    {act[each].title}
                   </div>
                   <div className='font-bold text-white text-center text-sm sm:mx-14 sm:text-xl sm:text-left'>
-                    {each[2]}
+                    {act[each].subtitle}
                   </div>
                 </div>
-              
-            </div>
+              </div>
             </a>
           </div>
-        )
-        )}
+        ))}
       </Zoom>
     </div>
   )

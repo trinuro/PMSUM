@@ -37,21 +37,16 @@ const activities_highlight = (props: any) => {
                           <div>
                             <Highlight_container content={each[0]} />
                           </div>
-
                         </div>
                       </div>
-                    )
-                    )}
-
+                    ))}
                   </Slider>
                 </div>
               </div>
-
             </div>
           </div>
         </div>
       </div>
-
     )
 }
 

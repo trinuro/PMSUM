@@ -1,3 +1,4 @@
+export const last_updated = "6 September 2024"
 
 export const act3 = {
   // Cover component
@@ -5,7 +6,7 @@ export const act3 = {
 
   // Title component
   title: "Fedaralisme Di Malaysia",
-  subtitle: "2024",
+  subtitle: "Kesatuan Dalam Kepelbagaian",
   date: "9 November 2024",
   location: 'TBA',
   description: [
@@ -69,7 +70,7 @@ export const act2 = {
     content: [
       {
         content: [
-          "💫Adakah anda berminat untuk menjadi ‘runway model’ ?",
+          "💫Adakah anda berminat untuk menjadi 'runway model' ?",
           "💫 Adakah anda berminat untuk memperagakan baju tradisional bagi etnik masing-masing?",
           "Andalah yang kami cari ‼️‼️",
           "Sukacita dimaklumkan bahawa Persatuan Mahasiswa Sarawak Universiti Malaya sesi 2023/2024 akan mengadakan satu pertandingan Mr & Miss Kenyalang 2024 bersempena dengan Hari Gawai untuk mempamerkan keunikan baju tradisi kaum Sarawak.",
