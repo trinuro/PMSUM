@@ -32,7 +32,7 @@ const activities_title = (props: any) => {
   return (
     <div>
       <div className='w-full max-container  pl-20 md:pr-10 lg:pr-20' >
-        <div className='py-6 bg-no-repeat bg-right-top bg-[length:200px]' style={{ backgroundImage: "url(/image/activities/" + props.icon + ")" }}>
+        <div className='py-6 bg-no-repeat bg-right-top bg-[length:200px]' style={{ backgroundImage: `url(/image/activities/${props.code}/${props.icon})` }}>
           <div className='w-[200px] sm:w-full'>
             <div className='font-semibold text-4xl'>{props.title}</div>
             <div className='text-xl text-gray-500 sm:flex '>

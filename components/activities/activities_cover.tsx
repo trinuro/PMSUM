@@ -6,7 +6,7 @@ const activities_cover = (props: any) => {
       <div className='relative h-screen  overflow-hidden -mt-[50px]'>
         <div className='h-screen '>
           <video className='h-full w-full object-cover' autoPlay muted loop>
-            <source src={props.video_src} type="video/mp4" />
+            <source src={`/image/activities/${props.code}/${props.video_src}`} type="video/mp4" />
           </video>
           <div>
             <div className='absolute bg-black bg-opacity-60 top-0 w-full h-full'></div>
@@ -17,8 +17,8 @@ const activities_cover = (props: any) => {
             <div className='text-4xl md:text-8xl font-bold text-white'>{props.title}</div>
             <div className='text-xl md:text-4xl font-bold text-white mt-2'>{props.date} | {props.location}</div>
             <div className='flex'>
-              <div className='mt-6'><a className='' href='#banner'><button className='p-4 bg-yellow-dark rounded-md transition hover:scale-110 active:scale-105'>Learn more</button></a></div>
-              <div className='mt-6 ml-5'><a className='' href={props.video_url} target='_blank'><button className='p-4 bg-yellow-dark rounded-md transition hover:scale-110 active:scale-105'>Watch trailer</button></a></div>
+              <div className='mt-6'><a href='#banner'><button className='p-4 bg-yellow-dark rounded-md transition hover:scale-110 active:scale-105'>Learn more</button></a></div>
+              <div className='mt-6 ml-5'><a href={props.video_url} target='_blank'><button className='p-4 bg-yellow-dark rounded-md transition hover:scale-110 active:scale-105'>Watch trailer</button></a></div>
             </div>
           </div>
         </div>
