@@ -16,27 +16,26 @@ const patternImagePathGrey = "/icon/header_dayak_motif_grey.png";
 const Navbar = () => {
   const [isScroll, setIsScroll] = useState(false);
   const [activeMenu, setActiveMenu] = useState<string | null>(null);
-  const [isHomePage, setIsHomePage] = useState(false);
-  const pathname = usePathname(); // Get current pathname
+  const pathname = usePathname(); 
+  const isHomePage = pathname === "/";
 
   useEffect(() => {
-      setIsHomePage(pathname === "/");
+    // Function to handle scroll changes
+    const handleScroll = () => {
+      setIsScroll(window.scrollY > 100);
+    };
 
-      const handleScroll = () => {
-        if (window.scrollY > 100) {
-          setIsScroll(true);
-        } else {
-          setIsScroll(false);
-        }
-      };
+    // Check scroll position on initial load
+    handleScroll();
 
-      window.addEventListener("scroll", handleScroll);
+    // Attach scroll event listener
+    window.addEventListener("scroll", handleScroll);
 
-      return () => {
-        window.removeEventListener("scroll", handleScroll);
-      };
-    
-  }, [pathname]); 
+    // Cleanup event listener on component unmount
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+  }, []);
 
   const toggleDropdown = (title: string) => {
     setActiveMenu((prev) => (prev === title ? null : title));
