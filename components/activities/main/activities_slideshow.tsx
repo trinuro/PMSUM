@@ -19,7 +19,7 @@ const slideshow_activities = (props: any) => {
   return (
     <div className='w-full'>
       <Zoom {...slideProperties}>
-        {props.slide.map((each: any, index: number) => (
+        {props.slide.slice(0, 3).map((each: any, index: number) => (
           <div key={index} >
             <img className='w-screen max-h-[420px] object-cover' src={`/image/activities/${each}/img_${each}_0.jpg`} />
             <a href={`/activities/details?code=${each}`}>

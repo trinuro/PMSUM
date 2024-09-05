@@ -2,8 +2,8 @@ import React from "react";
 
 const bg_colour = [
   'border-red-dark',
+  'border-black',
   'border-yellow-dark',
-  'border-black'
 ];
 
 const IsOrganised = ({ date }: any) => {
@@ -17,15 +17,13 @@ const IsOrganised = ({ date }: any) => {
     )
 }
 
-
 const act = require('@/components/info/activities/info_activity')
-
 
 export const activity_card = (act_code:string, index: number) => {
   return (
     <div key={index} className='p-10'>
       <a href={`/activities/details?code=${act_code}`}>
-        <div className={`w-[250px] h-[350px] p-4 border-2 border-solid rounded-lg hover:scale-110 active:scale-105 transition bg-white ${bg_colour[index % 3]}`}>
+        <div className={`w-[250px] h-[350px] p-4 border-2 border-solid rounded-lg hover:scale-110 active:scale-105 transition bg-white ${bg_colour[Number(act_code.substring(3)) % 3]}`}>
           <div className="w-full h-[80px] flex justify-between items-center">
             <div className="w-[60px] h-[60px] overflow-hidden">
               <img className="object-cover h-full w-full" src={`/image/activities/${act_code}/img_${act_code}_ico.jpg`} />
