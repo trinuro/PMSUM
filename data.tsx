@@ -53,6 +53,6 @@ type Activity = {
     },
     {
       title: "Who We Are",
-      path:"#",
+      path:"/team",
     },
   ]
