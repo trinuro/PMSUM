@@ -1,7 +1,3 @@
-export const latest_instagram_post = {
-  instagram_id: "C-nAGQZPAuF",
-  instagram_bg_image: "/image/slide/slide1.png",
-}
 
 export const act3 = {
   // Cover component
@@ -40,6 +36,10 @@ export const act3 = {
       },
     ]
   },
+
+  // Social Media component
+  instagram_id: "C-nAGQZPAuF",
+  instagram_bg_image: "img_act3_0.png",
 }
 
 export const act2 = {
@@ -184,7 +184,11 @@ export const act2 = {
       "/image/activities/act2/committee/Biro Logistik/img_com_log_10.jpg",
       "/image/activities/act2/committee/Biro Logistik/img_com_log_11.jpg",
     ],
-  }
+  },
+
+  // Social Media component
+  instagram_id: "C4xqGXPSCWl",
+  instagram_bg_image: "img_act2_0.png",
 }
 
 export const act1 = {
@@ -331,5 +335,9 @@ export const act1 = {
       "/image/activities/act1/committee/Logistik dan Pengangkutan/img_com_log_2.jpg",
       "/image/activities/act1/committee/Logistik dan Pengangkutan/img_com_log_3.jpg",
     ],
-  }
+  },
+
+  // Social Media component
+  instagram_id: "C7FoEfqyq6G",
+  instagram_bg_image: "img_act1_0.png",
 }

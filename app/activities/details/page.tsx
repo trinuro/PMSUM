@@ -1,25 +1,23 @@
 "use client"
-
 import React from 'react';
-import Banner from '@/components/activities/activities_banner';
-import Committee from '@/components/activities/activities_committee';
-import Cover from '@/components/activities/activities_cover'
-import Gallery from '@/components/activities/activities_galley';
-import Highlight from '@/components/activities/activities_highlight';
-import Infographic from '@/components/activities/activities_infographic_canva';
-import Message from '@/components/activities/activities_message';
-import Objective from '@/components/activities/activities_objective';
-import SocialMedia from '@/components/activities/activities_socialMedia';
-import Title from '@/components/activities/activities_title';
-import Youtube from '@/components/activities/activities_youtube';
-import { Sofadi_One } from 'next/font/google';
+import Banner from '@/components/activities/details/activities_banner';
+import Committee from '@/components/activities/details/activities_committee';
+import Cover from '@/components/activities/details/activities_cover'
+import Gallery from '@/components/activities/details/activities_galley';
+import Highlight from '@/components/activities/details/activities_highlight';
+import Infographic from '@/components/activities/details/activities_infographic_canva';
+import Message from '@/components/activities/details/activities_message';
+import Objective from '@/components/activities/details/activities_objective';
+import SocialMedia from '@/components/activities/details/activities_socialMedia';
+import Title from '@/components/activities/details/activities_title';
+import Youtube from '@/components/activities/details/activities_youtube';
 
 import { useSearchParams } from 'next/navigation';
 
 export default function Activities() {
-const act_code:any = useSearchParams().get('code')
+  const act_code: any = useSearchParams().get('code')
 
-const act = require('@/components/info/activities/info_activity')
+  const act = require('@/components/info/activities/info_activity')
 
   return (
     <main>
@@ -31,13 +29,13 @@ const act = require('@/components/info/activities/info_activity')
         <Banner code={act_code} src={act[act_code].banner_image_source} title={act[act_code].title} subtitle={act[act_code].subtitle} />
       </div>
       <div>
-        <Title code={act_code} title={act[act_code].title} date={act[act_code].date} description={act[act_code].description} icon={act[act_code].icon}/>
+        <Title code={act_code} title={act[act_code].title} date={act[act_code].date} description={act[act_code].description} icon={act[act_code].icon} />
       </div>
       <div>
         <Objective content={act[act_code].objective} />
       </div>
       <div>
-        <Infographic info={act[act_code].infographic}/>
+        <Infographic info={act[act_code].infographic} />
       </div>
       <div>
         <Youtube id={act[act_code].youtube_id} ack={act[act_code].youtube_acknowledgement} />
@@ -52,7 +50,7 @@ const act = require('@/components/info/activities/info_activity')
         <Committee list={act[act_code].committee_list} image={act[act_code].committee_image} />
       </div>
       <div>
-        <SocialMedia />
+        <SocialMedia code={act_code} insta={act[act_code].instagram_id} bg_image={act[act_code].instagram_bg_image}/>
       </div>
     </main>
   );

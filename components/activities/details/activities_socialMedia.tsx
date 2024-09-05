@@ -2,11 +2,10 @@
 
 import React from 'react';
 import { InstagramEmbed } from 'react-social-media-embed'; //npm install react-social-media-embed
-import { latest_instagram_post } from '../info/activities/info_activity'
 
 const activities_socialMedia = (props: any) => {
   return (
-    <div className="bg-cover bg-center" style={{ backgroundImage: "url(" + latest_instagram_post.instagram_bg_image + ")" }}>
+    <div className="bg-cover bg-center" style={{ backgroundImage: `url("/image/activities/${props.code}/${props.bg_image}")` }}>
       <div className='w-full p-10 bg-black bg-opacity-80 md:bg md:content-center'>
         <div className='max-container md:flex md:justify-center'>
           <div className='w-full flexCenter'>
@@ -17,7 +16,7 @@ const activities_socialMedia = (props: any) => {
           </div>
           <div className='w-full flexCenter my-10 md:my-0'>
             <div style={{ display: 'flex', justifyContent: 'center' }}>
-              <InstagramEmbed url={"https://www.instagram.com/p/" + latest_instagram_post.instagram_id} height={420} />
+              <InstagramEmbed url={`https://www.instagram.com/p/${props.insta}`} height={420} />
             </div>
           </div>
         </div>

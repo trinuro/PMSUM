@@ -1,6 +1,6 @@
 'use client'
 import React from 'react';
-import Slideshow from "@/components/activities/slideshow_activities";
+import Slideshow from "@/components/activities/main/slideshow_activities";
 import { activity_list } from '@/components/info/activities/info_main';
 import { activity_card } from '@/components/activities/container/activities_container';
 import Slider from "react-slick"; //npm install react-slick --save && npm install @types/react-slick --save

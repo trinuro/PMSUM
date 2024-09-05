@@ -1,7 +1,7 @@
 'use client'
 
 import React from 'react';
-import Highlight_container from "./container/activities_highlight_container";
+import Highlight_container from "../container/activities_highlight_container";
 import Slider from "react-slick"; //npm install react-slick --save && npm install @types/react-slick --save
 import "slick-carousel/slick/slick.css"; // npm install slick-carousel
 import "slick-carousel/slick/slick-theme.css";
