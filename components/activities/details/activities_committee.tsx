@@ -16,8 +16,12 @@ const activities_committee = (props: any) => {
     const changePositionHandler = (event: any) => {
       setSelected(event.target.value);
     }
-  
-    var image = props.image[selected]
+
+    var image = []
+
+    for (let i = 1; i <= props.image[selected].total; i++) {
+      image.push(`/image/activities/${props.code}/committee/${selected}/img_com_${props.image[selected].code}_${i}.jpg`)
+    }
 
     var settings = {
       dots: true,
@@ -56,6 +60,7 @@ const activities_committee = (props: any) => {
         },
       ]
     };
+
     return (
       <div className='max-container h-[650px] flex content-center p-10'>
         <div className='w-full'>
@@ -81,12 +86,9 @@ const activities_committee = (props: any) => {
                   </div>
                 )
                 )}
-
               </Slider>
             </div>
           </div>
-
-
         </div>
       </div>
     )

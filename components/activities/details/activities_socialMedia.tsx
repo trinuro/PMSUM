@@ -6,9 +6,9 @@ import { InstagramEmbed } from 'react-social-media-embed'; //npm install react-s
 const activities_socialMedia = (props: any) => {
   if (props.insta == null)
     return <></>
-  else
+  else {
     return (
-      <div className="bg-cover bg-center" style={{ backgroundImage: `url("/image/activities/${props.code}/${props.bg_image}")` }}>
+      <div className="bg-cover bg-center" style={{ backgroundImage: `url("/image/activities/${props.code}/${(props.bg_image == "banner") ? `img_${props.code}_0.jpg` : props.bg_image}")` }}>
         <div className='w-full p-10 bg-black bg-opacity-80 md:bg md:content-center'>
           <div className='max-container md:flex md:justify-center'>
             <div className='w-full flexCenter'>
@@ -26,6 +26,7 @@ const activities_socialMedia = (props: any) => {
         </div>
       </div>
     )
+  }
 }
 
 export default activities_socialMedia

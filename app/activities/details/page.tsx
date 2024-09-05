@@ -22,7 +22,7 @@ export default function Activities() {
   return (
     <main>
       <div>
-        <Cover code={act_code} title={act[act_code].title} date={act[act_code].date} location={act[act_code].location} video_src={act[act_code].video_src} video_url={act[act_code].video_url} />
+        <Cover code={act_code} title={act[act_code].title} date={act[act_code].date} location={act[act_code].location} video_url={act[act_code].video_url} />
       </div>
       <div id='banner'>
         <Message message={act[act_code].message} />
@@ -33,7 +33,7 @@ export default function Activities() {
         <Youtube id={act[act_code].youtube_id} ack={act[act_code].youtube_acknowledgement} />
         <Highlight content={act[act_code].highlight} />
         <Gallery gallery={act[act_code].gallery} caption={act[act_code].gallery_caption} link={act[act_code].gallery_link} download_name={act[act_code].gallery_download_name} />
-        <Committee list={act[act_code].committee_list} image={act[act_code].committee_image} />
+        <Committee code={act_code} list={act[act_code].committee_list} image={act[act_code].committee_image} />
         <SocialMedia code={act_code} insta={act[act_code].instagram_id} bg_image={act[act_code].instagram_bg_image}/>
       </div>
     </main>

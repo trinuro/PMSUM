@@ -1,11 +1,7 @@
 
 export const act3 = {
   // Cover component
-  video_src: "vid_act3_0.mp4",
   video_url: "https://www.instagram.com/reel/C-o0uTlvtk-/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==",
-
-  // Banner component
-  banner_image_source: "img_act3_0.png",
 
   // Title component
   title: "Fedaralisme Di Malaysia",
@@ -39,7 +35,7 @@ export const act3 = {
 
   // Social Media component
   instagram_id: "C-nAGQZPAuF",
-  instagram_bg_image: "img_act3_0.png",
+  instagram_bg_image: "banner",
 }
 
 export const act2 = {
@@ -52,11 +48,7 @@ export const act2 = {
   ],
 
   // Cover component
-  video_src: "vid_act2_0.mp4",
   video_url: "https://www.instagram.com/reel/CsJDe9BArCm/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==",
-
-  // Banner component
-  banner_image_source: "img_act2_0.png",
 
   // Title component
   title: "Pesta Kenyalang",
@@ -120,84 +112,44 @@ export const act2 = {
     'Biro Persembahan',
   ],
   committee_image: {
-    'Majlis Tertinggi': [
-      "/image/activities/act2/committee/Majlis Tertinggi/img_com_mtt_1.jpg",
-      "/image/activities/act2/committee/Majlis Tertinggi/img_com_mtt_2.jpg",
-      "/image/activities/act2/committee/Majlis Tertinggi/img_com_mtt_3.jpg",
-      "/image/activities/act2/committee/Majlis Tertinggi/img_com_mtt_4.jpg",
-      "/image/activities/act2/committee/Majlis Tertinggi/img_com_mtt_5.jpg",
-    ],
-    'Biro Protokol': [
-      "/image/activities/act2/committee/Biro Protokol/img_com_jnp_1.jpg",
-      "/image/activities/act2/committee/Biro Protokol/img_com_jnp_2.jpg",
-      "/image/activities/act2/committee/Biro Protokol/img_com_jnp_3.jpg",
-      "/image/activities/act2/committee/Biro Protokol/img_com_jnp_4.jpg",
-      "/image/activities/act2/committee/Biro Protokol/img_com_jnp_5.jpg",
-      "/image/activities/act2/committee/Biro Protokol/img_com_jnp_6.jpg",
-      "/image/activities/act2/committee/Biro Protokol/img_com_jnp_7.jpg",
-      "/image/activities/act2/committee/Biro Protokol/img_com_jnp_8.jpg",
-    ],
-    'Biro Media': [
-      "/image/activities/act2/committee/Biro Media/img_com_mmd_1.jpg",
-      "/image/activities/act2/committee/Biro Media/img_com_mmd_2.jpg",
-      "/image/activities/act2/committee/Biro Media/img_com_mmd_3.jpg",
-      "/image/activities/act2/committee/Biro Media/img_com_mmd_4.jpg",
-      "/image/activities/act2/committee/Biro Media/img_com_mmd_5.jpg",
-      "/image/activities/act2/committee/Biro Media/img_com_mmd_6.jpg",
-      "/image/activities/act2/committee/Biro Media/img_com_mmd_7.jpg",
-    ],
-    'Biro Persembahan': [
-      "/image/activities/act2/committee/Biro Persembahan/img_com_psb_1.jpg",
-      "/image/activities/act2/committee/Biro Persembahan/img_com_psb_2.jpg",
-      "/image/activities/act2/committee/Biro Persembahan/img_com_psb_3.jpg",
-      "/image/activities/act2/committee/Biro Persembahan/img_com_psb_4.jpg",
-      "/image/activities/act2/committee/Biro Persembahan/img_com_psb_5.jpg",
-      "/image/activities/act2/committee/Biro Persembahan/img_com_psb_6.jpg",
-      "/image/activities/act2/committee/Biro Persembahan/img_com_psb_7.jpg",
-      "/image/activities/act2/committee/Biro Persembahan/img_com_psb_8.jpg",
-    ],
-    'Biro Dana Jamuan': [
-      "/image/activities/act2/committee/Biro Dana Jamuan/img_com_jnc_1.jpg",
-      "/image/activities/act2/committee/Biro Dana Jamuan/img_com_jnc_2.jpg",
-      "/image/activities/act2/committee/Biro Dana Jamuan/img_com_jnc_3.jpg",
-      "/image/activities/act2/committee/Biro Dana Jamuan/img_com_jnc_4.jpg",
-      "/image/activities/act2/committee/Biro Dana Jamuan/img_com_jnc_5.jpg",
-      "/image/activities/act2/committee/Biro Dana Jamuan/img_com_jnc_6.jpg",
-    ],
-    'Biro Pendaftaran': [
-      "/image/activities/act2/committee/Biro Pendaftaran/img_com_pep_1.jpg",
-      "/image/activities/act2/committee/Biro Pendaftaran/img_com_pep_2.jpg",
-      "/image/activities/act2/committee/Biro Pendaftaran/img_com_pep_3.jpg",
-      "/image/activities/act2/committee/Biro Pendaftaran/img_com_pep_4.jpg",
-      "/image/activities/act2/committee/Biro Pendaftaran/img_com_pep_5.jpg",
-    ],
-    'Biro Logistik': [
-      "/image/activities/act2/committee/Biro Logistik/img_com_log_1.jpg",
-      "/image/activities/act2/committee/Biro Logistik/img_com_log_2.jpg",
-      "/image/activities/act2/committee/Biro Logistik/img_com_log_3.jpg",
-      "/image/activities/act2/committee/Biro Logistik/img_com_log_4.jpg",
-      "/image/activities/act2/committee/Biro Logistik/img_com_log_5.jpg",
-      "/image/activities/act2/committee/Biro Logistik/img_com_log_6.jpg",
-      "/image/activities/act2/committee/Biro Logistik/img_com_log_7.jpg",
-      "/image/activities/act2/committee/Biro Logistik/img_com_log_8.jpg",
-      "/image/activities/act2/committee/Biro Logistik/img_com_log_9.jpg",
-      "/image/activities/act2/committee/Biro Logistik/img_com_log_10.jpg",
-      "/image/activities/act2/committee/Biro Logistik/img_com_log_11.jpg",
-    ],
+    'Majlis Tertinggi': {
+      code: "mtt",
+      total: 6,
+    },
+    'Biro Protokol': {
+      code: "jnp",
+      total: 8,
+    },
+    'Biro Media': {
+      code: "mmd",
+      total: 7,
+    },
+    'Biro Persembahan': {
+      code: "psb",
+      total: 8,
+    },
+    'Biro Dana Jamuan': {
+      code: "jnc",
+      total: 6,
+    },
+    'Biro Pendaftaran': {
+      code: "pep",
+      total: 5,
+    },
+    'Biro Logistik': {
+      code: "log",
+      total: 11,
+    },
   },
 
   // Social Media component
   instagram_id: "C4xqGXPSCWl",
-  instagram_bg_image: "img_act2_0.png",
+  instagram_bg_image: "banner",
 }
 
 export const act1 = {
   // Cover component
-  video_src: "vid_act1_01.mp4",
   video_url: "https://www.instagram.com/reel/C74DkNGyqVZ/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==",
-
-  // Banner component
-  banner_image_source: "img_act1_0.png",
 
   // Title component
   title: "Diskusi Belanjawan Sarawak",
@@ -288,56 +240,41 @@ export const act1 = {
     'Tanjaan'
   ],
   committee_image: {
-    'Majlis Tertinggi': [
-      "/image/activities/act1/committee/Majlis Tertinggi/img_com_mtt_1.jpg",
-      "/image/activities/act1/committee/Majlis Tertinggi/img_com_mtt_2.jpg",
-      "/image/activities/act1/committee/Majlis Tertinggi/img_com_mtt_3.jpg",
-      "/image/activities/act1/committee/Majlis Tertinggi/img_com_mtt_4.jpg",
-      "/image/activities/act1/committee/Majlis Tertinggi/img_com_mtt_5.jpg",
-      "/image/activities/act1/committee/Majlis Tertinggi/img_com_mtt_6.jpg",
-    ],
-    'Jemputan dan Protokol': [
-      "/image/activities/act1/committee/Jemputan dan Protokol/img_com_jnp_1.jpg",
-      "/image/activities/act1/committee/Jemputan dan Protokol/img_com_jnp_2.jpg",
-      "/image/activities/act1/committee/Jemputan dan Protokol/img_com_jnp_3.jpg",
-      "/image/activities/act1/committee/Jemputan dan Protokol/img_com_jnp_4.jpg",
-      "/image/activities/act1/committee/Jemputan dan Protokol/img_com_jnp_5.jpg",
-      "/image/activities/act1/committee/Jemputan dan Protokol/img_com_jnp_6.jpg",
-    ],
-    'Promosi dan Publisiti': [
-      "/image/activities/act1/committee/Promosi dan Publisiti/img_com_pnp_1.jpg",
-      "/image/activities/act1/committee/Promosi dan Publisiti/img_com_pnp_2.jpg",
-      "/image/activities/act1/committee/Promosi dan Publisiti/img_com_pnp_3.jpg",
-      "/image/activities/act1/committee/Promosi dan Publisiti/img_com_pnp_4.jpg",
-      "/image/activities/act1/committee/Promosi dan Publisiti/img_com_pnp_5.jpg",
-    ],
-    'Jamuan dan Cenderamata': [
-      "/image/activities/act1/committee/Jamuan dan Cenderamata/img_com_jnc_1.jpg",
-      "/image/activities/act1/committee/Jamuan dan Cenderamata/img_com_jnc_2.jpg",
-    ],
-    'Penyertaan dan Pendaftaran': [
-      "/image/activities/act1/committee/Penyertaan dan Pendaftaran/img_com_pep_1.jpg",
-      "/image/activities/act1/committee/Penyertaan dan Pendaftaran/img_com_pep_2.jpg",
-      "/image/activities/act1/committee/Penyertaan dan Pendaftaran/img_com_pep_3.jpg",
-    ],
-    'Teknikal': [
-      "/image/activities/act1/committee/Teknikal/img_com_tek_1.jpg",
-      "/image/activities/act1/committee/Teknikal/img_com_tek_2.jpg",
-      "/image/activities/act1/committee/Teknikal/img_com_tek_3.jpg",
-    ],
-    'Tanjaan': [
-      "/image/activities/act1/committee/Tanjaan/img_com_tan_1.jpg",
-      "/image/activities/act1/committee/Tanjaan/img_com_tan_2.jpg",
-      "/image/activities/act1/committee/Tanjaan/img_com_tan_3.jpg",
-    ],
-    'Logistik dan Pengangkutan': [
-      "/image/activities/act1/committee/Logistik dan Pengangkutan/img_com_log_1.jpg",
-      "/image/activities/act1/committee/Logistik dan Pengangkutan/img_com_log_2.jpg",
-      "/image/activities/act1/committee/Logistik dan Pengangkutan/img_com_log_3.jpg",
-    ],
+    'Majlis Tertinggi': {
+      code: "mtt",
+      total: 6,
+    },
+    'Jemputan dan Protokol': {
+      code: "jnp",
+      total: 6,
+    },
+    'Promosi dan Publisiti': {
+      code: "pnp",
+      total: 5,
+    },
+    'Jamuan dan Cenderamata': {
+      code: "jnc",
+      total: 2,
+    },
+    'Penyertaan dan Pendaftaran': {
+      code: "pep",
+      total: 3,
+    },
+    'Teknikal': {
+      code: "tek",
+      total: 3,
+    },
+    'Tanjaan': {
+      code: "tan",
+      total: 3,
+    },
+    'Logistik dan Pengangkutan': {
+      code: "log",
+      total: 3,
+    },
   },
 
   // Social Media component
   instagram_id: "C7FoEfqyq6G",
-  instagram_bg_image: "img_act1_0.png",
+  instagram_bg_image: "banner",
 }

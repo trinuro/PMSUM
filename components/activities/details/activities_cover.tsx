@@ -6,7 +6,7 @@ const activities_cover = (props: any) => {
       <div className='relative h-screen  overflow-hidden -mt-[50px]'>
         <div className='h-screen '>
           <video className='h-full w-full object-cover' autoPlay muted loop>
-            <source src={`/image/activities/${props.code}/${props.video_src}`} type="video/mp4" />
+            <source src={`/image/activities/${props.code}/vid_${props.code}_0.mp4`} type="video/mp4" />
           </video>
           <div>
             <div className='absolute bg-black bg-opacity-60 top-0 w-full h-full'></div>
