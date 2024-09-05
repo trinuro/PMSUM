@@ -114,7 +114,7 @@ export const act2 = {
   committee_image: {
     'Majlis Tertinggi': {
       code: "mtt",
-      total: 6,
+      total: 5,
     },
     'Biro Protokol': {
       code: "jnp",
