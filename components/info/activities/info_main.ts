@@ -18,7 +18,7 @@ export const activity_list = {
     {
         icon : 'act3/img_act3_ico.png',
         icon_alt_name : 'An icon of Federalisme',
-        name : 'Federalisme 2024',
+        name : 'Federalisme Di Malaysia 2024',
         code: 'act3',
         highlighted_picture : 'act3/img_act3_0.png',
         date : '9 November 2024',

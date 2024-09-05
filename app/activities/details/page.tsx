@@ -27,29 +27,13 @@ export default function Activities() {
       <div id='banner'>
         <Message message={act[act_code].message} />
         <Banner code={act_code} src={act[act_code].banner_image_source} title={act[act_code].title} subtitle={act[act_code].subtitle} />
-      </div>
-      <div>
         <Title code={act_code} title={act[act_code].title} date={act[act_code].date} description={act[act_code].description} icon={act[act_code].icon} />
-      </div>
-      <div>
         <Objective content={act[act_code].objective} />
-      </div>
-      <div>
         <Infographic info={act[act_code].infographic} />
-      </div>
-      <div>
         <Youtube id={act[act_code].youtube_id} ack={act[act_code].youtube_acknowledgement} />
-      </div>
-      <div>
         <Highlight content={act[act_code].highlight} />
-      </div>
-      <div>
         <Gallery gallery={act[act_code].gallery} caption={act[act_code].gallery_caption} link={act[act_code].gallery_link} download_name={act[act_code].gallery_download_name} />
-      </div>
-      <div>
         <Committee list={act[act_code].committee_list} image={act[act_code].committee_image} />
-      </div>
-      <div>
         <SocialMedia code={act_code} insta={act[act_code].instagram_id} bg_image={act[act_code].instagram_bg_image}/>
       </div>
     </main>

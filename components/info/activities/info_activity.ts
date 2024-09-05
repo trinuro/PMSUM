@@ -8,7 +8,7 @@ export const act3 = {
   banner_image_source: "img_act3_0.png",
 
   // Title component
-  title: "Fedaralisme",
+  title: "Fedaralisme Di Malaysia",
   subtitle: "2024",
   date: "9 November 2024",
   location: 'TBA',
