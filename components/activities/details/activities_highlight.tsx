@@ -12,7 +12,19 @@ const activities_highlight = (props: any) => {
     infinite: true,
     speed: 500,
     slidesToShow: 1,
-    slidesToScroll: 1
+    slidesToScroll: 1,
+    responsive: [
+      {
+        breakpoint: 640, // width to change options
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1,
+          infinite: false,
+          dots: true,
+          arrows: false,
+        }
+      },
+    ]
   };
 
   if (props.content == null)
@@ -29,7 +41,7 @@ const activities_highlight = (props: any) => {
                 </div>
               </div>
               <div className='w-full flexCenter md:w-auto'>
-                <div className='w-[380px] xl:w-[680px] overflow-hidden'>
+                <div className='w-full sm:w-[380px] xl:w-[680px] '>
                   <Slider {...settings}>
                     {props.content.map((each: { image_url: string; title: string; subtitle: string; content: string; }[][], index: number) => (
                       <div key={index} >
