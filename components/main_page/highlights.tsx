@@ -1,9 +1,9 @@
 import Image from "next/image";
 import { dayak_strip } from "./objective";
-import { ACTIVITY_HIGHLIGHTS } from "@/constants";
+import { ACTIVITY_HIGHLIGHTS } from "@/data";
 import Link from "next/link"
 import Script from "next/script";
-import Highlight_card from "./highlight_card";
+import {Highlight_button} from "./highlight_card";
 
 const background_colour = '[#FCEDDE]';
 
@@ -30,45 +30,20 @@ const Highlights = () =>{
 }
 
 interface HighlightProp{
-    icon : string,
-    icon_alt_name : string,
+    icon : React.ReactNode,
     name : string,
     highlighted_picture : string,
     date : string,
     main_page_link : string,
-    description : string
+    description : string,
+    colour : string,
+    colour_hex : string,
 }
 
-const colour = 'red-dark';
+export const activity_card = (index:Number, {icon, name, highlighted_picture, date, main_page_link, description, colour, colour_hex}:HighlightProp, bg_color:string='transparent') =>{
 
-export const activity_card = (index:Number, {icon, icon_alt_name, name, highlighted_picture, date, main_page_link, description}:HighlightProp, bg_color:string='transparent') =>{
-
-    return (
-        <section key={`highlighted-activity-${index}`} id={`highlighted-activity-${index}`} className={`border-${colour} border-2 bg-${bg_color} border-solid px-4 py-5 rounded-lg max-w-[340px] relative`}>
-            <div className="flex flex-row items-center justify-center pb-5">
-                <Image src={icon} alt={icon_alt_name} height={75} width={75}></Image>
-                <p className="font-extrabold text-[20px] uppercase">{name}</p>
-            </div>
-
-            <div id={`highlighted-activity-back-${index}`} className="hidden">
-                <p className="text-center font-[24px]">{description}</p>
-                <div className="flex justify-between font-extrabold text-[24px] w-full text-right pt-6" id={`arrow-${index}`}>
-                    <Highlight_card index={index}>←</Highlight_card>
-                    <Link href={main_page_link}>LEARN MORE →</Link>
-                </div>
-            </div>
-            
-            <div id={`highlighted-activity-front-${index}`}>
-                <Image src={highlighted_picture} alt="Highlighted picture" height={1024} width={900} className="w-full h-auto"></Image>
-                <p className="pt-5 text-gray-text text-center">Organised on {date}</p>
-                <div className="flex justify-end font-extrabold text-[48px] w-full text-right" id={`arrow-${index}`}>
-                    <Highlight_card index={index}>→</Highlight_card>
-                </div>
-            </div>
-            
-            <Script src='/scripts/highlights_card.js'></Script> 
-            
-        </section>
+    return (        
+        <Highlight_button index={index} icon={icon} name={name} highlighted_picture={highlighted_picture} date={date} main_page_link={main_page_link} description={description} bg_color={bg_color} colour={colour} colour_hex={colour_hex}></Highlight_button>    
     )
 }
 
