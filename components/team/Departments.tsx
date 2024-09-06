@@ -15,7 +15,7 @@ const Departments = () => {
 
         const smoothScroll = () => {
             isScrolling = true;
-            scrollContainer.scrollLeft += scrollAmount * easeOutQuad(0.1);
+            scrollContainer!.scrollLeft += scrollAmount * easeOutQuad(0.1);
             scrollAmount *= 0.9; // Decay factor
 
             if (Math.abs(scrollAmount) > 0.5) {
