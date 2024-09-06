@@ -5,16 +5,26 @@ export const act3 = {
   video_url: "https://www.instagram.com/reel/C-o0uTlvtk-/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==",
 
   // Title component
-  title: "Fedaralisme Di Malaysia",
+  title: "Federalisme Di Malaysia",
   subtitle: "Kesatuan Dalam Kepelbagaian",
   date: "9 November 2024",
   location: 'TBA',
   description: [
-    "Federalisme di Malaysia: Kesatuan dalam Kepelbagaian merupakan sebuah projek Persatuan Mahasiswa Sarawak Universiti Malaya (PMSUM) yang akan diadakan pada 9 November 2024 (Sabtu) selama satu hari.",
-    "Untuk menjayakan usaha ini, program akan menampilkan segmen forum bersama panelis jemputan, diikuti oleh segmen Keynote. Program ini bertujuan untuk membantu mahasiswa memahami konsep federalisme dalam konteks Malaysia yang berbilang entiti politik dan budaya. Program ini turut dapat memberi pemahaman mendalam kepada mahasiswa/i tentang federalisme di Malaysia dan bagaimana ia mempengaruhi kehidupan sebagai seorang rakyat Malaysia.",
+    "Federalism is an event that aims to enhance knowledge and give exposure about federalism in Malaysia. By appreciating and understanding the diversity among the different background among students, unity spirit can be achieved which in hope, will lead to a more harmony society in Malaysia.",
     "",
   ],
   icon: "img_act3_ico.jpg",
+  objective: [
+    [{
+      content: "To understand the federalism concept in Malaysia"
+    }],
+    [{
+      content: "To provide a platform for active discussion about the role and responsibility of each state in the federalism system and how they interact to achieve their vision together"
+    }],
+    [{
+      content: "To identify and analyze the challenges in the federalism system and to understand the advantages that can be beneficial for Malaysia’s civilization"
+    }],
+  ],
 
   // Infographic component
   infographic: {
@@ -57,12 +67,20 @@ export const act2 = {
   date: "12 October 2024 (postponed)",
   location: 'Gazebo KPS Universiti Malaya',
   description: [
-    "“Esensi Cakraya Kenyalang, Swadaya Perpaduan Sarawak” 🌟",
-    "Salam Sejahtera dan Salam Bumi Kenyalang. Festival Kenyalang kembali lagi bagi sesi tahun 2024 dengan pelbagai aktiviti seperti 「Mr. & Miss Kenyalang」🤴👸 dengan tampilan Miss World dan Irama Kenyalang yang menampilkan bakat-bakat terpendam anak-anak Sarawak di Universiti Malaya. ✨",
-    "Selain itu, pelbagai aktiviti sukaneka bertemakan budaya kaum-kaum Sarawak akan dijalankan serta jualan makanan-makanan tradisional Sarawak seperti Laksa Sarawak, Mee Kolok dan lain lain hidangan yang sukar didapati di sini. 🥰🎉",
-    "Ayuh, jangan lepaskan peluang keemasan ini!💫"
+    "Festival Kenyalang is an event that focuses on diversity and cultures in Sarawak. The event holds many competitions that encourage students to participate and learn more about the beauty of the state. Other than focusing on the different languages spoken among Sarawakians from different ethnicities, this event also promotes their many traditional clothes, art and performance including dances and more. Festival Kenyalang is also open to all students from Universiti Malaya to join in order to promote Sarawak’s beauty and culture among the non-Sarawakians.",
   ],
   icon: "img_act2_ico.jpg",
+  objective: [
+    [{
+      content: "To promote Sarawak’s diversity and culture among students"
+    }],
+    [{
+      content: "To promote unity among students from different background, culture and ethnicity"
+    }],
+    [{
+      content: "To encourage students in appreciating the beauty of Sarawak"
+    }],
+  ],
 
   // Infographic component
   infographic: {
@@ -158,27 +176,20 @@ export const act1 = {
   date: "18 May 2024",
   location: "PAUM Clubhouse",
   description: [
-    "",
+    "Diskusi Belanjawan Sarawak is an event that is being held in PAUM Clubhouse, Universitity Malaya. Many clubs and societies of Sarawak from different universities gather to discuss the financial and status quo of the state. This event aims to increase their awareness and understanding about the financial structure of Sarawak through discussion and talks among the representatives and invited VVIP from Sarawak.",
   ],
   icon: "img_act1_ico.jpg",
 
   // Objective component [image source, objective]
   objective: [
     [{
-      image_url: "/image/activities/act1/img_act1_01.jpg",
-      content: "Expose undergraduates to the policies, direction and priorities of the Sarawakian government"
+      content: "To gather Sarawak students from different universities to learn and discuss the financial state of Sarawak"
     }],
     [{
-      image_url: "/image/activities/act1/img_act1_02.jpg",
-      content: "Encourage critical and intellectual inquiry into the Sarawakian Budget"
+      content: "To discuss about the financial state of Sarawak"
     }],
     [{
-      image_url: "/image/activities/act1/img_act1_01.jpg",
-      content: "Provide a platform for undergraduates as future leaders to provide their inputs and suggestions on Sarawak Budget 2025"
-    }],
-    [{
-      image_url: "/image/activities/act1/img_act1_02.jpg",
-      content: "Provide a platform for discussion and debate which may become the reference for the future budgets"
+      content: "To inculcate students in getting to know Sarawak better from the economic and financial aspect"
     }],
   ],
 
@@ -189,19 +200,19 @@ export const act1 = {
   // Highlights component
   highlight: [
     [{
-      image_url: "/image/activities/act1/img_act1_01.jpg",
+      image_url: "/image/activities/act1/img_act1_1.jpg",
       title: "Sarawak Maju Makmur: Rahsia Kerajaan Surplus",
       subtitle: "Speaker: Yang Amat Berhormat Datuk Patinggi Tan Sri (DR) Abang Haji Abdul Rahman Zohari Bin Tun Datuk Abang Haji Openg",
       content: "Yang Amat Berhormat Datuk Patinggi Tan Sri (DR) Abang Haji Abdul Rahman Zohari Bin Tun Datuk Abang Haji Openg shared the secrets of becoming a state with economic surplus in his keynote speech. In this session, undergraduate students had the opportunity to learn more about the Sarawakian economy and other matters that concerned them.",
     }],
     [{
-      image_url: "/image/activities/act1/img_act1_02.jpg",
+      image_url: "/image/activities/act1/img_act1_2.jpg",
       title: "DBS: Ke Arah Kemakmuran Wilayah",
       subtitle: "Speaker: YB Dr. Kelvin Yii Lee Wuen Puan Kho Teck Wan YB Datuk. Dr. Hj. Hazland bin Abang Hj. Hipni",
       content: "In this discussion session, the Sarawakian budget was discussed and analyzed comprehensively from multiple perspectives. Among the topics discussed are the green economy, hydrogen fuel and public transportation.",
     }],
     [{
-      image_url: "/image/activities/act1/img_act1_03.jpg",
+      image_url: "/image/activities/act1/img_act1_3.jpg",
       title: "Ekonomi Hidrogen: Solusi atau Sensasi",
       subtitle: "Speaker: Saudari Nurul Qurratu'aini Saudara Mohd Nur Azuwan",
       content: "A debate session was held between two undergraduate students to have a debate on the economic policy of Sarawak. It encourages students to think critically about the hydrogen economy from multiple viewpoints.",
@@ -210,14 +221,14 @@ export const act1 = {
   
   // Gallery component
   gallery: [
-    ["/image/activities/act1/img_act1_01.jpg", "Multimedia PMSUM"],
-    ["/image/activities/act1/img_act1_02.jpg", "Multimedia PMSUM"],
-    ["/image/activities/act1/img_act1_04.jpg", "Multimedia PMSUM"],
-    ["/image/activities/act1/img_act1_05.jpg", "Multimedia PMSUM"],
-    ["/image/activities/act1/img_act1_06.jpg", "Multimedia PMSUM"],
-    ["/image/activities/act1/img_act1_07.jpg", "Multimedia PMSUM"],
-    ["/image/activities/act1/img_act1_08.jpg", "Multimedia PMSUM"],
-    ["/image/activities/act1/img_act1_09.jpg", "Multimedia PMSUM"],
+    ["/image/activities/act1/img_act1_1.jpg", "Multimedia PMSUM"],
+    ["/image/activities/act1/img_act1_2.jpg", "Multimedia PMSUM"],
+    ["/image/activities/act1/img_act1_4.jpg", "Multimedia PMSUM"],
+    ["/image/activities/act1/img_act1_5.jpg", "Multimedia PMSUM"],
+    ["/image/activities/act1/img_act1_6.jpg", "Multimedia PMSUM"],
+    ["/image/activities/act1/img_act1_7.jpg", "Multimedia PMSUM"],
+    ["/image/activities/act1/img_act1_8.jpg", "Multimedia PMSUM"],
+    ["/image/activities/act1/img_act1_9.jpg", "Multimedia PMSUM"],
     ["/image/activities/act1/img_act1_10.jpg", "Multimedia PMSUM"],
   ],
   gallery_download_name: 'dbs2024',
