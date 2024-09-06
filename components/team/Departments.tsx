@@ -11,7 +11,7 @@ const Departments = () => {
         let isScrolling = false;
         let scrollAmount = 0;
 
-        const easeOutQuad = (t) => t * (2 - t);
+        const easeOutQuad = (t:any) => t * (2 - t);
 
         const smoothScroll = () => {
             isScrolling = true;
@@ -25,15 +25,15 @@ const Departments = () => {
             }
         };
 
-        const handleScroll = (evt) => {
+        const handleScroll = (evt:any) => {
             evt.preventDefault();
             scrollAmount += evt.deltaY;
             if (!isScrolling) smoothScroll();
         };
 
-        scrollContainer.addEventListener('wheel', handleScroll);
+        scrollContainer!.addEventListener('wheel', handleScroll);
 
-        return () => scrollContainer.removeEventListener('wheel', handleScroll);
+        return () => scrollContainer!.removeEventListener('wheel', handleScroll);
     }, []);
 
     return (
