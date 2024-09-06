@@ -5,7 +5,7 @@ export const act3 = {
   video_url: "https://www.instagram.com/reel/C-o0uTlvtk-/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==",
 
   // Title component
-  title: "Fedaralisme Di Malaysia",
+  title: "Federalisme Di Malaysia",
   subtitle: "Kesatuan Dalam Kepelbagaian",
   date: "9 November 2024",
   location: 'TBA',
@@ -165,19 +165,15 @@ export const act1 = {
   // Objective component [image source, objective]
   objective: [
     [{
-      image_url: "/image/activities/act1/img_act1_01.jpg",
       content: "Expose undergraduates to the policies, direction and priorities of the Sarawakian government"
     }],
     [{
-      image_url: "/image/activities/act1/img_act1_02.jpg",
       content: "Encourage critical and intellectual inquiry into the Sarawakian Budget"
     }],
     [{
-      image_url: "/image/activities/act1/img_act1_01.jpg",
       content: "Provide a platform for undergraduates as future leaders to provide their inputs and suggestions on Sarawak Budget 2025"
     }],
     [{
-      image_url: "/image/activities/act1/img_act1_02.jpg",
       content: "Provide a platform for discussion and debate which may become the reference for the future budgets"
     }],
   ],
@@ -189,19 +185,19 @@ export const act1 = {
   // Highlights component
   highlight: [
     [{
-      image_url: "/image/activities/act1/img_act1_01.jpg",
+      image_url: "/image/activities/act1/img_act1_1.jpg",
       title: "Sarawak Maju Makmur: Rahsia Kerajaan Surplus",
       subtitle: "Speaker: Yang Amat Berhormat Datuk Patinggi Tan Sri (DR) Abang Haji Abdul Rahman Zohari Bin Tun Datuk Abang Haji Openg",
       content: "Yang Amat Berhormat Datuk Patinggi Tan Sri (DR) Abang Haji Abdul Rahman Zohari Bin Tun Datuk Abang Haji Openg shared the secrets of becoming a state with economic surplus in his keynote speech. In this session, undergraduate students had the opportunity to learn more about the Sarawakian economy and other matters that concerned them.",
     }],
     [{
-      image_url: "/image/activities/act1/img_act1_02.jpg",
+      image_url: "/image/activities/act1/img_act1_2.jpg",
       title: "DBS: Ke Arah Kemakmuran Wilayah",
       subtitle: "Speaker: YB Dr. Kelvin Yii Lee Wuen Puan Kho Teck Wan YB Datuk. Dr. Hj. Hazland bin Abang Hj. Hipni",
       content: "In this discussion session, the Sarawakian budget was discussed and analyzed comprehensively from multiple perspectives. Among the topics discussed are the green economy, hydrogen fuel and public transportation.",
     }],
     [{
-      image_url: "/image/activities/act1/img_act1_03.jpg",
+      image_url: "/image/activities/act1/img_act1_3.jpg",
       title: "Ekonomi Hidrogen: Solusi atau Sensasi",
       subtitle: "Speaker: Saudari Nurul Qurratu'aini Saudara Mohd Nur Azuwan",
       content: "A debate session was held between two undergraduate students to have a debate on the economic policy of Sarawak. It encourages students to think critically about the hydrogen economy from multiple viewpoints.",
@@ -210,14 +206,14 @@ export const act1 = {
   
   // Gallery component
   gallery: [
-    ["/image/activities/act1/img_act1_01.jpg", "Multimedia PMSUM"],
-    ["/image/activities/act1/img_act1_02.jpg", "Multimedia PMSUM"],
-    ["/image/activities/act1/img_act1_04.jpg", "Multimedia PMSUM"],
-    ["/image/activities/act1/img_act1_05.jpg", "Multimedia PMSUM"],
-    ["/image/activities/act1/img_act1_06.jpg", "Multimedia PMSUM"],
-    ["/image/activities/act1/img_act1_07.jpg", "Multimedia PMSUM"],
-    ["/image/activities/act1/img_act1_08.jpg", "Multimedia PMSUM"],
-    ["/image/activities/act1/img_act1_09.jpg", "Multimedia PMSUM"],
+    ["/image/activities/act1/img_act1_1.jpg", "Multimedia PMSUM"],
+    ["/image/activities/act1/img_act1_2.jpg", "Multimedia PMSUM"],
+    ["/image/activities/act1/img_act1_4.jpg", "Multimedia PMSUM"],
+    ["/image/activities/act1/img_act1_5.jpg", "Multimedia PMSUM"],
+    ["/image/activities/act1/img_act1_6.jpg", "Multimedia PMSUM"],
+    ["/image/activities/act1/img_act1_7.jpg", "Multimedia PMSUM"],
+    ["/image/activities/act1/img_act1_8.jpg", "Multimedia PMSUM"],
+    ["/image/activities/act1/img_act1_9.jpg", "Multimedia PMSUM"],
     ["/image/activities/act1/img_act1_10.jpg", "Multimedia PMSUM"],
   ],
   gallery_download_name: 'dbs2024',
