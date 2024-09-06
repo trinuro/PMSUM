@@ -6,7 +6,6 @@ import Card_flip from "react-card-flip"; // npm install react-card-flip
 import IconDiskusiBelanjawan from '../navbar/IconDiskusiBelanjawan';
 import React from 'react';
 
-
 interface highlightButtonProp{
     icon : React.ReactNode,
     name : string,
@@ -34,7 +33,7 @@ export function Highlight_button({icon, name, index, highlighted_picture, date, 
             {/* Front */}
             <section key={`highlighted-activity-${index}`} id={`highlighted-activity-${index}`} className={`border-${colour} border-2 bg-${bg_color} border-solid px-4 py-5 rounded-lg max-w-[340px] relative min-h-[500px]`}
             style={{
-                'border-color':colour_hex,
+                'borderColor':colour_hex,
             }}
             >
 
@@ -58,7 +57,7 @@ export function Highlight_button({icon, name, index, highlighted_picture, date, 
             {/* Back */}
             <section key={`highlighted-activity-${index}`} id={`highlighted-activity-${index}`} className={`min-h-[500px] bg-${colour} px-4 py-5 rounded-lg max-w-[340px] relative text-white`}
             style={{
-                'background-color':colour_hex,
+                'backgroundColor':colour_hex,
             }} 
             >{/*Backup incase the colour fails for whatever reason*/}
                 <div className="flex flex-row items-center justify-center pb-5">

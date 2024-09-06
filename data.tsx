@@ -16,17 +16,17 @@ type Activity = {
     {
       title: "Diskusi Belanjawan Sarawak",
       path:"/activities/details?code=act1",
-      icon: <IconDiskusiBelanjawan />,
+      icon: <IconDiskusiBelanjawan isHovered={false}/>,
     },
     {
       title: "Pesta Kenyalang",
       path:"/activities/details?code=act2",
-      icon: <IconFestivalKenyalang />,
+      icon: <IconFestivalKenyalang isHovered={false}/>,
     },
     {
       title: "Federalisme di Malaysia",
       path:"/activities/details?code=act3",
-      icon: <IconFederalisme />,
+      icon: <IconFederalisme isHovered={false}/>,
     }
   ];  
   
@@ -72,7 +72,7 @@ type ActivityHighlights = ActivityHighlight[];
 
   export const ACTIVITY_HIGHLIGHTS : ActivityHighlights = [
     {
-        icon : <IconDiskusiBelanjawan />,
+        icon : <IconDiskusiBelanjawan isHovered={false} />,
         name : 'Diskusi Belanjawan Sarawak',
         highlighted_picture : '/image/townhall_bersama_premier.jpg',
         date : '18 May 2024',
@@ -82,7 +82,7 @@ type ActivityHighlights = ActivityHighlight[];
         colour_hex : '#CE1126',
      },
      {
-      icon : <IconFestivalKenyalang/>,
+      icon : <IconFestivalKenyalang isHovered={false}/>,
       name : 'Festival Kenyalang',
       highlighted_picture : '/image/townhall_bersama_premier.jpg',
       date : '18 May 2024',
@@ -92,7 +92,7 @@ type ActivityHighlights = ActivityHighlight[];
       colour_hex : '#FFCA11',
    },
    {
-    icon : <IconFederalisme />,
+    icon : <IconFederalisme isHovered={false}/>,
     name : 'Federalisme: Kesatuan Dalam Kepelbagaian',
     highlighted_picture : '/image/townhall_bersama_premier.jpg',
     date : '18 May 2024',

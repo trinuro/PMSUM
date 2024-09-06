@@ -1,8 +1,6 @@
-import Image from "next/image";
 import { dayak_strip } from "./objective";
 import { ACTIVITY_HIGHLIGHTS } from "@/data";
 import Link from "next/link"
-import Script from "next/script";
 import {Highlight_button} from "./highlight_card";
 
 const background_colour = '[#FCEDDE]';
