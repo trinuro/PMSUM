@@ -135,13 +135,20 @@ body{
     scrollbar-width: none;  /* Firefox */
   }
 
+  .menuIcon {
+    cursor: pointer;
+    fill: #ffffff;
+  }
+
+  .menuIcon:hover {
+    fill: #ce1126;
+  }
 
   .contactIcon {
-    cursor: pointer;
     width: 24px;
     height: 24px;
+    fill: #ce1126;
   }
-  
 
   .contactIcon:hover {
     fill: #FCD106;
@@ -155,5 +162,4 @@ body{
   .closeIcon:hover {
     opacity: 1;
   }
-
 }

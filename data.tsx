@@ -15,17 +15,17 @@ type Activity = {
   export const ActivityList: Activities = [
     {
       title: "Diskusi Belanjawan Sarawak",
-      path:"#",
+      path:"/activities/2024/dbs2024",
       icon: <IconDiskusiBelanjawan />,
     },
     {
-      title: "Festival Kenyalang",
-      path:"#",
+      title: "Pesta Kenyalang",
+      path:"/activities/2024/pestakenyalang2024",
       icon: <IconFestivalKenyalang />,
     },
     {
       title: "Federalisme di Malaysia",
-      path:"#",
+      path:"/activities/2024/federalisme2024",
       icon: <IconFederalisme />,
     }
   ];  
@@ -43,17 +43,17 @@ type Activity = {
   export const MenuList: Menus = [
     {
       title: "Home",
-      path:"#",
+      path:"/",
     },
     {
       title: "Activity",
-      path:"#",
+      path:"/activities",
       dropdownMenu:true,
       dropdownMenuItems: ActivityList,
     },
     {
       title: "Who We Are",
-      path:"#",
+      path:"/team",
     },
   ]
 
