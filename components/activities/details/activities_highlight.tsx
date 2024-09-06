@@ -6,7 +6,9 @@ import Slider from "react-slick"; //npm install react-slick --save && npm instal
 import "slick-carousel/slick/slick.css"; // npm install slick-carousel
 import "slick-carousel/slick/slick-theme.css";
 
-const activities_highlight = (props: any) => {
+const activities_highlight = ({act_code}:any) => {
+  const act = require('@/components/info/activities/info_activity')
+
   var settings = {
     dots: false,
     infinite: true,
@@ -27,7 +29,7 @@ const activities_highlight = (props: any) => {
     ]
   };
 
-  if (props.content == null)
+  if (act[act_code].highlight == null)
     return <></>
   else
     return (
@@ -43,7 +45,7 @@ const activities_highlight = (props: any) => {
               <div className='w-full flexCenter md:w-auto'>
                 <div className='w-full sm:w-[380px] xl:w-[680px] '>
                   <Slider {...settings}>
-                    {props.content.map((each: { image_url: string; title: string; subtitle: string; content: string; }[][], index: number) => (
+                    {act[act_code].highlight.map((each: { image_url: string; title: string; subtitle: string; content: string; }[][], index: number) => (
                       <div key={index} >
                         <div className='h-[500px] content-center flexCenter'>
                           <div>

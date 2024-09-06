@@ -6,12 +6,14 @@ import Slider from "react-slick"; //npm install react-slick --save && npm instal
 import "slick-carousel/slick/slick.css"; // npm install slick-carousel
 import "slick-carousel/slick/slick-theme.css";
 
-const activities_committee = (props: any) => {
-  if (props.list == null) {
+const activities_committee = ({act_code}:any) => {
+  const act = require('@/components/info/activities/info_activity')
+
+  if (act[act_code].committee_list == null) {
     return <></>
   }
   else {
-    const [selected, setSelected] = useState(props.list[0]);
+    const [selected, setSelected] = useState(act[act_code].committee_list[0]);
 
     const changePositionHandler = (event: any) => {
       setSelected(event.target.value);
@@ -19,8 +21,8 @@ const activities_committee = (props: any) => {
 
     var image = []
 
-    for (let i = 1; i <= props.image[selected].total; i++) {
-      image.push(`/image/activities/${props.code}/committee/${selected}/img_com_${props.image[selected].code}_${i}.jpg`)
+    for (let i = 1; i <= act[act_code].committee_image[selected].total; i++) {
+      image.push(`/image/activities/${act_code}/committee/${selected}/img_com_${act[act_code].committee_image[selected].code}_${i}.jpg`)
     }
 
     var settings = {
@@ -69,7 +71,7 @@ const activities_committee = (props: any) => {
           </div>
           <div className='mt-4'>
             <select id="committee" className='border-solid border-black border-2 rounded w-fit p-3' onChange={changePositionHandler}>
-              {props.list.map((each: string, index: number) => (
+              {act[act_code].committee_list.map((each: string, index: number) => (
                 <option key={index}>{each}</option>
               )
               )}

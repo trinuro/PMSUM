@@ -1,18 +1,19 @@
 import React from 'react';
 
-const activities_youtube = (props: any) => {
-  if (props.id == null)
+const activities_youtube = ({act_code}:any) => {
+  const act = require('@/components/info/activities/info_activity')
+  if (act[act_code].youtube_id == null)
     return <></>
   else
     return (
-      <div className="bg-cover bg-center" style={{ backgroundImage: `url(https://img.youtube.com/vi/${props.id}/maxresdefault.jpg)` }}>
+      <div className="bg-cover bg-center" style={{ backgroundImage: `url(https://img.youtube.com/vi/${act[act_code].youtube_id}/maxresdefault.jpg)` }}>
         <div className='w-full md:h-[500px] p-10 bg-black bg-opacity-80 md:bg md:content-center'>
           <div className='max-container flex flex-col-reverse md:flex-row md:justify-center'>
             <div className='w-full flexCenter my-10 md:my-0'>
               <iframe
                 width="424"
                 height="238"
-                src={`https://www.youtube.com/embed/${props.id}`}
+                src={`https://www.youtube.com/embed/${act[act_code].youtube_id}`}
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                 referrerPolicy="strict-origin-when-cross-origin"
                 allowFullScreen>
@@ -27,7 +28,7 @@ const activities_youtube = (props: any) => {
         </div>
         <div className='w-full absolute inset-x-0 -m-14 mx-auto'>
           <div className='text-center font-bold text-xl text-white'>
-            {props.ack}
+            {act[act_code].youtube_acknowledgement}
           </div>
         </div>
       </div>

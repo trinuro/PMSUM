@@ -4,21 +4,23 @@ import React from 'react';
 import { Slide } from 'react-slideshow-image';
 import 'react-slideshow-image/dist/styles.css'
 
-const activities_gallery = (props: any) => {
+const activities_gallery = ({act_code}:any) => {
+  const act = require('@/components/info/activities/info_activity')
+
   const slideProperties = {
     scale: 1,
     duration: 3500,
     trasitionDuration: 100,
     infinity: true,
   }
-  if (props.gallery == null)
+  if (act[act_code].gallery == null)
     return <></>
   else
     return (
       <div className='w-full'>
         <div>
           <Slide {...slideProperties}>
-            {props.gallery.map((each: string[], index: number) => (
+            {act[act_code].gallery.map((each: string[], index: number) => (
               <div key={index} >
                 <div className='bg-cover bg-center ' style={{ backgroundImage: "url(" + each[0] + ")" }}>
                   <div className='bg-black bg-opacity-50 backdrop-blur-lg'>
@@ -31,7 +33,7 @@ const activities_gallery = (props: any) => {
                       Credit: {each[1]}
                     </div>
                     <div className=''>
-                      <a href={each[0]} download={props.download_name} className="bg-gray-300 hover:bg-gray-400 text-gray-800 font-bold py-2 px-4 rounded inline-flex items-center">
+                      <a href={each[0]} download={act[act_code].gallery_download_name} className="bg-gray-300 hover:bg-gray-400 text-gray-800 font-bold py-2 px-4 rounded inline-flex items-center">
                         <svg className="fill-current w-4 h-4 mr-2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path d="M13 8V2H7v6H2l8 8 8-8h-5zM0 18h20v2H0v-2z" /></svg>
                         <span>Download</span>
                       </a>
@@ -45,10 +47,10 @@ const activities_gallery = (props: any) => {
         </div>
         <div className='pt-8 max-container w-full'>
           <div className=' px-10'>
-            {props.caption}
+            {act[act_code].gallery_caption}
           </div>
           <div className='pt-10 pb-12 px-10 flexCenter'>
-            <a href={props.link} target='_blank' className='bg-yellow-dark py-4 px-6 rounded-full hover:bg-opacity-60 active:bg-opacity-80'>More image</a>
+            <a href={act[act_code].gallery_link} target='_blank' className='bg-yellow-dark py-4 px-6 rounded-full hover:bg-opacity-60 active:bg-opacity-80'>More image</a>
           </div>
         </div>
       </div>
