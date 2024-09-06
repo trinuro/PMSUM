@@ -81,7 +81,7 @@ const Navbar = () => {
         {/* Tablet and Desktop Menu */}
         <div className="hidden md:flex">
           <ul className="flex space-x-4">
-            {MenuList.map((menu) => (
+            {MenuList.map((menu:any) => (
               <li key={menu.title} className="relative">
                 <div
                   className={`w-full py-2 flex items-center cursor-pointer transition duration-200 z-20 border-b-2 border-white active:bg-zinc-300/60 ${

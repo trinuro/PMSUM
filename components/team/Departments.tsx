@@ -11,11 +11,11 @@ const Departments = () => {
         let isScrolling = false;
         let scrollAmount = 0;
 
-        const easeOutQuad = (t) => t * (2 - t);
+        const easeOutQuad = (t:any) => t * (2 - t);
 
         const smoothScroll = () => {
             isScrolling = true;
-            scrollContainer.scrollLeft += scrollAmount * easeOutQuad(0.1);
+            scrollContainer!.scrollLeft += scrollAmount * easeOutQuad(0.1);
             scrollAmount *= 0.9; // Decay factor
 
             if (Math.abs(scrollAmount) > 0.5) {
@@ -25,15 +25,15 @@ const Departments = () => {
             }
         };
 
-        const handleScroll = (evt) => {
+        const handleScroll = (evt:any) => {
             evt.preventDefault();
             scrollAmount += evt.deltaY;
             if (!isScrolling) smoothScroll();
         };
 
-        scrollContainer.addEventListener('wheel', handleScroll);
+        scrollContainer!.addEventListener('wheel', handleScroll);
 
-        return () => scrollContainer.removeEventListener('wheel', handleScroll);
+        return () => scrollContainer!.removeEventListener('wheel', handleScroll);
     }, []);
 
     return (

@@ -12,7 +12,7 @@ import styles from './BioAutography.module.css';
 const BioAutography = () => {
   const [selectedItem, setSelectedItem] = useState(null);
 
-  const openModal = (item) => {
+  const openModal = (item:any) => {
     setSelectedItem(item);
   };
 
