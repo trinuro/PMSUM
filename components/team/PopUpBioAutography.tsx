@@ -5,9 +5,8 @@ import { FaXTwitter } from "react-icons/fa6";
 import { IoLogoLinkedin } from "react-icons/io5";
 import { IconContext } from "react-icons";
 import { IoClose } from "react-icons/io5";
-import styles from './PopUpBioAutography.module.css';
 
-const PopUpBioAutography = ({ selectedItem, onClose }) => {
+const PopUpBioAutography = ({ selectedItem, onClose }:any) => {
   return (
     <div className="fixed inset-0 z-50 flex items-center justify-center bg-gray-500 bg-opacity-75">
       <div className="relative lg:flexCenter bg-white rounded-lg shadow-xl w-11/12 md:w-3/4 lg:w-2/3 h-auto max-h-[80%] overflow-y-auto p-6">

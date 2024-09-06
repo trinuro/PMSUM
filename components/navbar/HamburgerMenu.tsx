@@ -48,7 +48,7 @@ const HamburgerMenu = ({ isScroll }: { isScroll: boolean }) => {
       {/* Dropdown Menu */}
       {open && (
         <div className="bg-white text-black absolute left-0 top-[48px] sm:top-[64px] md:top-[80px] w-full h-[calc(100vh-48px)] flex flex-col items-start justify-start px-8 py-4 z-10">
-          {MenuList.map((item) => (
+          {MenuList.map((item:any) => (
             <div key={item.title} className="w-full">
               <div
                 className="w-full py-4 flex items-center justify-between cursor-pointer transition duration-200 hover:bg-zinc-100/60 focus:bg-zinc-100/60 active:bg-zinc-300/60 border-b-2 border-black"
