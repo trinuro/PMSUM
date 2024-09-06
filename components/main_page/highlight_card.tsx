@@ -17,10 +17,11 @@ interface highlightButtonProp{
     description : string,
     bg_color : string,
     colour : string,
+    colour_hex : string,
 }
 
 
-export function Highlight_button({icon, name, index, highlighted_picture, date, main_page_link, description, bg_color, colour}:highlightButtonProp){
+export function Highlight_button({icon, name, index, highlighted_picture, date, main_page_link, description, bg_color, colour, colour_hex}:highlightButtonProp){
     const [isFlipped, setIsFlipped] = useState(false);
 
     function flipCard() {
@@ -31,9 +32,13 @@ export function Highlight_button({icon, name, index, highlighted_picture, date, 
         <>
         <Card_flip flipDirection='horizontal' isFlipped={isFlipped}>
             {/* Front */}
-            <section key={`highlighted-activity-${index}`} id={`highlighted-activity-${index}`} className={`border-${colour} border-2 bg-${bg_color} border-solid px-4 py-5 rounded-lg max-w-[340px] relative`}>
+            <section key={`highlighted-activity-${index}`} id={`highlighted-activity-${index}`} className={`border-${colour} border-2 bg-${bg_color} border-solid px-4 py-5 rounded-lg max-w-[340px] relative min-h-[500px]`}
+            style={{
+                'border-color':colour_hex,
+            }}
+            >
 
-                <div className="flex flex-row items-center justify-center pb-5">
+                <div className="flex flex-row items-center justify-center pb-5 gap-5 min-h-[120px]">
                         {/* <Image src={icon} alt={icon_alt_name} height={75} width={75}></Image> */}
                         {React.cloneElement(icon as React.ReactElement<any>)}
                         <p className="font-extrabold text-[20px] uppercase">{name}</p>
@@ -51,7 +56,11 @@ export function Highlight_button({icon, name, index, highlighted_picture, date, 
                 </div>
             </section>
             {/* Back */}
-            <section key={`highlighted-activity-${index}`} id={`highlighted-activity-${index}`} className={`bg-${colour} px-4 py-5 rounded-lg max-w-[340px] relative text-white`}>
+            <section key={`highlighted-activity-${index}`} id={`highlighted-activity-${index}`} className={`min-h-[500px] bg-${colour} px-4 py-5 rounded-lg max-w-[340px] relative text-white`}
+            style={{
+                'background-color':colour_hex,
+            }} 
+            >{/*Backup incase the colour fails for whatever reason*/}
                 <div className="flex flex-row items-center justify-center pb-5">
                     {React.cloneElement(icon as React.ReactElement<any>)}
                     <p className="font-extrabold text-[20px] uppercase">{name}</p>

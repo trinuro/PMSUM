@@ -37,12 +37,13 @@ interface HighlightProp{
     main_page_link : string,
     description : string,
     colour : string,
+    colour_hex : string,
 }
 
-export const activity_card = (index:Number, {icon, name, highlighted_picture, date, main_page_link, description, colour}:HighlightProp, bg_color:string='transparent') =>{
+export const activity_card = (index:Number, {icon, name, highlighted_picture, date, main_page_link, description, colour, colour_hex}:HighlightProp, bg_color:string='transparent') =>{
 
     return (        
-        <Highlight_button index={index} icon={icon} name={name} highlighted_picture={highlighted_picture} date={date} main_page_link={main_page_link} description={description} bg_color={bg_color} colour={colour}></Highlight_button>    
+        <Highlight_button index={index} icon={icon} name={name} highlighted_picture={highlighted_picture} date={date} main_page_link={main_page_link} description={description} bg_color={bg_color} colour={colour} colour_hex={colour_hex}></Highlight_button>    
     )
 }
 
