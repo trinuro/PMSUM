@@ -28,6 +28,7 @@ const config: Config = {
         red : {
           'dark' : '#CE1126'
         },
+        'federalisme' : '#F6786A',
         'gray-text' : '#363636',
       },
       fontFamily: {

@@ -1,6 +1,6 @@
 const Hero = () =>{
-    return (<section className="bg-hero-bg h-screen relative">
-        {dayak_strip('h-32 top-0 opacity-40')}
+    return (<section className="bg-hero-bg h-[93vh] relative">
+        {dayak_strip('h-20 lg:h-32 top-0 opacity-40')}
         <section className="flex max-container padding-container justify-between pt-36">
             <div></div>
             <div className="font-extrabold z-20 [text-shadow:_0_3px_0_rgb(0_0_0_/_40%)]">
@@ -19,7 +19,12 @@ const Hero = () =>{
 
 const dayak_strip = (position : string) =>{
     return (
-        <section className={`absolute bg-dayak-motif w-full bg-center ${position}`}></section>
+        <section className={`absolute bg-dayak-motif w-full bg-center ${position}`} 
+        style={{
+            backgroundRepeat: 'repeat-x', // Repeats the pattern horizontally
+            backgroundSize: 'auto 100%', // Scales the pattern to fit the height of the header
+          }}
+        ></section>
     )
 }
 
