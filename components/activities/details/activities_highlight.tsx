@@ -20,7 +20,7 @@ const activities_highlight = (props: any) => {
   else
     return (
       <div>
-        <div className="bg-cover bg-center" style={{ backgroundImage: "url(/image/activities/act1/img_act1_01.jpg)" }}>
+        <div className="bg-cover bg-center" style={{ backgroundImage: "url(/image/activities/act1/img_act1_1.jpg)" }}>
           <div className='w-full md:h-[500px] bg-black bg-opacity-80 md:bg md:content-center pt-10 md:pt-0'>
             <div className='max-container md:flex md:justify-evenly '>
               <div className='w-full md:w-1/3 flexCenter'>
