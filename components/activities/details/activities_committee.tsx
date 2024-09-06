@@ -76,7 +76,7 @@ const activities_committee = (props: any) => {
             </select>
           </div>
           <div className='mt-8 flexCenter bg-yellow-dark bg-opacity-50 rounded-md'>
-            <div className='h-[400px] w-[400px] lg:w-[850px] 2xl:w-[1250px] content-center'>
+            <div className='h-[400px] w-[400px] lg:w-[850px] 2xl:w-[1250px] content-center overflow-hidden'>
               <Slider {...settings}>
                 {image.map((each: string, index: number) => (
                   <div key={index}>

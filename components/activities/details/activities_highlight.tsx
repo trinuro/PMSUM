@@ -29,7 +29,7 @@ const activities_highlight = (props: any) => {
                 </div>
               </div>
               <div className='w-full flexCenter md:w-auto'>
-                <div className='w-[380px] xl:w-[680px] '>
+                <div className='w-[380px] xl:w-[680px] overflow-hidden'>
                   <Slider {...settings}>
                     {props.content.map((each: { image_url: string; title: string; subtitle: string; content: string; }[][], index: number) => (
                       <div key={index} >

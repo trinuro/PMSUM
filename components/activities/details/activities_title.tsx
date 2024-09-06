@@ -17,7 +17,7 @@ const Description = (props: any) => {
   else
     return (
       <div className='bg-yellow-dark bg-opacity-40'>
-        <div className='pt-10 pb-6 px-20 w-full max-container '>
+        <div className='pt-10 pb-6 px-10 md:px-20 w-full max-container '>
           {props.description.map((each: any, index: number) => (
             <div key={index} className='mb-4'>
               {each}
@@ -31,7 +31,7 @@ const Description = (props: any) => {
 const activities_title = (props: any) => {
   return (
     <div>
-      <div className='w-full max-container  pl-20 md:pr-10 lg:pr-20' >
+      <div className='w-full max-container pl-10 md:pl-20 md:pr-10 lg:pr-20' >
         <div className='py-6 bg-no-repeat bg-right-top bg-[length:200px]' style={{ backgroundImage: `url(/image/activities/${props.code}/${props.icon})` }}>
           <div className='w-[200px] sm:w-full'>
             <div className='font-semibold text-4xl'>{props.title}</div>
