@@ -1,5 +1,5 @@
 const Hero = () =>{
-    return (<section className="bg-hero-bg h-screen relative">
+    return (<section className="bg-hero-bg h-screen relative -mt-[80px]">
         {dayak_strip('h-20 lg:h-32 top-0 opacity-40')}
         <section className="flex max-container padding-container justify-between pt-36">
             <div></div>

@@ -10,7 +10,7 @@ import styles from './PopUpBioAutography.module.css';
 const PopUpBioAutography = ({ selectedItem, onClose }) => {
   return (
     <div className="fixed inset-0 z-50 flex items-center justify-center bg-gray-500 bg-opacity-75">
-      <div className="relative lg:flexCenter bg-white dark:bg-gray-800 rounded-lg shadow-xl w-11/12 md:w-3/4 lg:w-2/3 h-auto max-h-[80%] overflow-y-auto p-6">
+      <div className="relative lg:flexCenter bg-white rounded-lg shadow-xl w-11/12 md:w-3/4 lg:w-2/3 h-auto max-h-[80%] overflow-y-auto p-6">
         {/* Close Button */}
         <button
           className="absolute top-2 right-2 text-gray-400 hover:text-gray-600"
@@ -34,10 +34,10 @@ const PopUpBioAutography = ({ selectedItem, onClose }) => {
                 height={300}
               />
             </div>
-            <h3 className="text-2xl font-bold text-gray-900 dark:text-white text-center mb-2">
+            <h3 className="text-2xl font-bold text-gray-900 text-center mb-2">
               {selectedItem.name}
             </h3>
-            <p className="text-center text-gray-500 dark:text-gray-400 mb-4">
+            <p className="text-center text-gray-500 mb-4">
               {selectedItem.position}
             </p>
             <ul className="flex justify-center items-center space-x-4 mb-4">
