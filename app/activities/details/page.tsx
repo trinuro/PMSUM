@@ -35,7 +35,7 @@ const Act = () => {
         <div>
           <Cover act_code={act_code}/>
         </div>
-        <div id='banner'>
+        <div id='banner'className='max-w-screen overflow-hidden'>
           <Message act_code={act_code}/>
           <Banner act_code={act_code}/>
           <Title act_code={act_code}/>
