@@ -206,7 +206,7 @@ export const act1 = {
       content: "Yang Amat Berhormat Datuk Patinggi Tan Sri (DR) Abang Haji Abdul Rahman Zohari Bin Tun Datuk Abang Haji Openg shared the secrets of becoming a state with economic surplus in his keynote speech. In this session, undergraduate students had the opportunity to learn more about the Sarawakian economy and other matters that concerned them.",
     }],
     [{
-      image_url: "/image/activities/act1/img_act1_2.jpg",
+      image_url: "/image/activities/act1/img_act1_2.JPG",
       title: "DBS: Ke Arah Kemakmuran Wilayah",
       subtitle: "Speaker: YB Dr. Kelvin Yii Lee Wuen Puan Kho Teck Wan YB Datuk. Dr. Hj. Hazland bin Abang Hj. Hipni",
       content: "In this discussion session, the Sarawakian budget was discussed and analyzed comprehensively from multiple perspectives. Among the topics discussed are the green economy, hydrogen fuel and public transportation.",
@@ -222,14 +222,14 @@ export const act1 = {
   // Gallery component
   gallery: [
     ["/image/activities/act1/img_act1_1.jpg", "Multimedia PMSUM"],
-    ["/image/activities/act1/img_act1_2.jpg", "Multimedia PMSUM"],
-    ["/image/activities/act1/img_act1_4.jpg", "Multimedia PMSUM"],
-    ["/image/activities/act1/img_act1_5.jpg", "Multimedia PMSUM"],
-    ["/image/activities/act1/img_act1_6.jpg", "Multimedia PMSUM"],
-    ["/image/activities/act1/img_act1_7.jpg", "Multimedia PMSUM"],
-    ["/image/activities/act1/img_act1_8.jpg", "Multimedia PMSUM"],
-    ["/image/activities/act1/img_act1_9.jpg", "Multimedia PMSUM"],
-    ["/image/activities/act1/img_act1_10.jpg", "Multimedia PMSUM"],
+    ["/image/activities/act1/img_act1_2.JPG", "Multimedia PMSUM"],
+    ["/image/activities/act1/img_act1_4.JPG", "Multimedia PMSUM"],
+    ["/image/activities/act1/img_act1_5.JPG", "Multimedia PMSUM"],
+    ["/image/activities/act1/img_act1_6.JPG", "Multimedia PMSUM"],
+    ["/image/activities/act1/img_act1_7.JPG", "Multimedia PMSUM"],
+    ["/image/activities/act1/img_act1_8.JPG", "Multimedia PMSUM"],
+    ["/image/activities/act1/img_act1_9.JPG", "Multimedia PMSUM"],
+    ["/image/activities/act1/img_act1_10.JPG", "Multimedia PMSUM"],
   ],
   gallery_download_name: 'dbs2024',
   gallery_caption: `

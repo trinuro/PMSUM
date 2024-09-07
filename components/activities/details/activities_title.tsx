@@ -33,7 +33,7 @@ const activities_title = ({act_code}: any) => {
   return (
     <div>
       <div className='w-full max-container pl-10 md:pl-20 md:pr-10 lg:pr-20' >
-        <div className='py-6 bg-no-repeat bg-right-top bg-[length:200px]' style={{ backgroundImage: `url(/image/activities/${act_code}/${act_code})` }}>
+        <div className='py-6 bg-no-repeat bg-right-top bg-[length:200px]' style={{ backgroundImage: `url(/image/activities/${act_code}/img_${act_code}_ico.jpg)` }}>
           <div className='w-[200px] sm:w-full'>
             <div className='font-semibold text-4xl'>{act[act_code].title}</div>
             <div className='text-xl text-gray-500 sm:flex '>
