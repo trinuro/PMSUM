@@ -6,36 +6,36 @@ type Department = {
   };
   
   type Departments = Department[];
-  
+
   export const departmentList: Departments = [
     {
       id: 1,
       title: "Academic and Intellectual",
-      description: "Lorem ipsum dolor sit amet consectetur. Orci porttitor imperdiet enim odio amet.",
+      description: "Organizes educational events, workshops, and discussions to enhance members’ knowledge and skills.",
       imgSrc: "/image/team/Akademik&Intelektual.png",
     },
-    {
+    { 
       id: 2,
-      title: "Funding, Welfare and External Relations",
-      description: "Lorem ipsum dolor sit amet consectetur. Orci porttitor imperdiet enim odio amet.",
+      title: "Sponsorship, Welfare and Relations",
+      description: "Secures funding, manages partnerships, and ensures the well-being of club members and participants.",
       imgSrc: "/image/team/Dana,Kebajikan&PerhubunganLuar.png",
     },
     {
       id: 3,
       title: "Media and Publicity",
-      description: "Lorem ipsum dolor sit amet consectetur. Orci porttitor imperdiet enim odio amet.",
+      description: "Handles the promotion of the club’s activities through social media, newsletters, and other communication channels.",
       imgSrc: "/image/team/Media&Publisiti.png",
     },
     {
       id: 4,
       title: "Sports and Recreation",
-      description: "Lorem ipsum dolor sit amet consectetur. Orci porttitor imperdiet enim odio amet.",
+      description: "Plans and coordinates sports activities and recreational events to promote physical fitness and team spirit.",
       imgSrc: "/image/team/Sukan&Rekreasi.png",
     },
     {
       id: 5,
-      title: "Arts and Culture",
-      description: "Lorem ipsum dolor sit amet consectetur. Orci porttitor imperdiet enim odio amet.",
+      title: "Art and Culture",
+      description: "Organizes cultural events, art exhibitions, and performances to celebrate and showcase diverse artistic talents.",
       imgSrc: "/image/team/Kesenian&Kebudayaan.png",
     },
   ];  
