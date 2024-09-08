@@ -163,3 +163,11 @@ body{
     opacity: 1;
   }
 }
+
+.slick-arrow.slick-next:before {
+  content: "";
+}
+
+.slick-arrow.slick-prev:before {
+  content: "";
+}

@@ -180,8 +180,10 @@ export const act1 = {
   ],
 
   // Youtube component
-  youtube_id: "Y1qQuw4ocZI",
-  youtube_acknowledgement: "Special thanks to Astro Awani",
+  youtube_component: {
+    id: "Y1qQuw4ocZI",
+    acknowledgement: "Special thanks to Astro Awani",
+  },
 
   // Highlights component
   highlight: [
@@ -206,25 +208,18 @@ export const act1 = {
   ],
 
   // Gallery component
-  gallery: [
-    ["/image/activities/act1/img_act1_1.jpg", "Multimedia PMSUM"],
-    ["/image/activities/act1/img_act1_2.JPG", "Multimedia PMSUM"],
-    ["/image/activities/act1/img_act1_4.JPG", "Multimedia PMSUM"],
-    ["/image/activities/act1/img_act1_5.JPG", "Multimedia PMSUM"],
-    ["/image/activities/act1/img_act1_6.JPG", "Multimedia PMSUM"],
-    ["/image/activities/act1/img_act1_7.JPG", "Multimedia PMSUM"],
-    ["/image/activities/act1/img_act1_8.JPG", "Multimedia PMSUM"],
-    ["/image/activities/act1/img_act1_9.JPG", "Multimedia PMSUM"],
-    ["/image/activities/act1/img_act1_10.JPG", "Multimedia PMSUM"],
-  ],
-  gallery_download_name: 'dbs2024',
-  gallery_caption: `
-    Hampir 3 minggu sudah berlalu semenjak Diskusi Belanjawan Sarawak melabuhkan tirainya.
-    Sudah tentu ramai dari kita masih merindui detik-detik pada hari berlangsungnya program?
-    Mari kita belek semula gambar-gambar yang sempat dirakam lensa kamera sepanjang program Diskusi Belanjawan Sarawak!
-    Mana tahu, akan jumpa muka anda juga!
-  `,
-  gallery_link: "https://drive.google.com/drive/folders/1j1jhewuUsHYePCprJKnzn9xYjZK0A2Or?usp=sharing",
+  gallery_component: {
+    total: 10,
+    download_name: 'dbs2024',
+    credit: "Multimedia PMSUM",
+    caption: [
+      "Hampir 3 minggu sudah berlalu semenjak Diskusi Belanjawan Sarawak melabuhkan tirainya.",
+      "Sudah tentu ramai dari kita masih merindui detik-detik pada hari berlangsungnya program?",
+      "Mari kita belek semula gambar-gambar yang sempat dirakam lensa kamera sepanjang program Diskusi Belanjawan Sarawak!",
+      "Mana tahu, akan jumpa muka anda juga!",
+    ],
+    link: "https://drive.google.com/drive/folders/1j1jhewuUsHYePCprJKnzn9xYjZK0A2Or?usp=sharing"
+  },
 
   // Committee component
   committee_list: [

@@ -15,8 +15,7 @@ const activities_obj = ({act_code}:any) => {
                 {each}
               </div>
             </div>
-          )
-          )}
+          ))}
         </div>
       </div>
     )
