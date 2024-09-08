@@ -11,7 +11,11 @@ const Hero = () =>{
             </div>
             <div></div>
         </section>
-        <section className="bg-dtc-dun md:bg-dtc-bcm-dun bg-fixed bg-no-repeat bg-cover absolute w-full h-full bg-top md:bg-center bottom-0"></section>
+        <section className="bg-dtc-dun md:bg-dtc-bcm-dun bg-fixed bg-no-repeat bg-cover absolute w-full h-full bg-top md:bg-center bottom-0"
+            style={{
+                backgroundClip:'content-box'
+            }}
+        ></section>
         <div className="absolute w-full h-48 lg:h-64 bg-gradient-to-t from-black from-20% to-transparent bottom-0"></div>
         {dayak_strip('h-20 lg:h-32 bottom-0')}
     </section>)
