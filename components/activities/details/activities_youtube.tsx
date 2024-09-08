@@ -2,7 +2,7 @@ import React from 'react';
 
 const activities_youtube = ({act_code}:any) => {
   const act = require('@/components/info/activities/info_activity')
-  if (act[act_code].youtube_component['id'] == null)
+  if (act[act_code].youtube_component == null)
     return <></>
   else
     return (
