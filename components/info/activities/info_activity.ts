@@ -194,7 +194,7 @@ export const act1 = {
       content: "Yang Amat Berhormat Datuk Patinggi Tan Sri (DR) Abang Haji Abdul Rahman Zohari Bin Tun Datuk Abang Haji Openg shared the secrets of becoming a state with economic surplus in his keynote speech. In this session, undergraduate students had the opportunity to learn more about the Sarawakian economy and other matters that concerned them.",
     }],
     [{
-      image_url: "/image/activities/act1/img_act1_2.JPG",
+      image_url: "/image/activities/act1/img_act1_2.jpg",
       title: "DBS: Ke Arah Kemakmuran Wilayah",
       subtitle: "Speaker: YB Dr. Kelvin Yii Lee Wuen Puan Kho Teck Wan YB Datuk. Dr. Hj. Hazland bin Abang Hj. Hipni",
       content: "In this discussion session, the Sarawakian budget was discussed and analyzed comprehensively from multiple perspectives. Among the topics discussed are the green economy, hydrogen fuel and public transportation.",
