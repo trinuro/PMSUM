@@ -3,7 +3,7 @@ import React from 'react';
 const activities_not_found = () => {
   return (
     <div className='w-full '>
-      <div className='md:flex md:h-full items-center'>
+      <div className='md:flex md:h-full items-center max-container' style={{minHeight: 'calc(100vh - 500px)'}}>
         <div className='w-full content-center md:p-10'>
           <img src='/icon/404-not-found.svg' className='size-96 mx-auto'/>
         </div>
