@@ -56,7 +56,7 @@ type Activity = {
       path:"/team",
     },
   ]
-
+// ActivityHighlight
   type ActivityHighlight ={
     icon : React.ReactNode,
     name : string,
@@ -91,14 +91,4 @@ type ActivityHighlights = ActivityHighlight[];
       colour : 'yellow-dark',
       colour_hex : '#FFCA11',
    },
-   {
-    icon : <IconFederalisme isHovered={false}/>,
-    name : 'Federalisme: Kesatuan Dalam Kepelbagaian',
-    highlighted_picture : '/image/townhall_bersama_premier.jpg',
-    date : '18 May 2024',
-    main_page_link : '/activities/details?code=act3',
-    description : 'Federalism is an event that aims to enhance knowledge and give exposure about federalism in Malaysia. By appreciating and understanding the diversity among the different background among students, unity spirit can be achieved which in hope, will lead to a more harmonious society in Malaysia.',
-    colour : 'federalisme',
-    colour_hex : '#F6786A',
- },
 ] 
