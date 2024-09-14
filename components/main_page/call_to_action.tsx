@@ -3,15 +3,16 @@ import {faFacebookSquare, faInstagramSquare,faLinkedin } from '@fortawesome/free
 import { dayak_strip } from './objective';
 
 const Action = () =>{
-    return (<section className="relative w-full h-screen max-h-[800px]">
+    return (<section className="relative w-full h-screen max-h-[800px] min-h-[500px]">
         <div className="absolute top-0 w-full h-full bg-dun-drawn-medium md:bg-dun-drawn-large opacity-30 bg-contain md:bg-cover bg-center bg-no-repeat -z-10"></div>
-        <div className='relative max-container padding-container h-full'>
-            <section className='lg:pt-[40vh] relative'>
-                <div className="text-center font-extrabold text-[32px] sm:text-[40px] pt-20 max-container padding-container">
+        <div className='relative max-container padding-container h-full flex flex-col justify-between items-center'>
+            <section className='hidden lg:block'></section>
+            <section className='relative'>
+                <div className="text-center font-extrabold text-[32px] sm:text-[40px] pt-10 max-container padding-container">
                     <h2 className="pb-10">WHAT ARE YOU WAITING FOR?</h2>
                     <h2>FOLLOW US TODAY!</h2>
                 </div>
-                <div className="flex flex-row justify-center gap-10 py-16 x-10">
+                <div className="flex flex-row justify-center gap-10 py-5 x-10">
                     <a href='https://www.facebook.com/pmsum.sarawak/?locale=ms_MY'>
                         <FontAwesomeIcon
                             icon={faFacebookSquare}
