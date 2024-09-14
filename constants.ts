@@ -127,9 +127,26 @@ export const BioAutographyList: BioAutographies = [
 ]
 
 export const OBJECTIVES = [
-    'Lorem ipsum dolor sit amet, consectetur ing elit. Aliquam sit amet dignissim turpis.',
-    'Lorem ipsum dolor sit amet, consectetur ing elit. Aliquam sit amet dignissim turpis.',
-    'Lorem ipsum dolor sit amet, consectetur ing elit. Aliquam sit amet dignissim turpis.',
+    {
+      title: 'To Foster Unity and Friendship',
+      elaboration: 'To cultivate a strong sense of unity, belonging, and mutual support among Sarawakian students through various social, cultural, and academic activities.',
+    },
+    {
+      title: 'To Promote Sarawakian Culture',
+      elaboration: 'To preserve and celebrate the unique cultural heritage of Sarawak by organizing events, exhibitions, and collaborations that showcase the state\'s traditions, customs, and languages. ',
+    },
+    {
+        title: 'To Provide Student Support and Welfare',
+        elaboration: 'To offer comprehensive support in areas such as academics, emotional well-being, and social integration, ensuring the holistic development and success of Sarawakian students at Universiti Malaya.',
+    },
+    {
+      title: 'To Strengthen Ties with Sarawak',
+      elaboration: 'To maintain strong connections with Sarawak’s state authorities, educational bodies, and local communities, creating networking and professional opportunities for students.',
+    },
+    {
+      title: 'To Encourage Leadership and Personal Growth',
+      elaboration: 'To nurture leadership skills and encourage personal development among members by providing platforms for active participation in events, leadership roles, and community service initiatives',
+    },
 ]
 
 export const OBJECTIVES_TEXT = 'Persatuan Mahasiswa Sarawak is an association of students from Sarawak in Universiti Malaya.'
