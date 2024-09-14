@@ -8,8 +8,8 @@ const Objective = () =>{
             <div className='flexCenter'>
                 <p className='text-center text-gray-text pb-5 max-w-[800px] text-[24px] lg:text-[32px] bg-white/20 md:bg-inherit'>{OBJECTIVES_TEXT}</p>
             </div>
-            <div className='flex flex-col md:flex-row justify-between gap-5 items-center lg:px-40'>
-                {OBJECTIVES.map((objective, index)=>objective_card(index+1,objective))}
+            <div className='flex flex-col md:flex-row justify-center gap-5 items-center lg:px-40 flex-wrap'>
+                {OBJECTIVES.map(({title, elaboration})=>objective_card(title,elaboration))}
             </div>
             {dayak_strip('left-0')}
             {dayak_strip('right-0')}
@@ -25,17 +25,19 @@ export const dayak_strip = (position:string) =>{
 }
 
 // code to create each objective card
-const objective_card = (index:Number, content:String) =>{
+const objective_card = (index:String, content:String) =>{
     return (
-        <section key={`objective-${index}`} className='bg-yellow-dark max-w-[310px] rounded-md lg:rounded-2xl'>
+        <section key={`objective-${index}`} className='bg-yellow-dark max-w-[350px] min-h-[250px] rounded-md  lg:rounded-2xl text-center'>
             <div className='py-2 relative'>
                 <div 
-                className='bg-dayak-motif w-full h-full bg-center opacity-20 z-10 absolute top-0 left-0 rounded-t-md lg:rounded-t-2xl'
+                className='bg-dayak-motif w-full h-full bg-center opacity-10 z-10 absolute top-0 left-0 rounded-t-md lg:rounded-t-2xl'
                 style={{
                     backgroundSize: 'auto 100%', 
                 }}
-                ></div>
-                <p className='flexCenter text-red-dark bold-20'>{index.toString()}</p>
+                >
+
+                </div>
+                <p className='text-red-dark bold-20 min-h-[75px] flex flex-col justify-center'>{index}</p>
             </div>
             <p className='flexCenter text-center px-5 py-3 text-gray-text'>{content}</p>
         </section>
