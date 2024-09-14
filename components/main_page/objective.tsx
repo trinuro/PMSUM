@@ -6,7 +6,7 @@ const Objective = () =>{
         <div className='max-container padding-container relative py-10'>
             <h2 className="font-extrabold text-[36px] flexCenter">OBJECTIVES</h2>
             <div className='flexCenter'>
-                <p className='text-center text-gray-text pb-5 max-w-[800px] text-[24px] lg:text-[32px] bg-white/20 md:bg-inherit'>{OBJECTIVES_TEXT}</p>
+                <p className='text-center text-gray-text pb-5 max-w-[800px] text-[24px] lg:text-[32px] bg-white/40 md:bg-inherit'>{OBJECTIVES_TEXT}</p>
             </div>
             <div className='flex flex-col md:flex-row justify-center gap-5 items-center lg:px-40 flex-wrap'>
                 {OBJECTIVES.map(({title, elaboration})=>objective_card(title,elaboration))}
@@ -28,16 +28,21 @@ export const dayak_strip = (position:string) =>{
 const objective_card = (index:String, content:String) =>{
     return (
         <section key={`objective-${index}`} className='bg-yellow-dark max-w-[350px] min-h-[250px] rounded-md  lg:rounded-2xl text-center'>
-            <div className='py-2 relative'>
-                <div 
-                className='bg-dayak-motif w-full h-full bg-center opacity-10 z-10 absolute top-0 left-0 rounded-t-md lg:rounded-t-2xl'
+            <div className='relative'>
+            {/* <div 
+                className='bg-dayak-motif w-full h-full bg-center opacity-10 absolute top-0 left-0 rounded-t-md lg:rounded-t-2xl'
                 style={{
                     backgroundSize: 'auto 100%', 
                 }}
                 >
 
-                </div>
-                <p className='text-red-dark bold-20 min-h-[75px] flex flex-col justify-center'>{index}</p>
+                </div> */}
+                <p className='text-red-dark bold-20 min-h-[75px] flex flex-col justify-center z-10 bg-dayak-motif'
+                    style={{
+                        backgroundSize: 'auto 100%', 
+                        opacity : 0.1,
+                    }}
+                >{index}</p>
             </div>
             <p className='flexCenter text-center px-5 py-3 text-gray-text'>{content}</p>
         </section>
