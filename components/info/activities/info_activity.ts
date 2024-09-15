@@ -166,7 +166,7 @@ export const act1 = {
   date: "18 May 2024",
   location: "PAUM Clubhouse",
   description: [
-    "Diskusi Belanjawan Sarawak is an event that is being held in PAUM Clubhouse, Universitity Malaya. Many clubs and societies of Sarawak from different universities gather to discuss the financial and status quo of the state. This event aims to increase their awareness and understanding about the financial structure of Sarawak through discussion and talks among the representatives and invited VVIP from Sarawak.",
+    "Diskusi Belanjawan Sarawak is an event that is being held in PAUM Clubhouse, Universiti Malaya. Many clubs and societies of Sarawak from different universities gather to discuss the financial and status quo of the state. This event aims to increase their awareness and understanding about the financial structure of Sarawak through discussion and talks among the representatives and invited VVIP from Sarawak.",
   ],
   video_url: "https://www.instagram.com/reel/C74DkNGyqVZ/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==",
 
@@ -230,7 +230,7 @@ export const act1 = {
     'Penyertaan dan Pendaftaran',
     'Teknikal',
     'Logistik dan Pengangkutan',
-    'Tanjaan'
+    'Tajaan'
   ],
   committee_image: {
     'Majlis Tertinggi': {
@@ -257,7 +257,7 @@ export const act1 = {
       code: "tek",
       total: 3,
     },
-    'Tanjaan': {
+    'Tajaan': {
       code: "tan",
       total: 3,
     },
