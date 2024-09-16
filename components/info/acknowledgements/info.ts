@@ -1,6 +1,6 @@
 export const director = {
     content: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+        "The idea for this website started from a conversation I had with Hyppia, the Yang di-Pertua of PMSUM in a car ride back to UM in preparation for Diskusi Belanjawan Sarawak 2024. He wanted to have a website for PMSUM. Since I always wanted to learn how to make a website, I immediately grabbed this opportunity and promised him to make one. I launched the committee board in early August 2024, 3 months after the promise. 2 weeks were spent on design and 4 weeks were spent on coding. I am very proud of the fruits of our labour and could not thank the committees enough for putting the time and effort into it. Hopefully, this website will be a great tool to allow more people to know about PMSUM, in Universiti Malaya and beyond.",
         "",
     ]
 }
@@ -57,7 +57,7 @@ export const project_committee = {
 
 export const acknowledgement = {
     content: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+        "I would like to thank all the committees that have helped out in this project, Eva, Josh, Yu Heng and Zhi Wei. I hope the best in all your future endeavours. Moreover, I would like to express my gratitude to Hyppia and all high committees of PMSUM for their support and co-operation. Finally, I would like to thank my mom and dad for their love and support.",
         "",
     ],
     logo: [
