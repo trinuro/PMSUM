@@ -27,10 +27,18 @@ const SpeechYDP = () => {
                     </div>
 
                     {/* Paragraph Section */}
-                    <div className="md:w-2/3 mx-8 my-2 md:ml-4">
-                        <p className="text-base lg:text-lg 2xl:text-2xl">
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur et rem esse hic asperiores, facere nesciunt. Ab doloremque eum molestiae quod optio sit, tenetur necessitatibus ullam soluta non nisi accusamus qui exercitationem voluptatum. Aliquam fugit nihil libero numquam enim nulla debitis beatae ad, eveniet hic earum non deserunt facere animi.
-                        </p>
+                    <div className="md:w-2/3 mx-12 my-2 md:ml-4">
+                        <div className="text-base lg:text-lg 2xl:text-2xl">
+                            <p className="my-8">
+                                Oooohaaa!! Welcome to the official website of PMSUM! Kudos to the team, headed by our very own member, Khiew for such an amazing work! 
+                            </p>
+                            <p className="my-8">
+                                When I first entered Universiti Malaya, it felt intimidating as it was my first time in foreign land. Thanks to PMSUM, I could have a little sense of home albeit being across the South China Sea. Fast forward 2 years later, I am now helming the very same organisation that made me feel like im at home. As such, we intend to help our fellow Sarawakians adjust to the new surroundings and nurture the freshmen to be actively involved in organisational activities. 
+                            </p>
+                            <p className="my-8">
+                            To fellow Sarawakians in Universiti Malaya, come and join us in embarking on this journey!
+                            </p>
+                        </div>
                     </div>
                 </div>
             </div>
