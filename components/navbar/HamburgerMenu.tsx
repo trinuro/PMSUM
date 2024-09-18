@@ -67,7 +67,7 @@ const HamburgerMenu = ({ isScroll }: { isScroll: boolean }) => {
                 </Link>
                 {item.dropdownMenu && (
                   <span className="ml-2 text-right">
-                    {activeMenu === item.title ?  <IoChevronUp />: <IoChevronDown />
+                    {activeMenu === item.title ?  <IoChevronUp/>: <IoChevronDown/>
                     }
                   </span>
                 )}
