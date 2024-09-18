@@ -50,19 +50,20 @@ const style = [
   "flex-row-reverse",
 ]
 
-const activities_infographic_canva = (props: any) => {
-  if(props.info == null)
+const activities_infographic_canva = ({act_code}:any) => {
+  const act = require('@/components/info/activities/info_activity')
+  if(act[act_code].infographic == null)
     return <></>
   else
   return (
     <div className='max-container flex content-center px-10 pt-10 pb-6'>
       <div className='w-full'>
         <div>
-          <div className='font-bold text-3xl'>{props.info.title}</div>
+          <div className='font-bold text-3xl'>{act[act_code].infographic.title}</div>
         </div>
-        {props.info.content.map((each: any, index: number) => (
+        {act[act_code].infographic.content.map((each: any, index: number) => (
           <div key={index} className={`mb-10 lg:flex justify-evenly ${style[index % 2]}`}>
-            <div className='px-10 pt-10 pb-6 w-full lg:w-[600px]'>
+            <div className='md:px-10 pt-10 pb-6 w-full lg:w-[600px]'>
               {each.content.map((each: string, index: number) => (
                 <div key={index}>
                   <div className='w-full mb-4' >

@@ -7,15 +7,15 @@ import Slider from "react-slick"; //npm install react-slick --save && npm instal
 import "slick-carousel/slick/slick.css"; // npm install slick-carousel
 import "slick-carousel/slick/slick-theme.css";
 
-const Highlight = () => {
-  if (highlight_list.length == 0)
+const Highlight = ({ title, list }: any) => {
+  if (list.length == 0)
     return <></>
   else
     return (
       <div className='mb-4'>
-        <div className='font-semibold text-xl sm:text-3xl'>Highlights</div>
+        <div className='font-semibold text-xl sm:text-3xl'>{title}</div>
         <div className='flex justify-center flex-wrap'>
-          {highlight_list.map((each: any, index: number) => activity_card(each, index))}
+          {list.map((each: any, index: number) => activity_card(each, index))}
         </div>
       </div>
     )
@@ -38,13 +38,8 @@ export default function Activities() {
       <Slideshow slide={act_list} />
       <div className='flex justify-center'>
         <div className='w-full max-w-7xl p-8'>
-
-          <Highlight />
-
-          <div className='font-semibold text-xl sm:text-3xl'>All activities</div>
-          <div className='flex justify-center flex-wrap'>
-            {act_list.map((each: any, index: number) => activity_card(each, index))}
-          </div>
+          <Highlight title={'Highlights'} list={highlight_list} />
+          <Highlight title={'All activities'} list={act_list} />
           <div className='text-center text-sm sm:text-base m-4'>
             Last updated: {act.last_updated}
           </div>
