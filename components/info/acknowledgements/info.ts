@@ -2,7 +2,8 @@ export const director = {
     content: [
         "The idea for this website started from a conversation I had with Hyppia, the Yang di-Pertua of PMSUM in a car ride back to UM in preparation for Diskusi Belanjawan Sarawak 2024. He wanted to have a website for PMSUM. Since I always wanted to learn how to make a website, I immediately grabbed this opportunity and promised him to make one. I launched the committee board in early August 2024, 3 months after the promise. 2 weeks were spent on design and 4 weeks were spent on coding. I am very proud of the fruits of our labour and could not thank the committees enough for putting the time and effort into it. Hopefully, this website will be a great tool to allow more people to know about PMSUM, in Universiti Malaya and beyond.",
         "",
-    ]
+    ],
+    author: "Khiew Zhi Jie, Project Director"
 }
 
 export const project_committee = {
