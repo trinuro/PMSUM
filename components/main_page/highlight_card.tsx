@@ -31,7 +31,7 @@ export function Highlight_button({icon, name, index, highlighted_picture, date, 
         <>
         <Card_flip flipDirection='horizontal' isFlipped={isFlipped}>
             {/* Front */}
-            <section key={`highlighted-activity-${index}`} id={`highlighted-activity-${index}`} className={`border-${colour} border-2 bg-${bg_color} border-solid px-4 py-5 rounded-lg max-w-[340px] relative min-h-[500px]`}
+            <section key={`highlighted-activity-${index}`} id={`highlighted-activity-${index}`} className={`border-${colour} border-2 bg-${bg_color} border-solid px-4 py-5 rounded-lg max-w-[340px] relative min-h-[530px]`}
             style={{
                 'borderColor':colour_hex,
             }}
@@ -42,9 +42,11 @@ export function Highlight_button({icon, name, index, highlighted_picture, date, 
                         {React.cloneElement(icon as React.ReactElement<any>)}
                         <p className="font-extrabold text-[20px] uppercase">{name}</p>
                 </div>
-                <div id={`highlighted-activity-front-${index}`}>
-                    <Image src={highlighted_picture} alt="Highlighted picture" height={1024} width={900} className="w-full h-auto"></Image>
-                    <p className="pt-5 text-gray-text text-center">Organised on {date}</p>
+                <div id={`highlighted-activity-front-${index}`} className='flex flex-col justify-center '>
+                    <div>
+                        <Image src={highlighted_picture} alt="Highlighted picture" height={1024} width={900} className="w-full h-auto"></Image>
+                        <p className="pt-5 text-gray-text text-center">Organised on {date}</p>
+                    </div>
                     <div className="flex justify-end pt-8 font-extrabold text-[48px] w-full text-right" id={`arrow-${index}`}>
                         <button onClick={flipCard}>
                             <svg width="36" height="37" viewBox="0 0 36 37" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -55,7 +57,7 @@ export function Highlight_button({icon, name, index, highlighted_picture, date, 
                 </div>
             </section>
             {/* Back */}
-            <section key={`highlighted-activity-${index}`} id={`highlighted-activity-${index}`} className={`min-h-[500px] bg-${colour} px-4 py-5 rounded-lg max-w-[340px] relative text-white`}
+            <section key={`highlighted-activity-${index}`} id={`highlighted-activity-${index}`} className={`min-h-[530px] bg-${colour} px-4 py-5 rounded-lg max-w-[340px] relative text-white`}
             style={{
                 'backgroundColor':colour_hex,
             }} 
