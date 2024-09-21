@@ -7,7 +7,6 @@ import { IoLogoLinkedin } from "react-icons/io5";
 import { IconContext } from "react-icons";
 import { IoClose } from "react-icons/io5";
 
-
 const PopUpBioAutography = ({ selectedItem, onClose }:any) => {
   return (
     <div className="fixed inset-0 z-50 flex items-center justify-center bg-gray-500 bg-opacity-75">
