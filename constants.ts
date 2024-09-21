@@ -45,6 +45,7 @@ type BioAutography = {
   imgSrc: string;
   name: string;
   position: string;
+  facebook?: string;
   instagram?: string;
   twitter?: string;
   linkedin?: string;
@@ -59,6 +60,7 @@ export const BioAutographyList: BioAutographies = [
     imgSrc: "/image/team/YDP_profile_pic_white.png",
     name: "Mohamed Hyypia bin Rosmaini",
     position: "President",
+    facebook:"#",
     twitter: "#",
     instagram: "#",
     linkedin: "#",
@@ -69,6 +71,7 @@ export const BioAutographyList: BioAutographies = [
     imgSrc: "/image/team/P.YDP_profile_pic_white.png",
     name: "Mike Aryan Usa",
     position: "Vice President",
+    facebook:"#",
     instagram: "#",
     twitter: "#",
     linkedin: "#",
@@ -79,6 +82,7 @@ export const BioAutographyList: BioAutographies = [
     imgSrc: "/image/team/T.P.YDP_profile_pic_white.png",
     name: "Praveen Kaur A/P Jit Singh",
     position: "Deputy Vice President",
+    facebook:"#",
     instagram: "#",
     twitter: "#",
     linkedin: "#",
@@ -89,16 +93,18 @@ export const BioAutographyList: BioAutographies = [
     imgSrc: "/image/team/SU_profile_pic_white.png",
     name: "Slavinna Ann Ak Johnny",
     position: "Secretary",
-    instagram: "#",
-    twitter: "#",
-    linkedin: "#",
-    autobiography: "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac,"
+    facebook:"https://www.facebook.com/ann.slavinna?mibextid=ZbWKwL",
+    instagram: "https://www.instagram.com/sla.vinna_?igsh=bGEzcWx4eXh3amsz",
+    // twitter: "#",
+    // linkedin: "#",
+    autobiography: "I am Slavinna, people call me Vinna. I'm a 4th year student in Biotechnology. Been active in PMSUM since 2022 as both exco and participant. My friends know me as a cheerful, energetic and spontaneous person. I am someone who love joining projects for fun and experiences. Currently an active dancer of Tandak Sri Pegari, a traditional Sarawak dance group. My favourite project so far is Malam Bumi Kenyalang at USM as we represent UM for traditional dance."
   },
   {
     id: 5,
     imgSrc: "/image/team/P.SU_profile_pic_white.png",
     name: "Nurul Elleyssa Wong",
     position: "Assistant Secretary",
+    facebook:"#",
     instagram: "#",
     twitter: "#",
     linkedin: "#",
@@ -109,6 +115,7 @@ export const BioAutographyList: BioAutographies = [
     imgSrc: "/image/team/Bendahari_profile_pic_white.png",
     name: "Erricson Petrus Ramping",
     position: "Treasurer",
+    facebook:"#",
     instagram: "#",
     twitter: "#",
     linkedin: "#",
@@ -119,6 +126,7 @@ export const BioAutographyList: BioAutographies = [
     imgSrc: "/image/team/P.Bendahari_profile_pic_white.png",
     name: "Nurul Qurratu' Aini",
     position: "Assistant Treasurer",
+    facebook:"#",
     instagram: "#",
     twitter: "#",
     linkedin: "#",

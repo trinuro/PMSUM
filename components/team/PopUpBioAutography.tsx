@@ -1,5 +1,6 @@
 "use client";
 import Image from 'next/image';
+import { FaFacebookSquare } from "react-icons/fa";
 import { IoLogoInstagram } from "react-icons/io5";
 import { FaXTwitter } from "react-icons/fa6";
 import { IoLogoLinkedin } from "react-icons/io5";
@@ -41,27 +42,42 @@ const PopUpBioAutography = ({ selectedItem, onClose }:any) => {
               {selectedItem.position}
             </p>
             <ul className="flex justify-center items-center space-x-4 mb-4">
-              <li>
-                <a href={selectedItem.instagram}>
-                  <IconContext.Provider value={{ color: "#ce1126", className: "contactIcon" }}>
-                    <IoLogoInstagram size={24} />
-                  </IconContext.Provider>
-                </a>
-              </li>
-              <li>
-                <a href={selectedItem.twitter}>
-                  <IconContext.Provider value={{ color: "#ce1126", className: "contactIcon" }}>
-                    <FaXTwitter size={24} />
-                  </IconContext.Provider>
-                </a>
-              </li>
-              <li>
-                <a href={selectedItem.linkedin}>
-                  <IconContext.Provider value={{ color: "#ce1126", className: "contactIcon" }}>
-                    <IoLogoLinkedin size={24} />
-                  </IconContext.Provider>
-                </a>
-              </li>
+              {selectedItem.facebook && (
+                  <li>
+                    <a href={selectedItem.facebook} target="_blank">
+                      <IconContext.Provider value={{ color: "#ce1126", className: "contactIcon" }}>
+                        <FaFacebookSquare />
+                      </IconContext.Provider>
+                    </a>
+                  </li>
+                )}
+              {selectedItem.instagram && (
+                <li>
+                  <a href={selectedItem.instagram} target="_blank">
+                    <IconContext.Provider value={{ color: "#ce1126", className: "contactIcon" }}>
+                      <IoLogoInstagram />
+                    </IconContext.Provider>
+                  </a>
+                </li>
+              )}
+              {selectedItem.twitter && (
+                <li>
+                  <a href={selectedItem.twitter} target="_blank">
+                    <IconContext.Provider value={{ color: "#ce1126", className: "contactIcon" }}>
+                      <FaXTwitter />
+                    </IconContext.Provider>
+                  </a>
+                </li>
+              )}
+              {selectedItem.linkedin && (
+                <li>
+                  <a href={selectedItem.linkedin} target="blank">
+                    <IconContext.Provider value={{ color: "#ce1126", className: "contactIcon" }}>
+                      <IoLogoLinkedin />
+                    </IconContext.Provider>
+                  </a>
+                </li>
+              )}
             </ul>
           </div>
 
