@@ -60,10 +60,10 @@ export const BioAutographyList: BioAutographies = [
     imgSrc: "/image/team/YDP_profile_pic_white.png",
     name: "Mohamed Hyypia bin Rosmaini",
     position: "President",
-    facebook:"#",
-    twitter: "#",
-    instagram: "#",
-    linkedin: "#",
+    // facebook:"#",
+    // twitter: "#",
+    // instagram: "#",
+    // linkedin: "#",
     autobiography: "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac,"
   },
   {
@@ -71,22 +71,22 @@ export const BioAutographyList: BioAutographies = [
     imgSrc: "/image/team/P.YDP_profile_pic_white.png",
     name: "Mike Aryan Usa",
     position: "Vice President",
-    facebook:"#",
-    instagram: "#",
-    twitter: "#",
-    linkedin: "#",
-    autobiography: "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac,"
+    // facebook:"#",
+    instagram: "https://www.instagram.com/mmikeohmm?igsh=MXVrYm94NHB0b2V6eA%3D%3D&utm_source=qr",
+    twitter: "https://x.com/mikearyan28/status/1635126129496563714?s=46&t=KK876OyBean8zVewoHDWYg",
+    linkedin: "https://www.linkedin.com/in/mike-aryan-808b30232?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app",
+    autobiography: "My name is Mike Aryan, and I am from Baram, Sarawak. Currently, I am a final-year student pursuing a degree in Arts History with a minor in Social Administration and Justice. Since my second year, I have been actively involved with Persatuan Mahasiswa Sarawak Universiti Malaya (PMSUM), where I now serve as Vice President. I am also a dedicated dancer for Tandak Sri Pegari, embracing and promoting my cultural heritage. My university experience includes participating in programs such as Kongres Mahasiswa and Parlimen Mahasiswa at University Malaya, as well as serving as a Pemudahcara Mahasiswa during UM WOW 2023/2024. In addition, I hold the role of Secretariat for the General Secretary of the University of Malaya Students' Union (UMSU), which has greatly contributed to my leadership and organizational development."
   },
   {
     id: 3,
     imgSrc: "/image/team/T.P.YDP_profile_pic_white.png",
     name: "Praveen Kaur A/P Jit Singh",
     position: "Deputy Vice President",
-    facebook:"#",
-    instagram: "#",
-    twitter: "#",
-    linkedin: "#",
-    autobiography: "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac,"
+    // facebook:"#",
+    instagram: "https://www.instagram.com/veennnnnn25___/?utm_source=ig_web_button_share_sheet",
+    // twitter: "#",
+    linkedin: "https://www.linkedin.com/in/praveen-kaur-a47714194?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app",
+    autobiography: "I’m Praveen Kaur, a 24-year-old from Kuching, Sarawak, currently in my final year pursuing a degree in Early Childhood Education. I’ve been involved with PMSUM since 2021 during my first year, taking on roles such as AJK for the Academic and Intellectual Bureau and Head of Protocol for Festival Kenyalang in 2023. Right now, I’m the Deputy Vice President for PMSUM. Beyond campus, I’ve been actively involved in Lan Berambeh Anak Sarawak since 2022 and serve as an Exco of Multimedia for Sarawak Volunteers this year, contributing my skills in digital communication and outreach. I’m known for my happy-go-lucky attitude, always bringing positive energy to everything I do. With a passion for education and community service, I’m committed to making a meaningful impact through both my academic journey and extracurricular efforts. Ooooha!"
   },
   {
     id: 4,
@@ -104,10 +104,10 @@ export const BioAutographyList: BioAutographies = [
     imgSrc: "/image/team/P.SU_profile_pic_white.png",
     name: "Nurul Elleyssa Wong",
     position: "Assistant Secretary",
-    facebook:"#",
-    instagram: "#",
-    twitter: "#",
-    linkedin: "#",
+    // facebook:"#",
+    // instagram: "#",
+    // twitter: "#",
+    // linkedin: "#",
     autobiography: "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac,"
   },
   {
@@ -115,10 +115,10 @@ export const BioAutographyList: BioAutographies = [
     imgSrc: "/image/team/Bendahari_profile_pic_white.png",
     name: "Erricson Petrus Ramping",
     position: "Treasurer",
-    facebook:"#",
-    instagram: "#",
-    twitter: "#",
-    linkedin: "#",
+    // facebook:"#",
+    // instagram: "#",
+    // twitter: "#",
+    // linkedin: "#",
     autobiography: "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac,"
   },
   {
@@ -126,11 +126,11 @@ export const BioAutographyList: BioAutographies = [
     imgSrc: "/image/team/P.Bendahari_profile_pic_white.png",
     name: "Nurul Qurratu' Aini",
     position: "Assistant Treasurer",
-    facebook:"#",
-    instagram: "#",
-    twitter: "#",
-    linkedin: "#",
-    autobiography: "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac,"
+    // facebook:"#",
+    instagram: "https://www.instagram.com/ninoisreading?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==",
+    // twitter: "#",
+    // linkedin: "#",
+    autobiography: "Born and raised in Kuching, Sarawak, my dream is to own a secondhand bookstore in Kuching, with my mom's pastries, and a reading corner for the kids. Career wise, I wish to be a scholar, and a human activist, being the bridge between the minorities and the authorities. Being in PMSUM is one step toward everything that I want to achieve, and will forever be grateful for the experience I gained throughout my journey with PMSUM."
   }
 ]
 
