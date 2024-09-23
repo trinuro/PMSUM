@@ -70,7 +70,7 @@ export const BioAutographyList: BioAutographies = [
     // instagram: "#",
     // linkedin: "#",
     autobiography:
-      "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac,",
+      "I am a driven advocate for youth empowerment, sustainability, and diplomacy. My involvement in movements like Undi Sarawak, MyDiplomacy, and the Global Network Club at Universiti Malaya has provided valuable exposure to community issues. Additionally, representing Malaysia at international youth summits ignited my passion to pursue a diplomatic career in service to my country.",
   },
   {
     id: 2,
@@ -119,11 +119,12 @@ export const BioAutographyList: BioAutographies = [
     name: "Nurul Elleyssa Wong",
     position: "Vice Secretary",
     // facebook:"#",
-    // instagram: "#",
+    instagram:
+      "https://www.instagram.com/elleyssa_03?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==",
     // twitter: "#",
     // linkedin: "#",
     autobiography:
-      "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac,",
+      "Hello everyone My name is Nurul Elleyssa Wong, so you can call me Ell. I'm a 2nd year student of Bachelor of Science (Chemistry) with education. I have been active in being part of PMSUM since I was in Year 1 and have been chosen as Vice Secretary 2023/2024. Besides that, I'm a Deputy Director of SIPTA 3.0, a collaboration of PMSUM and PERMASA to allow more borneo students to actively participate in sports at Unisza this year. \n Besides being PMSUM, I am also actively involved in Palapes Darat UM and have been positioned as Corporal and Treasurer. Before joining PMSUM, I was representing Malaysia in Sunburst Youth Camp Singapore, which gave me big opportunities to share to the world how unique Malaysia is. Lastly, a little knowledge about me , I love to establish new clubs for students, as what I have did in 2023 I was establish my new Taekwondo club in Selangor Matriculation College, and I'm a Sarawak Taekwondo player.",
   },
   {
     id: 6,
