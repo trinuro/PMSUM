@@ -1,6 +1,7 @@
 "use client";
 import Image from 'next/image';
 import { BioAutographyList } from '@/constants';
+import { FaFacebookSquare } from "react-icons/fa";
 import { IoLogoInstagram } from "react-icons/io5";
 import { FaXTwitter } from "react-icons/fa6";
 import { IoLogoLinkedin } from "react-icons/io5";
@@ -45,6 +46,15 @@ const BioAutography = () => {
 
             <p className="text-center my-4">{item.position}</p>
             <ul className="flex justify-center items-center space-x-4 min-h-6">
+              {item.facebook && (
+                <li>
+                  <a href={item.facebook} target="_blank">
+                    <IconContext.Provider value={{ color: "#ce1126", className: "contactIcon" }}>
+                      <FaFacebookSquare />
+                    </IconContext.Provider>
+                  </a>
+                </li>
+              )}
               {item.instagram && (
                 <li>
                   <a href={item.instagram} target="_blank">

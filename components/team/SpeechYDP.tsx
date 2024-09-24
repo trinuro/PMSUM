@@ -20,8 +20,8 @@ const SpeechYDP = () => {
                         <Image 
                             src="/image/team/speech_YDP.png" 
                             alt="Who We Are" 
-                            width={250} 
-                            height={250} 
+                            width={730} 
+                            height={730} 
                             className="object-contain md:w-[300px] lg:w-[400px] 2xl:w-[600px]"
                         />
                     </div>

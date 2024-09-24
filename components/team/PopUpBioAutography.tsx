@@ -1,13 +1,13 @@
 "use client";
-import Image from 'next/image';
+import Image from "next/image";
+import { FaFacebookSquare } from "react-icons/fa";
 import { IoLogoInstagram } from "react-icons/io5";
 import { FaXTwitter } from "react-icons/fa6";
 import { IoLogoLinkedin } from "react-icons/io5";
 import { IconContext } from "react-icons";
 import { IoClose } from "react-icons/io5";
 
-
-const PopUpBioAutography = ({ selectedItem, onClose }:any) => {
+const PopUpBioAutography = ({ selectedItem, onClose }: any) => {
   return (
     <div className="fixed inset-0 z-50 flex items-center justify-center bg-gray-500 bg-opacity-75">
       <div className="relative lg:flexCenter bg-white rounded-lg shadow-xl w-11/12 md:w-3/4 lg:w-2/3 h-auto max-h-[80%] overflow-y-auto p-6">
@@ -16,7 +16,9 @@ const PopUpBioAutography = ({ selectedItem, onClose }:any) => {
           className="absolute top-2 right-2 text-gray-400 hover:text-gray-600"
           onClick={onClose}
         >
-          <IconContext.Provider value={{ color: "#ce1126", className: "closeIcon" }}>
+          <IconContext.Provider
+            value={{ color: "#ce1126", className: "closeIcon" }}
+          >
             <IoClose size={24} />
           </IconContext.Provider>
         </button>
@@ -41,36 +43,65 @@ const PopUpBioAutography = ({ selectedItem, onClose }:any) => {
               {selectedItem.position}
             </p>
             <ul className="flex justify-center items-center space-x-4 mb-4">
-              <li>
-                <a href={selectedItem.instagram}>
-                  <IconContext.Provider value={{ color: "#ce1126", className: "contactIcon" }}>
-                    <IoLogoInstagram size={24} />
-                  </IconContext.Provider>
-                </a>
-              </li>
-              <li>
-                <a href={selectedItem.twitter}>
-                  <IconContext.Provider value={{ color: "#ce1126", className: "contactIcon" }}>
-                    <FaXTwitter size={24} />
-                  </IconContext.Provider>
-                </a>
-              </li>
-              <li>
-                <a href={selectedItem.linkedin}>
-                  <IconContext.Provider value={{ color: "#ce1126", className: "contactIcon" }}>
-                    <IoLogoLinkedin size={24} />
-                  </IconContext.Provider>
-                </a>
-              </li>
+              {selectedItem.facebook && (
+                <li>
+                  <a href={selectedItem.facebook} target="_blank">
+                    <IconContext.Provider
+                      value={{ color: "#ce1126", className: "contactIcon" }}
+                    >
+                      <FaFacebookSquare />
+                    </IconContext.Provider>
+                  </a>
+                </li>
+              )}
+              {selectedItem.instagram && (
+                <li>
+                  <a href={selectedItem.instagram} target="_blank">
+                    <IconContext.Provider
+                      value={{ color: "#ce1126", className: "contactIcon" }}
+                    >
+                      <IoLogoInstagram />
+                    </IconContext.Provider>
+                  </a>
+                </li>
+              )}
+              {selectedItem.twitter && (
+                <li>
+                  <a href={selectedItem.twitter} target="_blank">
+                    <IconContext.Provider
+                      value={{ color: "#ce1126", className: "contactIcon" }}
+                    >
+                      <FaXTwitter />
+                    </IconContext.Provider>
+                  </a>
+                </li>
+              )}
+              {selectedItem.linkedin && (
+                <li>
+                  <a href={selectedItem.linkedin} target="blank">
+                    <IconContext.Provider
+                      value={{ color: "#ce1126", className: "contactIcon" }}
+                    >
+                      <IoLogoLinkedin />
+                    </IconContext.Provider>
+                  </a>
+                </li>
+              )}
             </ul>
           </div>
 
           {/* Right Side: Autobiography with Scrollbar */}
           <div className="flex-initial w-full md:w-2/3 bg-yellow-dark/30 p-4 md:p-6 rounded-lg">
             <div className="max-h-64 md:max-h-72 lg:max-h-80 overflow-y-auto">
-              <p className="text-start text-gray-500">
-                {selectedItem.autobiography}
-              </p>
+              <div className="text-start text-gray-500">
+                {selectedItem.autobiography
+                  .split("\n")
+                  .map((line: string, index: number) => (
+                    <p key={index} className="mb-4">
+                      {line}
+                    </p>
+                  ))}
+              </div>
             </div>
           </div>
         </div>
