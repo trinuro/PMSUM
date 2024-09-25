@@ -8,6 +8,13 @@ import { IconContext } from "react-icons";
 import { IoClose } from "react-icons/io5";
 
 const PopUpBioAutography = ({ selectedItem, onClose }: any) => {
+  //generate default autobiography if it starts with "lorem"
+  const autobiographyText = selectedItem.autobiography
+    .toLowerCase()
+    .startsWith("lorem")
+    ? `Hello, welcome to our PMSUM website! My name is ${selectedItem.name}, and I am proud to serve as the ${selectedItem.position} of this organization. With my role, I am committed to contributing to the growth and success of our team, ensuring that we continue to thrive in all our endeavors.`
+    : selectedItem.autobiography;
+
   return (
     <div className="fixed inset-0 z-50 flex items-center justify-center bg-gray-500 bg-opacity-75">
       <div className="relative lg:flexCenter bg-white rounded-lg shadow-xl w-11/12 md:w-3/4 lg:w-2/3 h-auto max-h-[80%] overflow-y-auto p-6">
@@ -94,7 +101,7 @@ const PopUpBioAutography = ({ selectedItem, onClose }: any) => {
           <div className="flex-initial w-full md:w-2/3 bg-yellow-dark/30 p-4 md:p-6 rounded-lg">
             <div className="max-h-64 md:max-h-72 lg:max-h-80 overflow-y-auto">
               <div className="text-start text-gray-500">
-                {selectedItem.autobiography
+                {autobiographyText
                   .split("\n")
                   .map((line: string, index: number) => (
                     <p key={index} className="mb-4">
