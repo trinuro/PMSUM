@@ -19,7 +19,7 @@ export const project_committee = {
         },
         {
             imgSrc: "img_ack_2.jpg",
-            name: "Eva Afrina Batrisya binti Mohd Azzudin",
+            name: "Eva Afrina Batrisyia binti Mohd Azzudin",
             position: "Secretary",
             facebook: "",
             instagram: "https://www.instagram.com/cattarte",
