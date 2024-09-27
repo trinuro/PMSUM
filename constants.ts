@@ -148,7 +148,7 @@ export const BioAutographyList: BioAutographies = [
     instagram:
       "https://www.instagram.com/ninoisreading?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==",
     // twitter: "#",
-    // linkedin: "#",
+    linkedin: "https://www.linkedin.com/in/nurulqurratuaini/",
     autobiography:
       "Born and raised in Kuching, Sarawak, my dream is to own a secondhand bookstore in Kuching, with my mom's pastries, and a reading corner for the kids. Career wise, I wish to be a scholar, and a human activist, being the bridge between the minorities and the authorities. Being in PMSUM is one step toward everything that I want to achieve, and will forever be grateful for the experience I gained throughout my journey with PMSUM.",
   },
