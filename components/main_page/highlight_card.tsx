@@ -44,7 +44,9 @@ export function Highlight_button({icon, name, index, highlighted_picture, date, 
                 </div>
                 <div id={`highlighted-activity-front-${index}`} className='flex flex-col justify-center '>
                     <div>
-                        <Image src={highlighted_picture} alt="Highlighted picture" height={1024} width={900} className="w-full h-auto"></Image>
+                        <div className='min-h-[202px]'>
+                            <Image src={highlighted_picture} alt="Highlighted picture" height={1024} width={900} className="w-full h-auto"></Image>
+                        </div>
                         <p className="pt-5 text-gray-text text-center">Organised on {date}</p>
                     </div>
                     <div className="flex justify-end pt-8 font-extrabold text-[48px] w-full text-right" id={`arrow-${index}`}>
