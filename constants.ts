@@ -66,9 +66,10 @@ export const BioAutographyList: BioAutographies = [
     name: "Mohamed Hyypia bin Rosmaini",
     position: "President",
     // facebook:"#",
-    // twitter: "#",
-    // instagram: "#",
-    // linkedin: "#",
+    instagram: "https://instagram.com/hyypia_48?igshid=MWZjMTM2ODFkZg==",
+    twitter: "https://x.com/hipiyuh",
+    linkedin:
+      "https://www.linkedin.com/in/mohamed-hyypia-bin-rosmaini-a2a5b6217",
     autobiography:
       "I am a driven advocate for youth empowerment, sustainability, and diplomacy. My involvement in movements like Undi Sarawak, MyDiplomacy, and the Global Network Club at Universiti Malaya has provided valuable exposure to community issues. Additionally, representing Malaysia at international youth summits ignited my passion to pursue a diplomatic career in service to my country.",
   },
