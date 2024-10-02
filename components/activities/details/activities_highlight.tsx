@@ -61,8 +61,8 @@ const activities_highlight = ({act_code}:any) => {
     return (
       <div>
         <div className="bg-cover bg-center" style={{ backgroundImage: "url(/image/activities/act1/img_act1_1.jpg)" }}>
-          <div className='w-full md:h-[500px] bg-black bg-opacity-80 md:bg md:content-center pt-10 md:pt-0'>
-            <div className='max-container md:flex md:justify-evenly '>
+          <div className='w-full md:h-[500px] bg-black bg-opacity-80 md:bg md:flex md:flex-col md:justify-center pt-10 md:pt-0'>
+            <div className='max-container w-full md:flex md:justify-evenly '>
               <div className='w-full md:w-1/3 flexCenter'>
                 <div className='text-center md:text-right text-5xl font-extrabold max-w-xs text-white'>
                   Highlights
