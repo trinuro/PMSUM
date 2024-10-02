@@ -48,7 +48,7 @@ const Footer = () =>{
                     </a>
                 </div>
                 <div>
-                    <a href='mailto:23054588@siswa.um.edu.my'>
+                    <a href='mailto:pmsum.sarawak@gmail.com'>
                         <div className="flex flex-row justify-start gap-5 items-center">
                             
                                 <FontAwesomeIcon
