@@ -34,7 +34,7 @@ const Canva = ({ canva_id }: any) => (
 
 );
 
-const Register = ({url}: any) => {
+const Register = ({ url }: any) => {
   if (url == "")
     return <></>
   else
@@ -50,37 +50,46 @@ const style = [
   "flex-row-reverse",
 ]
 
-const activities_infographic_canva = ({act_code}:any) => {
+const activities_infographic_canva = ({ act_code }: any) => {
   const act = require('@/components/info/activities/info_activity')
-  if(act[act_code].infographic == null)
+  if (act[act_code].infographic == null)
     return <></>
   else
-  return (
-    <div className='max-container flex content-center px-10 pt-10 pb-6'>
-      <div className='w-full'>
-        <div>
-          <div className='font-bold text-3xl'>{act[act_code].infographic.title}</div>
-        </div>
-        {act[act_code].infographic.content.map((each: any, index: number) => (
-          <div key={index} className={`mb-10 lg:flex justify-evenly ${style[index % 2]}`}>
-            <div className='md:px-10 pt-10 pb-6 w-full lg:w-[600px]'>
-              {each.content.map((each: string, index: number) => (
-                <div key={index}>
-                  <div className='w-full mb-4' >
-                    {each}
-                  </div>
-                </div>
-              ))}
-              <Register url={each.form_url} />
-            </div>
-            <div className='mx-auto w-full lg:mx-0 max-w-[500px]'>
-              <Canva canva_id={each.canva_id} />
-            </div>
+    return (
+      <div className='max-container flex content-center px-10 pt-10 pb-6'>
+        <div className='w-full'>
+          <div>
+            <div className='font-bold text-3xl'>{act[act_code].infographic.title}</div>
           </div>
-        ))}
+          {act[act_code].infographic.content.map((each: any, index: number) => (
+            <div key={index} className={`mb-10 lg:flex justify-evenly ${style[index % 2]}`}>
+              <div className='md:px-10 pt-10 pb-6 w-full lg:w-[600px]'>
+                {each.content.map((each: string, index: number) => (
+                  <div key={index}>
+                    <div className='w-full mb-4' >
+                      {each}
+                    </div>
+                  </div>
+                ))}
+                <div className='mt-10'>
+                  {each.credit.map((each: string, index: number) => (
+                    <div key={index}>
+                      <div className='w-full' >
+                        {each}
+                      </div>
+                    </div>
+                  ))}
+                </div>
+                <Register url={each.form_url} />
+              </div>
+              <div className='mx-auto w-full lg:mx-0 max-w-[500px]'>
+                <Canva canva_id={each.canva_id} />
+              </div>
+            </div>
+          ))}
+        </div>
       </div>
-    </div>
-  )
+    )
 }
 
 export default activities_infographic_canva

@@ -34,7 +34,26 @@ export const act3 = {
           "Sehubungan dengan Hari Kemerdekaan yang ke-67 pada hari ini, sistem ini telah membuktikan negara kita mampu mencapai kejayaan dan keharmonian yang kita nikmati pada masa sekarang.",
           "Justeru, kami ingin mengucapkan Selamat Hari Kemerdekaan Ke-67 kepada semua! 🇲🇾",
         ],
+        credit: [
+          "Hasil kajian: Ilman Jayasilan",
+          "Hasil rekaan: Cheshter, Eva",
+          "Kapsyen: Chester",
+        ],
         canva_id: "DAGPr7QKfFA/juZD4loAsue7Y2wGCGChHA",
+        form_url: "",
+      },
+      {
+
+        content: [
+          "Pada hari bersejarah ini, marilah kita bersatu meraikan perpaduan yang menyatukan kita sebagai satu rakyat, tanpa mengira latar belakang dan budaya yang berbeza. Komitmen bersama terhadap keamanan dan kefahaman adalah asas kepada kemakmuran negara yang kita cintai.",
+          "Walaupun ramai sering terkeliru, Hari Merdeka (31 Ogos 1957) menandakan kemerdekaan Persekutuan Tanah Melayu daripada penjajahan British, manakala Hari Malaysia (16 September 1963) pula memperingati penyatuan Tanah Melayu, Sabah, Sarawak, dan Singapura untuk membentuk Malaysia. Kedua-duanya adalah detik bersejarah yang berbeza, tetapi saling melengkapi dalam membina Malaysia yang kita kenali hari ini.",
+        ],
+        credit: [
+          "Hasil kajian: Thomsilver Toiming",
+          "Hasil karya: Chester, Misha",
+          "Kapsyen: Chester",
+        ],
+        canva_id: "DAGSZV8EI-8/5AOCs0otCE2i9t2vW87UPQ",
         form_url: "",
       },
     ]
@@ -86,6 +105,9 @@ export const act2 = {
           "Sukacita dimaklumkan bahawa Persatuan Mahasiswa Sarawak Universiti Malaya sesi 2023/2024 akan mengadakan satu pertandingan Mr & Miss Kenyalang 2024 bersempena dengan Hari Gawai untuk mempamerkan keunikan baju tradisi kaum Sarawak.",
           "Jadi tunggu apa gik? Hadiah yang menarik menanti anda. Ayuh daftarkan diri anda segera ‼️‼️",
         ],
+        credit: [
+          "",
+        ],
         canva_id: "DAGPsFHME3w/E4tPcpus37wWdNGWIKvrbQ",
         form_url: "https://docs.google.com/forms/d/e/1FAIpQLScT9QkAhBQo8xPzg9P-pd4fzKYcOyCjCoULkPQsAs-nEGtAaQ/viewform",
       },
@@ -96,6 +118,9 @@ export const act2 = {
           "Sukacita dimaklumkan bahawa Persatuan Mahasiswa Sarawak Universiti Malaya sesi 2023/2024 akan mengadakan satu pertandingan Irama Kenyalang sebagai sebuah pentas nyanyian bagi anda mempersembahkan bakat dan alunan suara anda!",
           "Jadi tunggu apa gik? Hadiah yang menarik menanti anda. Ayuh daftarkan diri anda segera ‼️‼️",
         ],
+        credit: [
+          "",
+        ],
         canva_id: "DAGPsFbNGV4/B9EZo4Gjc97Iut2CGvEBCw",
         form_url: "https://docs.google.com/forms/d/e/1FAIpQLSdPcLXHh97SkgVy-QpO4rh7iWJ-CT9QEHZF6jYzrw-Z0SlF9A/viewform"
       },
@@ -105,6 +130,9 @@ export const act2 = {
           "Andalah yang kami cari ‼️‼️",
           "Sukacita dimaklumkan bahawa Persatuan Mahasiswa Sarawak Universiti Malaya sesi 2023/2024 akan mengadakan satu pertandingan menghasilkan sebuah karya poster bagi anda menyerlahkan bakat seni kreatif ada.",
           "Jadi tunggu apa gik? Hadiah yang menarik menanti anda. Ayuh daftarkan diri anda segera ‼️‼️",
+        ],
+        credit: [
+          "",
         ],
         canva_id: "DAGPsRESu0k/u3EX694uaDz38XNMTQrL5Q",
         form_url: "https://docs.google.com/forms/d/e/1FAIpQLScG09XfSpuKbSEo09xZgeu3IsKWUuOT9rKW5MYi03y3UBX4yw/viewform"
