@@ -157,28 +157,35 @@ export const BioAutographyList: BioAutographies = [
 export const OBJECTIVES = [
   {
     title: "To Foster Unity and Friendship",
-    elaboration:
-      "To cultivate a strong sense of unity, belonging, and mutual support among Sarawakian students through various social, cultural, and academic activities.",
+    elaboration: "To cultivate a strong sense of unity, belonging, and mutual support among Sarawakian students through various social, cultural, and academic activities.",
+    icon_path: '/icon/icon_teamwork.svg',
+    icon_alt: 'Teamwork',
   },
   {
     title: "To Promote Sarawakian Culture",
     elaboration:
       "To preserve and celebrate the unique cultural heritage of Sarawak by organizing events, exhibitions, and collaborations that showcase the state's traditions, customs, and languages. ",
+    icon_path: '/icon/icon_loudspeaker.svg',
+    icon_alt: 'Loudspeaker',
   },
   {
     title: "To Provide Student Support and Welfare",
     elaboration:
       "To offer comprehensive support in areas such as academics, emotional well-being, and social integration, ensuring the holistic development and success of Sarawakian students at Universiti Malaya.",
+    icon_path: '/icon/icon_student.svg',
+    icon_alt: 'Student',
   },
   {
     title: "To Strengthen Ties with Sarawak",
-    elaboration:
-      "To maintain strong connections with Sarawak’s state authorities, educational bodies, and local communities, creating networking and professional opportunities for students.",
+    elaboration: "To maintain strong connections with Sarawak’s state authorities, educational bodies, and local communities, creating networking and professional opportunities for students.",
+    icon_path: '/icon/icon_politics.svg',
+    icon_alt: 'Government',
   },
   {
     title: "To Encourage Leadership and Personal Growth",
-    elaboration:
-      "To nurture leadership skills and encourage personal development among members by providing platforms for active participation in events, leadership roles, and community service initiatives",
+    elaboration:"To nurture leadership skills and encourage personal development among members by providing platforms for active participation in events, leadership roles, and community service initiatives",
+    icon_path: '/icon/icon_leadership.svg',
+    icon_alt: 'Leader',
   },
 ];
 
