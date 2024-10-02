@@ -10,6 +10,7 @@ import Infographic from '@/components/activities/details/activities_infographic_
 import Message from '@/components/activities/details/activities_message';
 import NotFound from '@/components/activities/details/activities_not_found';
 import Objective from '@/components/activities/details/activities_objective';
+import Overlay from '@/components/activities/details/activities_overlay';
 import SocialMedia from '@/components/activities/details/activities_socialMedia';
 import Title from '@/components/activities/details/activities_title';
 import Youtube from '@/components/activities/details/activities_youtube';
@@ -29,7 +30,6 @@ export default function Activities() {
             <Cover act_code={act_code} />
           </div>
           <div id='banner'>
-            <Message act_code={act_code} />
             <Banner act_code={act_code} />
             <Title act_code={act_code} />
             <Objective act_code={act_code} />
@@ -39,6 +39,9 @@ export default function Activities() {
             <Gallery act_code={act_code} />
             <Committee act_code={act_code} />
             <SocialMedia act_code={act_code} />
+          </div>
+          <div>
+          <Overlay act_code={act_code} />
           </div>
         </div>
       )

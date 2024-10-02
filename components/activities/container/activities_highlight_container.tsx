@@ -19,7 +19,7 @@ const activities_highlight_container = (props: any) => {
                                 {props.content.title}
                             </div>
                         </div>
-                        <div className='flexCenter'>
+                        <div className='flexCenter '>
                             <img className='w-[250px] rounded-2xl' src={props.content.image_url} />
                         </div>
                     </div>
