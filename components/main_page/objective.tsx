@@ -7,7 +7,7 @@ const Objective = () =>{
         <div className='max-container padding-container relative py-10'>
             <h2 className="font-extrabold text-[36px] flexCenter">OBJECTIVES</h2>
             <div className='flexCenter'>
-                <p className='text-center text-gray-900 pb-5 max-w-[800px] text-[24px] lg:text-[32px] bg-white/40 md:bg-inherit'>{OBJECTIVES_TEXT}</p>
+                <p className='text-center text-gray-900 pb-5 max-w-[800px] text-[24px] lg:text-[32px]'>{OBJECTIVES_TEXT}</p>
             </div>
             <div className='flex flex-col md:flex-row justify-center gap-5 items-center lg:px-40 flex-wrap z-0'>
                 {OBJECTIVES.map(({title, elaboration, icon_path, icon_alt})=>objective_card(title,elaboration, icon_path, icon_alt))}
