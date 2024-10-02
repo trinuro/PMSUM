@@ -13,8 +13,8 @@ const activities_cover = ({act_code}:any) => {
             <div className='absolute bg-black bg-opacity-60 top-0 w-full h-full'></div>
           </div>
         </div>
-        <div className='absolute h-full content-center top-0 '>
-          <div className='p-10 md:translate-x-6 transition max-w-xl md:max-w-7xl bg-black'>
+        <div className='absolute h-full flex flex-col justify-center top-0 '>
+          <div className='p-10 md:translate-x-6 transition max-w-xl md:max-w-7xl'>
             <div className='text-4xl md:text-8xl font-bold text-white'>{act[act_code].title}</div>
             <div className='text-xl md:text-4xl font-bold text-white mt-2'>{act[act_code].date} | {act[act_code].location}</div>
             <div className='flex'>
