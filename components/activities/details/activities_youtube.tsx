@@ -7,8 +7,8 @@ const activities_youtube = ({act_code}:any) => {
   else
     return (
       <div className="bg-cover bg-center" style={{ backgroundImage: `url(https://img.youtube.com/vi/${act[act_code].youtube_component['id']}/maxresdefault.jpg)` }}>
-        <div className='w-full md:h-[500px] p-10 bg-black bg-opacity-80 md:bg md:content-center'>
-          <div className='max-container flex flex-col-reverse md:flex-row md:justify-center'>
+        <div className='w-full md:h-[500px] p-10 bg-black bg-opacity-80  md:flex md:flex-col md:justify-center'>
+          <div className='max-container w-full flex flex-col-reverse md:flex-row md:justify-center'>
             <div className='w-full flexCenter my-10 md:my-0'>
               <iframe
                 width="424"
