@@ -80,7 +80,6 @@ const activities_infographic_canva = ({ act_code }: any) => {
                     </div>
                   ))}
                 </div>
-
                 <Register url={each.form_url} />
               </div>
               <div className='mx-auto w-full lg:mx-0 max-w-[500px]'>

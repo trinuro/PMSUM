@@ -47,8 +47,6 @@ export const act3 = {
         content: [
           "Pada hari bersejarah ini, marilah kita bersatu meraikan perpaduan yang menyatukan kita sebagai satu rakyat, tanpa mengira latar belakang dan budaya yang berbeza. Komitmen bersama terhadap keamanan dan kefahaman adalah asas kepada kemakmuran negara yang kita cintai.",
           "Walaupun ramai sering terkeliru, Hari Merdeka (31 Ogos 1957) menandakan kemerdekaan Persekutuan Tanah Melayu daripada penjajahan British, manakala Hari Malaysia (16 September 1963) pula memperingati penyatuan Tanah Melayu, Sabah, Sarawak, dan Singapura untuk membentuk Malaysia. Kedua-duanya adalah detik bersejarah yang berbeza, tetapi saling melengkapi dalam membina Malaysia yang kita kenali hari ini.",
-          "Sehubungan dengan Hari Kemerdekaan yang ke-67 pada hari ini, sistem ini telah membuktikan negara kita mampu mencapai kejayaan dan keharmonian yang kita nikmati pada masa sekarang.",
-          "Justeru, kami ingin mengucapkan Selamat Hari Kemerdekaan Ke-67 kepada semua! 🇲🇾",
         ],
         credit: [
           "Hasil kajian: Thomsilver Toiming",
