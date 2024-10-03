@@ -6,6 +6,8 @@ import { FaFacebookSquare } from "react-icons/fa";
 import { IoLogoLinkedin } from "react-icons/io5";
 import { IconContext } from "react-icons";
 
+import React from 'react';
+
 const SocialMedia = (props: any) => {
     if (props.socialMedia == "") {
         return <></>
