@@ -18,7 +18,7 @@ const activities_banner = ({ act_code }: any) => {
   }
   else
     return (
-      <div id="overlay" className='z-10 fixed top-0 bottom-0 left-0 right-0  h-full w-full bg-white bg-opacity-90 p-8 flex flex-col justify-center overflow-y-auto transition duration-300'>
+      <div id="overlay" className='z-10 fixed top-0 bottom-0 left-0 right-0  h-full w-full bg-white bg-opacity-90 p-8 content-center overflow-y-auto transition duration-300'>
 
           <div className='max-container mt-20 mb-12 pt-4 rounded-md bg-[#e04454] border-4 border-solid border-[#e04454] '>
             <div className='px-4 pb-4 flex justify-between '>
