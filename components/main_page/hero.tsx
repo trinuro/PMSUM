@@ -9,7 +9,7 @@ const Hero = () =>{
                 <p className="text-white italic text-[12px] sm:text-[16px] md:text-[23px] lg:text-[38px] text-right">IN UNIVERSITI MALAYA</p>
             </div>
         </section>
-        <section className="bg-dtc-dun md:bg-dtc-bcm-dun bg-fixed bg-no-repeat bg-cover absolute w-full h-full bg-center bottom-0"
+        <section className="bg-dtc-dun lg:bg-dtc-bcm-dun bg-fixed bg-no-repeat bg-cover absolute w-full h-full bg-center bottom-0"
             style={{
                 backgroundClip:'content-box'
             }}
