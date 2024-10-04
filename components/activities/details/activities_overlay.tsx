@@ -24,7 +24,7 @@ const activities_banner = ({ act_code }: any) => {
             <div className='px-4 pb-4 flex justify-between '>
               <div>Annoucement</div>
               <div>
-                <button className='w-[20px] h-[20px] opacity-40 hover:opacity-80' onClick={() => closeOverlay()}><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512"><path fill="#cf1126" d="M345 137c9.4-9.4 9.4-24.6 0-33.9s-24.6-9.4-33.9 0l-119 119L73 103c-9.4-9.4-24.6-9.4-33.9 0s-9.4 24.6 0 33.9l119 119L39 375c-9.4 9.4-9.4 24.6 0 33.9s24.6 9.4 33.9 0l119-119L311 409c9.4 9.4 24.6 9.4 33.9 0s9.4-24.6 0-33.9l-119-119L345 137z" /></svg></button>
+                <button className='w-[20px] h-[20px] opacity-40 hover:opacity-80 active:opacity-60' onClick={() => closeOverlay()}><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512"><path fill="#ffffff" d="M345 137c9.4-9.4 9.4-24.6 0-33.9s-24.6-9.4-33.9 0l-119 119L73 103c-9.4-9.4-24.6-9.4-33.9 0s-9.4 24.6 0 33.9l119 119L39 375c-9.4 9.4-9.4 24.6 0 33.9s24.6 9.4 33.9 0l119-119L311 409c9.4 9.4 24.6 9.4 33.9 0s9.4-24.6 0-33.9l-119-119L345 137z" /></svg></button>
               </div>
             </div>
             <div className='bg-white'>
