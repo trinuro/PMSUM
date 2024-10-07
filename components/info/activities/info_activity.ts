@@ -1,4 +1,4 @@
-export const last_updated = "6 September 2024"
+export const last_updated = "16 September 2024"
 
 export const act3 = {
   // General component
