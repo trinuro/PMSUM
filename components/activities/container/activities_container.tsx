@@ -1,5 +1,11 @@
 import React from "react";
 
+const border_bg_colour = [
+  'border-red-dark',
+  'border-black',
+  'border-yellow-dark',
+];
+
 const bg_colour = [
   'red-dark',
   'black',
@@ -19,13 +25,13 @@ const IsOrganised = ({ date }: any) => {
 
 const act = require('@/components/info/activities/info_activity')
 
-export const activity_card = (act_code:string, index: number) => {
+export const activity_card = (act_code: string, index: number) => {
   return (
     <div key={index} className='p-10'>
       <a href={`/activities/details?code=${act_code}`}>
-        <div className={`w-[250px] h-[350px] p-4 border-2 border-solid rounded-lg hover:scale-110 hover:shadow-2xl active:scale-105 transition bg-white border-${bg_colour[Number(act_code.substring(3)) % 3]}`}>
+        <div className={`w-[250px] h-[350px] p-4 border-2 border-solid rounded-lg hover:scale-110 hover:shadow-2xl active:scale-105 transition bg-white ${border_bg_colour[Number(act_code.substring(3)) % 3]}`}>
           <div className={`h-7 -mt-7 bg-white w-fit px-2 ml-auto text-${bg_colour[Number(act_code.substring(3)) % 3]}`}>
-          {act[act_code].date.split(" ")[2]}
+            {act[act_code].date.split(" ")[2]}
           </div>
           <div className="w-full h-[80px] flex justify-between items-center">
             <div className="w-[60px] h-[60px] overflow-hidden">
